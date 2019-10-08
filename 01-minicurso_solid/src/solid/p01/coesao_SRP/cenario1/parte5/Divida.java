@@ -2,11 +2,15 @@ package solid.p01.coesao_SRP.cenario1.parte5;
 
 public class Divida {
 	
-	private double total;
+	private final double total;
 	private String credor;
 	private Cnpj cnpjCredor;
 	
-	private Pagamentos pagamentos= new Pagamentos();
+	private final Pagamentos pagamentos= new Pagamentos();
+
+	public Divida(double total) {
+		this.total = total;
+	}
 
 	public Cnpj getCnpjCredor() {
 		return this.cnpjCredor;
@@ -26,9 +30,6 @@ public class Divida {
 
 	public void setCredor(String credor) {
 		this.credor = credor;
-	}
-	public void setTotal(double total) {
-		this.total = total;
 	}
 
 	public double valorAPagar() {

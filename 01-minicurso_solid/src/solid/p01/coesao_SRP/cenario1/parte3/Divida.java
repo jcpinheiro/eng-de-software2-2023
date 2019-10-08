@@ -11,10 +11,10 @@ public class Divida {
 	private String credor;
 	private String cnpjCredor;
 	
-	private List<Pagamento> pagamentos = new ArrayList<Pagamento>();
+	private final List<Pagamento> pagamentos = new ArrayList<>();
 
 	public Iterable<Pagamento> getPagamentos() {
-		return Collections.unmodifiableList(this.pagamentos);
+		return Collections.unmodifiableList(pagamentos );
 	}
 
 	public double getTotal() {

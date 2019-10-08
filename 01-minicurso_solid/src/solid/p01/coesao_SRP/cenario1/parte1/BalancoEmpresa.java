@@ -4,7 +4,7 @@ import java.util.HashMap;
 
 /*Cenário: Essa classe é utilizada pelo BalancoEmpresa para registrar e atualizar dívidas. 
 O método que registra dívidas cria uma instância de Divida, preenche o valor, 
-os dados do credor e guarda essa dívida num mapa em que a chave é o CNPJ do credor.*/
+com os dados do credor e guarda essa dívida num mapa em que a chave é o CNPJ do credor.*/
 
 public class BalancoEmpresa {
 
@@ -17,6 +17,7 @@ public class BalancoEmpresa {
 		divida.setTotal(valor);
 		divida.setCredor(credor);
 		divida.setCnpjCredor(cnpjCredor);
+
 		dividas.put(cnpjCredor, divida);
 	}
 

@@ -25,6 +25,9 @@ public class GerenciadorDeDividas {
 		Divida divida = dividas.get(cnpjCredor);
 		if (divida != null) {
 			divida.paga(valor );
+
+		} else {
+			throw new IllegalArgumentException("O CNPJ é inválido: " + cnpjCredor );
 		}
 	}
 

@@ -6,7 +6,7 @@ import java.util.List;
 
 public class Pagamentos {
 	
-	private List<Pagamento> pagamentos = new ArrayList<Pagamento>();
+	private final List<Pagamento> pagamentos = new ArrayList<>();
 	
 	private double valorPago;
 

@@ -22,8 +22,8 @@ public class GerenciadorDeDividas {
     
     if (divida != null) {
     	
-    	// divida.getPagamentos().add(pagamento);
-    	// divida.paga(pagamento.getValor() );
+    	//divida.getPagamentos().add(pagamento);
+    	//divida.paga(pagamento.getValor() );
       
       divida.registra(pagamento);
     }

@@ -5,12 +5,13 @@ import java.util.Calendar;
 import java.util.List;
 
 public class Divida {
+
 	private double total;
 	private double valorPago;
 	private String credor;
 	private String cnpjCredor;
 
-	private List<Pagamento> pagamentos = new ArrayList<Pagamento>();
+	private final List<Pagamento> pagamentos = new ArrayList<>();
 
 	public boolean cnpjValido() {
 		return primeiroDigitoVerificadorDoCnpj() == primeiroDigitoCorretoParaCnpj()
@@ -37,7 +38,7 @@ public class Divida {
 		if (valor < 0) {
 			throw new IllegalArgumentException("Valor invalido para pagamento");
 		}
-		if (valor > 100) {
+		if (valor > 10000) {
 			valor = valor - 8;
 		}
 		this.valorPago += valor;
