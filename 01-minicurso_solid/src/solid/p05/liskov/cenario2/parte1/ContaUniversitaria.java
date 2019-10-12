@@ -9,13 +9,15 @@ public class ContaUniversitaria extends ContaComum {
         this.milhas += (int)valor;
     }
 
+
+
     public int getMilhas() {
         return milhas;
     }
     
     @Override
     public void somaInvestimento() {
-    	throw new RuntimeException("Não pode ter investimento!!");
+        throw new RuntimeException("Não pode ter investimento!!");
     }
 }
 

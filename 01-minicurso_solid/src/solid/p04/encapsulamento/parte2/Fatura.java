@@ -7,13 +7,14 @@ import java.util.List;
 public class Fatura {
 
     private String cliente;
-    private double total;
-    private List<Pagamento> pagamentos;
+    private double valor;
+    private final List<Pagamento> pagamentos;
     private boolean pago;
+
 
     public Fatura(String cliente, double valor) {
         this.cliente = cliente;
-        this.total = valor;
+        this.valor = valor;
         this.pagamentos = new ArrayList<Pagamento>();
         this.pago = false;
     }
@@ -22,8 +23,8 @@ public class Fatura {
         return cliente;
     }
 
-    public double getTotal() {
-        return total;
+    public double getValor() {
+        return valor;
     }
 
     public List<Pagamento> getPagamentos() {
@@ -34,30 +35,23 @@ public class Fatura {
         return pago;
     }
 
-    public void setPago(boolean pago) {
+    private void setPago(boolean pago) {
         this.pago = pago;
     }
 
-	public void realizaPagamento(Pagamento pagamento) {
-		
-		if (!isPago() ) {
-			
-			this.pagamentos.add(pagamento );
-			if ( osPagamentosJaAtingiramOValorDaFatura() ) {
-			   this.pago = true;	
-			}
-			
-		}
-	}
 
-	private boolean osPagamentosJaAtingiramOValorDaFatura() {
-		double total = 0;
-		for (Pagamento pagamento : pagamentos) {
-			total += pagamento.getValor();
-		}
-		return (this.total <= total );
-	}
+    public void realiza(Pagamento pagamento) {
+        pagamentos.add(pagamento );
+    }
 
+    public boolean requisitaFinalizacao(double total) {
 
+        if (total >= this.valor ) {
+            this.pago = true;
+            return true;
+        } else {
+            return  false;
+        }
+    }
 }
 

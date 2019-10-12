@@ -1,4 +1,5 @@
 package solid.p05.liskov.cenario2.parte1;
+
 public class ContaComum {
 
     protected double saldo;

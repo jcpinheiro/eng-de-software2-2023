@@ -7,7 +7,7 @@ public class ProcessadorDeInvestimentos {
 
     public static void main(String[] args) {
 
-        for (ContaComum conta : contasDoBanco()) {
+        for (ContaComum conta : contasDoBanco() ) {
             conta.somaInvestimento();
 
             System.out.println("Novo Saldo:");

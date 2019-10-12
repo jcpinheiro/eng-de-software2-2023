@@ -1,4 +1,5 @@
 package solid.p04.encapsulamento.parte2;
+
 public class Pagamento {
 
     private double valor;
