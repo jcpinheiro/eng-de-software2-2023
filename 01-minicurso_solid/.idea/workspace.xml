@@ -2,100 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="220a0b99-7a77-46fd-918f-a35847338b05" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/solid/p02/acoplamento/parte2/AcaoAposGerarNota.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/solid/p02/acoplamento/parte2/EnviadorDeEmail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/solid/p02/acoplamento/parte2/Fatura.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/solid/p02/acoplamento/parte2/GeradorDeNotaFiscal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/solid/p02/acoplamento/parte2/NotaFiscal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/solid/p02/acoplamento/parte2/NotaFiscalDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/solid/p05/liskov/cenario2/parte2/MovimentacaoConta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solid/p05/liskov/cenario1/parte2/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solid/p05/liskov/cenario1/parte2/DataReadRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solid/p05/liskov/cenario1/parte2/DataRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solid/p05/liskov/cenario1/parte2/DataWriteRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solid/p05/liskov/cenario1/parte2/HistoricStockPriceRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solid/p05/liskov/cenario1/parte2/UIController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/solid/p01/coesao_SRP/cenario1/parte1/BalancoEmpresa.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/solid/p01/coesao_SRP/cenario1/parte1/BalancoEmpresa.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/solid/p01/coesao_SRP/cenario1/parte1/Divida.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/solid/p01/coesao_SRP/cenario1/parte1/Divida.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/solid/p01/coesao_SRP/cenario1/parte2/Divida.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/solid/p01/coesao_SRP/cenario1/parte2/Divida.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/solid/p01/coesao_SRP/cenario1/parte2/GerenciadorDeDividas.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/solid/p01/coesao_SRP/cenario1/parte2/GerenciadorDeDividas.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/solid/p01/coesao_SRP/cenario1/parte3/Divida.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/solid/p01/coesao_SRP/cenario1/parte3/Divida.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/solid/p01/coesao_SRP/cenario1/parte3/GerenciadorDeDividas.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/solid/p01/coesao_SRP/cenario1/parte3/GerenciadorDeDividas.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/solid/p01/coesao_SRP/cenario1/parte3/Pagamento.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/solid/p01/coesao_SRP/cenario1/parte3/Pagamento.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/solid/p01/coesao_SRP/cenario1/parte3/RelatorioPagamentosDeUmaDivida.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/solid/p01/coesao_SRP/cenario1/parte3/RelatorioPagamentosDeUmaDivida.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/solid/p01/coesao_SRP/cenario1/parte5/Divida.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/solid/p01/coesao_SRP/cenario1/parte5/Divida.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/solid/p01/coesao_SRP/cenario1/parte5/Pagamento.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/solid/p01/coesao_SRP/cenario1/parte5/Pagamento.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/solid/p01/coesao_SRP/cenario1/parte6/Cnpj.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/solid/p01/coesao_SRP/cenario1/parte6/Divida.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/solid/p01/coesao_SRP/cenario1/parte6/Pagamento.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/solid/p01/coesao_SRP/cenario1/parte6/Pagamentos.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/solid/p01/coesao_SRP/cenario1/parte6/descricao-cenario" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/solid/p01/coesao_SRP/cenario2/parte1/CalculadoraDeSalario.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/solid/p01/coesao_SRP/cenario2/parte1/CalculadoraDeSalario.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/solid/p01/coesao_SRP/cenario2/parte1/Cargo.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/solid/p01/coesao_SRP/cenario2/parte1/Cargo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/solid/p01/coesao_SRP/cenario2/parte1/Funcionario.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/solid/p01/coesao_SRP/cenario2/parte1/Funcionario.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/solid/p01/coesao_SRP/cenario2/parte2/CalculadoraDeSalario.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/solid/p01/coesao_SRP/cenario2/parte2/CalculadoraDeSalario.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/solid/p01/coesao_SRP/cenario2/parte2/Cargo.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/solid/p01/coesao_SRP/cenario2/parte2/Cargo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/solid/p01/coesao_SRP/cenario2/parte2/Funcionario.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/solid/p01/coesao_SRP/cenario2/parte2/Funcionario.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/solid/p01/coesao_SRP/cenario2/parte2/RegraDeCalculoDoSalario.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/solid/p01/coesao_SRP/cenario2/parte2/RegraDezOuVintePorcento.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/solid/p01/coesao_SRP/cenario2/parte2/RegraQuinzeOuVintePorcento.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/solid/p02/acoplamento/parte1/EnviadorDeEmail.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/solid/p02/acoplamento/parte1/EnviadorDeEmail.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/solid/p02/acoplamento/parte1/Fatura.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/solid/p02/acoplamento/parte1/Fatura.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/solid/p02/acoplamento/parte1/GeradorDeNotaFiscal.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/solid/p02/acoplamento/parte1/GeradorDeNotaFiscal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/solid/p02/acoplamento/parte1/NotaFiscal.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/solid/p02/acoplamento/parte1/NotaFiscal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/solid/p02/acoplamento/parte1/NotaFiscalDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/solid/p02/acoplamento/parte1/NotaFiscalDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/solid/p02/acoplamento/parte2/AcaoAposGerarNotaFiscal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/solid/p02/acoplamento/parte2/EnviadorDeEmail.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/solid/p02/acoplamento/parte2/EnviadorDeEmail.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/solid/p02/acoplamento/parte2/Fatura.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/solid/p02/acoplamento/parte2/Fatura.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/solid/p02/acoplamento/parte2/GeradorDeNotaFiscal.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/solid/p02/acoplamento/parte2/GeradorDeNotaFiscal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/solid/p02/acoplamento/parte2/NotaFiscal.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/solid/p02/acoplamento/parte2/NotaFiscal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/solid/p02/acoplamento/parte2/NotaFiscalDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/solid/p02/acoplamento/parte2/NotaFiscalDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/solid/p03/ocp_dip/parte1/CalculadoraDePrecos.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/solid/p03/ocp_dip/parte1/CalculadoraDePrecos.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/solid/p03/ocp_dip/parte1/Compra.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/solid/p03/ocp_dip/parte1/Compra.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/solid/p03/ocp_dip/parte1/Frete.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/solid/p03/ocp_dip/parte1/Frete.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/solid/p03/ocp_dip/parte1/TabelaDePrecoPadrao.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/solid/p03/ocp_dip/parte1/TabelaDePrecoPadrao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/solid/p03/ocp_dip/parte2/CalculadoraDePrecos.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/solid/p03/ocp_dip/parte2/Compra.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/solid/p03/ocp_dip/parte2/Correios.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/solid/p03/ocp_dip/parte2/Desconto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/solid/p03/ocp_dip/parte2/DescontoPadrao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/solid/p04/encapsulamento/parte1/Boleto.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/solid/p04/encapsulamento/parte1/Boleto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/solid/p04/encapsulamento/parte1/Fatura.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/solid/p04/encapsulamento/parte1/Fatura.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/solid/p04/encapsulamento/parte1/MeioDePagamento.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/solid/p04/encapsulamento/parte1/MeioDePagamento.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/solid/p04/encapsulamento/parte1/Pagamento.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/solid/p04/encapsulamento/parte1/Pagamento.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/solid/p04/encapsulamento/parte1/ProcessadorDeBoletos.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/solid/p04/encapsulamento/parte1/ProcessadorDeBoletos.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/solid/p04/encapsulamento/parte2/Boleto.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/solid/p04/encapsulamento/parte2/Boleto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/solid/p04/encapsulamento/parte2/Fatura.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/solid/p04/encapsulamento/parte2/Fatura.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/solid/p04/encapsulamento/parte2/MeioDePagamento.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/solid/p04/encapsulamento/parte2/MeioDePagamento.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/solid/p04/encapsulamento/parte2/Pagamento.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/solid/p04/encapsulamento/parte2/Pagamento.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/solid/p04/encapsulamento/parte2/ProcessadorDeBoletos.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/solid/p04/encapsulamento/parte2/ProcessadorDeBoletos.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/solid/p05/liskov/cenario1/parte1/CustomerRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/solid/p05/liskov/cenario1/parte1/CustomerRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/solid/p05/liskov/cenario1/parte1/DataRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/solid/p05/liskov/cenario1/parte1/DataRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/solid/p05/liskov/cenario1/parte1/HistoricStockPriceRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/solid/p05/liskov/cenario1/parte1/HistoricStockPriceRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/solid/p05/liskov/cenario1/parte1/UIController.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/solid/p05/liskov/cenario1/parte1/UIController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/solid/p05/liskov/cenario1/parte2/CustomerRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/solid/p05/liskov/cenario1/parte2/DataReadRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/solid/p05/liskov/cenario1/parte2/DataRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/solid/p05/liskov/cenario1/parte2/DataWriteRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/solid/p05/liskov/cenario1/parte2/HistoricStockPriceRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/solid/p05/liskov/cenario1/parte2/UIController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/solid/p05/liskov/cenario2/parte1/ContaComum.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/solid/p05/liskov/cenario2/parte1/ContaComum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/solid/p05/liskov/cenario2/parte1/ContaUniversitaria.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/solid/p05/liskov/cenario2/parte1/ContaUniversitaria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/solid/p05/liskov/cenario2/parte1/ProcessadorDeInvestimentos.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/solid/p05/liskov/cenario2/parte1/ProcessadorDeInvestimentos.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/solid/p05/liskov/cenario2/parte2/ContaComum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/solid/p05/liskov/cenario2/parte2/ContaEspecial.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/solid/p05/liskov/cenario2/parte2/ContaUniversitaria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/solid/p05/liskov/cenario2/parte2/Investimento.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/solid/p05/liskov/cenario2/parte2/MovimentacaoSaldo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/solid/p05/liskov/cenario2/parte2/servico/ProcessadorDeInvestimentos.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/solid/p04/encapsulamento/parte1/dc-encapsulamento-parte1.ucls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/solid/p04/encapsulamento/parte2/Boleto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solid/p04/encapsulamento/parte2/Boleto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/solid/p04/encapsulamento/parte2/Fatura.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solid/p04/encapsulamento/parte2/Fatura.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/solid/p04/encapsulamento/parte2/MeioDePagamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solid/p04/encapsulamento/parte2/MeioDePagamento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/solid/p04/encapsulamento/parte2/Pagamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solid/p04/encapsulamento/parte2/Pagamento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/solid/p04/encapsulamento/parte2/ProcessadorDeBoletos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solid/p04/encapsulamento/parte2/ProcessadorDeBoletos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/solid/p04/encapsulamento/parte2/dc-encapsulamento-parte1.ucls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/solid/p04/encapsulamento/parte2/dc-encapsulamento-parte2.ucls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/solid/p05/liskov/cenario2/parte1/ContaComum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solid/p05/liskov/cenario2/parte1/ContaComum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/solid/p05/liskov/cenario2/parte1/ContaUniversitaria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solid/p05/liskov/cenario2/parte1/ContaUniversitaria.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/solid/p05/liskov/cenario2/parte1/ProcessadorDeInvestimentos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solid/p05/liskov/cenario2/parte1/ProcessadorDeInvestimentos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/solid/p05/liskov/cenario1/parte1/UIController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solid/p05/liskov/cenario1/parte1/UIController.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/bin/" />
@@ -111,91 +25,98 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/solid/p05/liskov/cenario2/parte1/ProcessadorDeInvestimentos.java">
+        <entry file="file://$PROJECT_DIR$/src/solid/p05/liskov/cenario1/parte1/CustomerRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="10" column="34" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="34" />
+            <state relative-caret-position="220">
+              <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-end-line="12" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/solid/p05/liskov/cenario2/parte2/ContaUniversitaria.java">
+        <entry file="file://$PROJECT_DIR$/src/solid/p05/liskov/cenario1/parte1/DataRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
+            <state relative-caret-position="80">
+              <caret line="4" column="15" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/solid/p05/liskov/cenario1/parte1/HistoricStockPriceRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/solid/p05/liskov/cenario1/parte1/UIController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="10" column="34" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="34" />
               <folding>
-                <element signature="e#387#388#0" expanded="true" />
+                <element signature="e#446#447#0" expanded="true" />
+                <element signature="e#489#490#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/solid/p05/liskov/cenario1/parte2/DataRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="40">
+              <caret line="2" column="79" selection-start-line="2" selection-start-column="60" selection-end-line="2" selection-end-column="79" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/solid/p05/liskov/cenario1/parte2/HistoricStockPriceRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="40">
+              <caret line="2" column="71" selection-start-line="2" selection-start-column="53" selection-end-line="2" selection-end-column="71" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/solid/p05/liskov/cenario2/parte2/ProcessadorDeInvestimentos.java">
+        <entry file="file://$PROJECT_DIR$/src/solid/p05/liskov/cenario1/parte2/CustomerRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="21" column="58" selection-start-line="21" selection-start-column="58" selection-end-line="21" selection-end-column="58" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/solid/p05/liskov/cenario2/parte2/MovimentacaoConta.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" />
+            <state relative-caret-position="300">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
               <folding>
-                <element signature="e#143#144#0" expanded="true" />
-                <element signature="e#178#179#0" expanded="true" />
-                <element signature="e#511#512#0" expanded="true" />
-                <element signature="e#539#540#0" expanded="true" />
-                <element signature="e#460#461#0" expanded="true" />
-                <element signature="e#507#508#0" expanded="true" />
+                <element signature="e#317#318#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/solid/p05/liskov/cenario2/parte2/ContaComum.java">
+        <entry file="file://$PROJECT_DIR$/src/solid/p05/liskov/cenario1/parte2/UIController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="4" column="54" selection-start-line="4" selection-end-line="5" />
-              <folding>
-                <element signature="e#258#259#0" expanded="true" />
-                <element signature="e#303#304#0" expanded="true" />
-                <element signature="e#335#336#0" expanded="true" />
-                <element signature="e#386#387#0" expanded="true" />
-                <element signature="e#466#467#0" expanded="true" />
-                <element signature="e#518#519#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="360">
+              <caret line="18" column="30" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/solid/p05/liskov/cenario2/parte1/ContaComum.java">
+        <entry file="file://$PROJECT_DIR$/src/solid/p05/liskov/cenario1/parte2/DataReadRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="14" column="20" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="20" />
-              <folding>
-                <element signature="e#475#476#0" expanded="true" />
-                <element signature="e#522#523#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="40">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/solid/p05/liskov/cenario2/parte1/ContaUniversitaria.java">
+        <entry file="file://$PROJECT_DIR$/src/solid/p05/liskov/cenario1/parte2/DataWriteRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="18" column="32" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="32" />
-              <folding>
-                <element signature="e#348#349#0" expanded="true" />
-                <element signature="e#421#422#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="40">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -243,13 +164,15 @@
         <option value="$PROJECT_DIR$/src/solid/p04/encapsulamento/parte2/ProcessadorDeBoletos.java" />
         <option value="$PROJECT_DIR$/src/solid/p04/encapsulamento/parte2/Fatura.java" />
         <option value="$PROJECT_DIR$/src/solid/p05/liskov/cenario2/parte1/ProcessadorDeInvestimentos.java" />
-        <option value="$PROJECT_DIR$/src/solid/p05/liskov/cenario2/parte1/ContaComum.java" />
-        <option value="$PROJECT_DIR$/src/solid/p05/liskov/cenario2/parte1/ContaUniversitaria.java" />
         <option value="$PROJECT_DIR$/src/solid/p05/liskov/cenario2/parte2/parte1/ContaComum.java" />
         <option value="$PROJECT_DIR$/src/solid/p05/liskov/cenario2/parte2/MovimentacaoConta.java" />
         <option value="$PROJECT_DIR$/src/solid/p05/liskov/cenario2/parte2/ContaComum.java" />
         <option value="$PROJECT_DIR$/src/solid/p05/liskov/cenario2/parte2/ContaUniversitaria.java" />
         <option value="$PROJECT_DIR$/src/solid/p05/liskov/cenario2/parte2/ProcessadorDeInvestimentos.java" />
+        <option value="$PROJECT_DIR$/src/solid/p05/liskov/cenario2/parte1/ContaComum.java" />
+        <option value="$PROJECT_DIR$/src/solid/p05/liskov/cenario2/parte1/ContaUniversitaria.java" />
+        <option value="$PROJECT_DIR$/src/solid/p05/liskov/cenario1/parte1/UIController.java" />
+        <option value="$PROJECT_DIR$/src/solid/p05/liskov/cenario1/parte2/CustomerRepository.java" />
       </list>
     </option>
   </component>
@@ -303,15 +226,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="solid" type="462c0819:PsiDirectoryNode" />
               <item name="liskov" type="462c0819:PsiDirectoryNode" />
-              <item name="cenario2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="01-minicurso_solid" type="b2602c69:ProjectViewProjectNode" />
-              <item name="01-minicurso_solid" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="solid" type="462c0819:PsiDirectoryNode" />
-              <item name="liskov" type="462c0819:PsiDirectoryNode" />
-              <item name="cenario2" type="462c0819:PsiDirectoryNode" />
+              <item name="cenario1" type="462c0819:PsiDirectoryNode" />
               <item name="parte2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -322,15 +237,15 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/solid/p05/liskov/cenario2/parte2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/solid/p05/liskov/cenario1/parte2" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="SDKs" />
@@ -339,18 +254,19 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="solid.p02.acoplamento.parte2" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\joaoc\Documents\disciplinas\Engenharia de Software II\codigos\01-minicurso_solid\src\solid\p05\liskov\cenario1\parte2" />
+      <recent name="C:\Users\joaoc\Documents\disciplinas\Engenharia de Software II\codigos\01-minicurso_solid\src\solid\p05\liskov\cenario2\parte2" />
+      <recent name="C:\Users\joaoc\Documents\disciplinas\Engenharia de Software II\codigos\01-minicurso_solid\src\solid\p04\encapsulamento\parte2" />
+      <recent name="C:\Users\joaoc\Documents\disciplinas\Engenharia de Software II\codigos\01-minicurso_solid\src\solid\p02\acoplamento\parte2" />
+      <recent name="C:\Users\joaoc\Documents\disciplinas\Engenharia de Software II\codigos\01-minicurso_solid\src\solid\p01\coesao_SRP\cenario2\parte2" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="solid.p01.coesao_SRP.cenario2.parte2" />
       <recent name="solid.p01.coesao_SRP.cenario1.parte5" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\joaoc\Documents\disciplinas\Engenharia de Software II\codigos\01-minicurso_solid\src\solid\p05\liskov\cenario2\parte2" />
-      <recent name="C:\Users\joaoc\Documents\disciplinas\Engenharia de Software II\codigos\01-minicurso_solid\src\solid\p04\encapsulamento\parte2" />
-      <recent name="C:\Users\joaoc\Documents\disciplinas\Engenharia de Software II\codigos\01-minicurso_solid\src\solid\p02\acoplamento\parte2" />
-      <recent name="C:\Users\joaoc\Documents\disciplinas\Engenharia de Software II\codigos\01-minicurso_solid\src\solid\p01\coesao_SRP\cenario2\parte2" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="solid.p02.acoplamento.parte2" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -397,18 +313,19 @@
       <updated>1570534746829</updated>
       <workItem from="1570534797916" duration="105000" />
       <workItem from="1570534979160" duration="8982000" />
-      <workItem from="1570829901192" duration="5447000" />
+      <workItem from="1570829901192" duration="5727000" />
+      <workItem from="1571769903320" duration="1609000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14534000" />
+    <option name="totallyTimeSpent" value="16423000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2181208" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22147651" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Project Explorer" order="2" />
       <window_info id="Designer" order="3" />
@@ -442,60 +359,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/solid/p03/ocp_dip/parte2/CalculadoraDePrecos.java" />
-    <entry file="file://$PROJECT_DIR$/src/solid/p03/ocp_dip/parte1/Frete.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/solid/p05/liskov/cenario2/parte2/servico/ProcessadorDeInvestimentos.java" />
-    <entry file="file://$PROJECT_DIR$/src/solid/p01/coesao_SRP/cenario1/parte1/Divida.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="24" column="21" lean-forward="true" selection-start-line="24" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/solid/p01/coesao_SRP/cenario1/parte1/BalancoEmpresa.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="43">
-          <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/solid/p01/coesao_SRP/cenario1/parte2/Divida.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="41" column="19" selection-start-line="41" selection-end-line="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/solid/p01/coesao_SRP/cenario1/parte2/GerenciadorDeDividas.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/solid/p01/coesao_SRP/cenario1/parte3/descricao-cenario.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/solid/p01/coesao_SRP/cenario1/parte3/Pagamento.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/lang/Iterable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="50" column="12" selection-start-line="50" selection-start-column="4" selection-end-line="50" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/Collection.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="226">
@@ -747,8 +610,8 @@
           </SelectedNodes>
           <Categories>
             <Category>Fields</Category>
-            <Category>Methods</Category>
             <Category>Constructors</Category>
+            <Category>Methods</Category>
           </Categories>
           <SCOPE>All</SCOPE>
           <VISIBILITY>private</VISIBILITY>
@@ -820,65 +683,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/solid/p05/liskov/cenario2/parte1/ContaComum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="14" column="20" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="20" />
-          <folding>
-            <element signature="e#475#476#0" expanded="true" />
-            <element signature="e#522#523#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/solid/p05/liskov/cenario2/parte1/ContaUniversitaria.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="18" column="32" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="32" />
-          <folding>
-            <element signature="e#348#349#0" expanded="true" />
-            <element signature="e#421#422#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/solid/p05/liskov/cenario2/parte1/ProcessadorDeInvestimentos.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="10" column="34" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/solid/p05/liskov/cenario2/parte2/ContaComum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="54" selection-start-line="4" selection-end-line="5" />
-          <folding>
-            <element signature="e#258#259#0" expanded="true" />
-            <element signature="e#303#304#0" expanded="true" />
-            <element signature="e#335#336#0" expanded="true" />
-            <element signature="e#386#387#0" expanded="true" />
-            <element signature="e#466#467#0" expanded="true" />
-            <element signature="e#518#519#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/solid/p05/liskov/cenario2/parte2/MovimentacaoConta.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-          <folding>
-            <element signature="e#143#144#0" expanded="true" />
-            <element signature="e#178#179#0" expanded="true" />
-            <element signature="e#511#512#0" expanded="true" />
-            <element signature="e#539#540#0" expanded="true" />
-            <element signature="e#460#461#0" expanded="true" />
-            <element signature="e#507#508#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/solid/p05/liskov/cenario2/parte2/ContaUniversitaria.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
@@ -889,10 +693,133 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/solid/p05/liskov/cenario2/parte2/MovimentacaoConta.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/solid/p05/liskov/cenario2/parte2/ContaComum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="54" selection-start-line="4" selection-end-line="5" />
+          <folding>
+            <element signature="e#466#467#0" expanded="true" />
+            <element signature="e#518#519#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/solid/p05/liskov/cenario2/parte2/ProcessadorDeInvestimentos.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="21" column="58" selection-start-line="21" selection-start-column="58" selection-end-line="21" selection-end-column="58" />
+        <state relative-caret-position="320">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/solid/p05/liskov/cenario2/parte1/ContaComum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+          <folding>
+            <element signature="e#476#477#0" expanded="true" />
+            <element signature="e#529#530#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/solid/p05/liskov/cenario2/parte1/ContaUniversitaria.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="19" column="23" selection-start-line="19" selection-end-line="20" />
+          <folding>
+            <element signature="e#350#351#0" expanded="true" />
+            <element signature="e#423#424#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/solid/p05/liskov/cenario2/parte1/ProcessadorDeInvestimentos.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/solid/p05/liskov/cenario1/parte1/DataRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="15" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/solid/p05/liskov/cenario1/parte1/CustomerRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/solid/p05/liskov/cenario1/parte1/HistoricStockPriceRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/solid/p05/liskov/cenario1/parte1/UIController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="34" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="34" />
+          <folding>
+            <element signature="e#446#447#0" expanded="true" />
+            <element signature="e#489#490#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/solid/p05/liskov/cenario1/parte2/DataWriteRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/solid/p05/liskov/cenario1/parte2/DataReadRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/solid/p05/liskov/cenario1/parte2/HistoricStockPriceRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="71" selection-start-line="2" selection-start-column="53" selection-end-line="2" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/solid/p05/liskov/cenario1/parte2/DataRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="79" selection-start-line="2" selection-start-column="60" selection-end-line="2" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/solid/p05/liskov/cenario1/parte2/UIController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="18" column="30" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/solid/p05/liskov/cenario1/parte2/CustomerRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#317#318#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

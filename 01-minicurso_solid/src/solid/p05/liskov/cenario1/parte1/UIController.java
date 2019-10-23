@@ -16,4 +16,7 @@ public class UIController {
 		dataRepository.read(id);
 	}
 
+	public void setDataRepository(DataRepository dataRepository) {
+		this.dataRepository = dataRepository;
+	}
 }
