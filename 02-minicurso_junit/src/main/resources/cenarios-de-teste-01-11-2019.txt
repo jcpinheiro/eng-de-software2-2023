@@ -1,0 +1,14 @@
+Novos cenários
+
+# Cenário 01
+
+desconto de 10% no 2º filme
+desconto de 30% no 3º filme
+desconto de 50% no 4º filme
+
+
+Cenário 02
+  Não deve devolver filme no domingo
+  
+  
+ 
