@@ -9,6 +9,7 @@ public class FilmeBuilder {
 	
 	private FilmeBuilder() { }
 
+
 	public static FilmeBuilder umFilme() {
 		
 		FilmeBuilder builder = new FilmeBuilder();
@@ -31,6 +32,11 @@ public class FilmeBuilder {
     	this.filme.setNome(nome);
     	return this;
     }
+
+    public FilmeBuilder comPrecoDe(Double precoLocacao) {
+		this.filme.setPrecoLocacao(precoLocacao );
+		return this;
+	}
     
 	public Filme constroi() {
 		return this.filme;

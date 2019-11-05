@@ -1,6 +1,7 @@
 
 package dcomp.es2.locadora.servico;
 
+import dcomp.es2.locadora.builder.FilmeBuilder;
 import dcomp.es2.locadora.modelo.Filme;
 import dcomp.es2.locadora.modelo.Locacao;
 import dcomp.es2.locadora.modelo.Usuario;
@@ -19,33 +20,19 @@ public class LocacaoServiceTest {
         // cenário
         LocacaoService locacaoService = new LocacaoService();
         Usuario joao = new Usuario("Joao");
-        Filme filme = new Filme("Batman o Retorno", 3, 6.50);
+        Filme filme = new Filme("Batman o Retorno", 3, 4.0);
 
         // ação
-        Locacao locacao = locacaoService.alugarFilme(joao, filme);
+        Locacao locacao = locacaoService.alugarFilmes(joao, filme);
 
         // verificação
-        assertEquals(locacao.getValor(),6.5, 0.00001 );
+        assertEquals(locacao.getValor(),4.0, 0.00001 );
 
         assertEquals(locacao.getDataLocacao(), LocalDate.now() );
 
         assertTrue(locacao.getDataRetorno().equals(LocalDate.now().plusDays(1)) );
 
     }
-
-   /* @Test (expected = IllegalStateException.class)
-    public void naoDeveAlugarFilmeSemEstoque() {
-
-        // cenário
-        LocacaoService locacaoService = new LocacaoService();
-        Usuario joao = new Usuario("Joao");
-        Filme filme = new Filme("Batman o Retorno", 0, 6.50);
-
-        // ação
-        Locacao locacao = locacaoService.alugarFilme(joao, filme);
-
-    }
-*/
 
     @Test
     public void naoDeveAlugarFilmeSemEstoque() {
@@ -55,11 +42,17 @@ public class LocacaoServiceTest {
         Usuario joao = new Usuario("Joao");
         Filme filme = new Filme("Batman o Retorno", 0, 6.50);
 
-        IllegalArgumentException exception = assertThrows(IllegalArgumentException.class,
-                                                          () -> locacaoService.alugarFilme(joao, filme),
-                "Deveria ter lançado um IllegalArgumentException");
+        Filme filme1 = FilmeBuilder.umFilme().constroi();
+
+
+        IllegalArgumentException exception =
+
+                assertThrows(IllegalArgumentException.class,
+                             () -> locacaoService.alugarFilmes(joao, filme),
+                             "Deveria ter lançado um IllegalArgumentException");
 
         assertTrue(exception.getMessage().contains("Filme sem Estoque"));
+
 
     }
 

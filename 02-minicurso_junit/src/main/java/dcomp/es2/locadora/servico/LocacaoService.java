@@ -1,8 +1,7 @@
 package dcomp.es2.locadora.servico;
 
-import java.time.DayOfWeek;
 import java.time.LocalDate;
-import java.util.List;
+import java.util.Arrays;
 
 import dcomp.es2.locadora.modelo.Filme;
 import dcomp.es2.locadora.modelo.Locacao;
@@ -11,59 +10,30 @@ import dcomp.es2.locadora.modelo.Usuario;
 
 public class LocacaoService {
 
+	// TODO Preciso remover este código
+    /*	public Locacao alugarFilme(Usuario usuario, Filme filme) {
 
-	public Locacao alugarFilme(Usuario usuario, Filme filme) {
-
-		if (filme.getEstoque() == 0 ) {
+		if (filme.getEstoque() <= 0 ) {
 			throw new IllegalArgumentException("Filme sem Estoque ");
 		}
 		
-	   Locacao locacao = new Locacao();
-	   locacao.setFilme(filme );
-	   locacao.setUsuario(usuario);
-	   locacao.setDataLocacao(LocalDate.now() );
+		return alugarFilmes(usuario, Arrays.asList(filme) );
+	}*/
 
-	   locacao.setDataRetorno(LocalDate.now().plusDays(1) );
-	   
-       locacao.setValor(4.0);
+	public Locacao alugarFilmes(Usuario usuario, Filme... filmes) {
 
-
-		//Salvando a locacao...	
-		//TODO adicionar método para salvar
-       //daoLocacao.salva(locacao);
-		
-		return locacao;
-	}
-
-	public static void main(String[] args) {
-
-		// cenário
-		LocacaoService locacaoService = new LocacaoService();
-
-		Usuario joao = new Usuario("Joao");
-		Filme filme = new Filme("Batman o Retorno", 3, 5.0);
-
-		// ação
-		Locacao locacao = locacaoService.alugarFilme(joao, filme);
-
-		// verificação
-		System.out.println(locacao.getValor() == 6.5 );
-		System.out.println(locacao.getDataLocacao().equals(LocalDate.now()) );
-		System.out.println(locacao.getDataRetorno().equals(LocalDate.now().plusDays(1)) );
-	}
-
-
-	public Locacao alugarFilmes(Usuario usuario, List<Filme> filmes) {
+		Arrays.stream(filmes).
+				forEach(filme -> {
+			      if (filme.getEstoque() <= 0)
+				      throw new IllegalArgumentException("Filme sem Estoque: " + filme.getNome() );
+		          });
 
 			Locacao locacao = new Locacao();
-			locacao.setFilmes(filmes );
+			locacao.adiciona(filmes );
 			locacao.setUsuario(usuario);
 			locacao.setDataLocacao(LocalDate.now() );
 
-
-			LocalDate dataRetorno = LocalDate.now().plusDays(1);
-
-			locacao.setDataRetorno(dataRetorno );
+			locacao.setDataRetorno(LocalDate.now().plusDays(1) );
 
 			double valorTotal = calculaValorDaLocacao(filmes);
 
@@ -78,11 +48,13 @@ public class LocacaoService {
 		}
 
 
-		private double calculaValorDaLocacao(List<Filme> filmes) {
+		private double calculaValorDaLocacao(Filme ...filmes) {
+
 			double valorTotal = 0d;
 
-			for(int i=1; i <= filmes.size(); i++) {
-				double valorFilme = filmes.get(i-1).getPrecoLocacao();
+			for(int i=1; i <= filmes.length; i++) {
+
+				double valorFilme = filmes[i-1].getPrecoLocacao();
 
 				switch(i) {
 					case 2: valorFilme = valorFilme * 0.90; break;
@@ -95,5 +67,5 @@ public class LocacaoService {
 			return valorTotal;
 		}
 
-	
+
 }

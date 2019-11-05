@@ -2,6 +2,8 @@ package dcomp.es2.locadora.modelo;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 
 public class Locacao {
@@ -12,7 +14,6 @@ public class Locacao {
 	private LocalDate dataRetorno;
 	private double valor;
 	
-	private Filme filme;
 	private List<Filme> filmes = new ArrayList<>();
 	
 	public Usuario getUsuario() {
@@ -47,19 +48,14 @@ public class Locacao {
 	}
 
 
-	public Filme getFilme() {
-		return filme;
-	}
-
-	public void setFilme(Filme filme) {
-		this.filme = filme;
-	}
-
 	public List<Filme> getFilmes() {
-		return filmes;
+		return Collections.unmodifiableList(filmes);
 	}
 
-	public void setFilmes(List<Filme> filmes) {
-		this.filmes = filmes;
+	public void adiciona(Filme... filmes) {
+		this.filmes.addAll(Arrays.asList(filmes) );
+
 	}
+
+
 }

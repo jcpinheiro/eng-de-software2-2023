@@ -29,7 +29,12 @@ public class Filme {
 	public Double getPrecoLocacao() {
 		return precoLocacao;
 	}
+
 	public void setPrecoLocacao(Double precoLocacao) {
+		if (precoLocacao <= 0 ) {
+			throw new IllegalArgumentException("O preço da locaçao deve ser maior do que Zero");
+		}
+
 		this.precoLocacao = precoLocacao;
 	}
 }
