@@ -1,23 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cfb31954-998c-4ac5-a80a-19ad28124824" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/dcomp/es2/locadora/modelo/FilmeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dcomp/es2/locadora/modelo/Filme.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dcomp/es2/locadora/modelo/Filme.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dcomp/es2/locadora/modelo/Locacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dcomp/es2/locadora/modelo/Locacao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dcomp/es2/locadora/servico/LocacaoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dcomp/es2/locadora/servico/LocacaoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/cenarios-de-teste-01-11-2019.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/cenarios-de-teste-01-11-2019.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/dcomp/es2/locadora/builder/FilmeBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dcomp/es2/locadora/builder/FilmeBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/dcomp/es2/locadora/servico/LocacaoServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dcomp/es2/locadora/servico/LocacaoServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/dcomp/es2/locadora/servico/LocacaoServiceTest_V2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dcomp/es2/locadora/servico/LocacaoServiceTest_V2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cenarios-de-teste-01-11-2019.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cenarios-de-teste-01-11-2019.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dcomp/es2/locadora/modelo/Locacao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dcomp/es2/locadora/modelo/Locacao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dcomp/es2/locadora/servico/LocacaoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dcomp/es2/locadora/servico/LocacaoService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/dcomp/es2/locadora/builder/FilmeBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/dcomp/es2/locadora/builder/FilmeBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/dcomp/es2/locadora/servico/LocacaoServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/dcomp/es2/locadora/servico/LocacaoServiceTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/dcomp/es2/locadora/servico/LocacaoServiceTest_V2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/dcomp/es2/locadora/servico/LocacaoServiceTest_V2.class" afterDir="false" />
-    </list>
+    <list default="true" id="cfb31954-998c-4ac5-a80a-19ad28124824" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -93,7 +77,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/dcomp/es2/locadora/modelo/FilmeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
+            <state relative-caret-position="700">
               <caret line="40" selection-start-line="40" selection-end-line="40" />
             </state>
           </provider>
@@ -171,7 +155,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="950" />
     <option name="width" value="980" />
     <option name="height" value="1040" />
@@ -402,14 +386,11 @@
       <workItem from="1572390979276" duration="4927000" />
       <workItem from="1572630206116" duration="1671000" />
       <workItem from="1572637541699" duration="13538000" />
-      <workItem from="1572985091336" duration="3192000" />
+      <workItem from="1572985091336" duration="3795000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LocacaoServiceTest_V2 - 2019.11.05 at 14h 40m 05s.xml">
-      <configuration name="LocacaoServiceTest_V2" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="LocacaoServiceTest_V2 - 2019.11.05 at 14h 42m 22s.xml">
       <configuration name="LocacaoServiceTest_V2" configurationId="JUnit" />
     </history-entry>
@@ -437,9 +418,12 @@
     <history-entry file="All_in_02-minicurso_junit - 2019.11.05 at 18h 06m 02s.xml">
       <configuration name="All in 02-minicurso_junit" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="FilmeTest - 2019.11.05 at 18h 12m 19s.xml">
+      <configuration name="FilmeTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23328000" />
+    <option name="totallyTimeSpent" value="23931000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -451,11 +435,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info anchor="top" id="Maven" order="0" weight="0.043923866" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21006711" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21006711" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Project Explorer" order="2" />
       <window_info id="Designer" order="3" />
@@ -464,7 +448,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329429" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.24011713" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24011713" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -599,7 +583,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/dcomp/es2/locadora/modelo/FilmeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
+        <state relative-caret-position="700">
           <caret line="40" selection-start-line="40" selection-end-line="40" />
         </state>
       </provider>
