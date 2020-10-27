@@ -59,8 +59,8 @@ public class LocacaoServiceTest2 {
 		// verificação
 
 		Assert.assertThat(locacao.getValor(), is(equalTo(4.0)));
-		Assert.assertThat(DataUtils.isMesmaData(locacao.getDataLocacao(), LocalDate.now() ), is(true) );
-		Assert.assertThat(DataUtils.isMesmaData(locacao.getDataPrevista(), DataUtils.amanha()), is(true) );
+		Assert.assertThat(locacao.getDataLocacao().equals(LocalDate.now() ), is(true) );
+		Assert.assertThat(locacao.getDataPrevista().equals(DataUtils.amanha() ), is(true) );
 		
 		
 		Mockito.verify(locacaoRepository, Mockito.times(1)).salva(locacao);
@@ -73,8 +73,8 @@ public class LocacaoServiceTest2 {
 		
 		Filme filme = FilmeBuilder
 		                .umFilme()
-		                .semEstoque()
-		                .constroi();
+				.semEstoque()
+				.constroi();
 		
 		locacaoService.alugarFilme(usuario, filme);
 	}
@@ -164,7 +164,7 @@ public class LocacaoServiceTest2 {
 		Mockito.when(spcService.estaNegativado(usuario) ).thenReturn(true );
 		
 		Locacao locacao = locacaoService.alugarFilme(usuario, filme);
-		//Mockito.verify(spcService).estaNegativado(usuario);
+		Mockito.verify(spcService).estaNegativado(usuario);
 	}
 
 	@Test

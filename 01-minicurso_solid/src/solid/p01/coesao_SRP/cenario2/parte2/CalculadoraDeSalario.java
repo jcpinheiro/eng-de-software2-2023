@@ -6,7 +6,6 @@ public class CalculadoraDeSalario {
        //return  funcionario.getCargo().getGratificao().calcula(funcionario );
 
        return funcionario.calculaSalarioMaisGratificacao();
-
     }
 
     /*

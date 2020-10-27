@@ -1,7 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cfb31954-998c-4ac5-a80a-19ad28124824" name="Default Changelist" comment="" />
+    <list default="true" id="cfb31954-998c-4ac5-a80a-19ad28124824" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../01-minicurso_solid/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../01-minicurso_solid/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-minicurso_solid/src/solid/p01/coesao_SRP/cenario2/parte2/CalculadoraDeSalario.java" beforeDir="false" afterPath="$PROJECT_DIR$/../01-minicurso_solid/src/solid/p01/coesao_SRP/cenario2/parte2/CalculadoraDeSalario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-minicurso_solid/src/solid/p03/ocp_dip/parte1/CalculadoraDePrecos.java" beforeDir="false" afterPath="$PROJECT_DIR$/../01-minicurso_solid/src/solid/p03/ocp_dip/parte1/CalculadoraDePrecos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dcomp/es2/locadora/servico/LocacaoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dcomp/es2/locadora/servico/LocacaoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AssertivasTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AssertivasTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/dcomp/es2/locadora/modelo/FilmeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dcomp/es2/locadora/modelo/FilmeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/dcomp/es2/locadora/servico/LocacaoServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dcomp/es2/locadora/servico/LocacaoServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/dcomp/es2/locadora/servico/LocacaoServiceTest_V2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dcomp/es2/locadora/servico/LocacaoServiceTest_V2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dcomp/es2/locadora/modelo/Filme.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dcomp/es2/locadora/modelo/Filme.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dcomp/es2/locadora/modelo/Locacao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dcomp/es2/locadora/modelo/Locacao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dcomp/es2/locadora/modelo/Usuario.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dcomp/es2/locadora/modelo/Usuario.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dcomp/es2/locadora/servico/LocacaoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dcomp/es2/locadora/servico/LocacaoService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dcomp/es2/locadora/utils/DataUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dcomp/es2/locadora/utils/DataUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/AssertivasTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/AssertivasTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/dcomp/es2/locadora/builder/FilmeBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/dcomp/es2/locadora/builder/FilmeBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/dcomp/es2/locadora/modelo/FilmeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/dcomp/es2/locadora/modelo/FilmeTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/dcomp/es2/locadora/servico/LocacaoServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/dcomp/es2/locadora/servico/LocacaoServiceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/dcomp/es2/locadora/servico/LocacaoServiceTest_V2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/dcomp/es2/locadora/servico/LocacaoServiceTest_V2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-minicurso-teste-integracao-locadora/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../04-minicurso-teste-integracao-locadora/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-minicurso-teste-integracao-locadora/src/test/java/dcomp/es2/locadora/repositorio/UsuarioRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../04-minicurso-teste-integracao-locadora/src/test/java/dcomp/es2/locadora/repositorio/UsuarioRepositoryTest.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,81 +39,12 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dcomp/es2/locadora/servico/LocacaoService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
-              <caret line="28" column="21" selection-start-line="24" selection-start-column="8" selection-end-line="28" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/dcomp/es2/locadora/servico/LocacaoServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4">
-              <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+            <state relative-caret-position="365">
+              <caret line="38" column="20" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/dcomp/es2/locadora/servico/LocacaoServiceTest_V2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="975">
-              <caret line="64" column="45" selection-start-line="64" selection-start-column="45" selection-end-line="64" selection-end-column="45" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dcomp/es2/locadora/modelo/Locacao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="51" column="51" selection-start-line="51" selection-start-column="51" selection-end-line="51" selection-end-column="51" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#947#948#0" expanded="true" />
-                <element signature="e#996#997#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dcomp/es2/locadora/modelo/Filme.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="32" selection-start-line="32" selection-end-line="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/dcomp/es2/locadora/modelo/FilmeTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="700">
-              <caret line="40" selection-start-line="40" selection-end-line="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dcomp/es2/locadora/modelo/Usuario.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-              <folding>
-                <element signature="method#hashCode#0;class#Usuario#0" />
-                <element signature="method#equals#0;class#Usuario#0" />
               </folding>
             </state>
           </provider>
@@ -99,8 +53,32 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/dcomp/es2/locadora/builder/FilmeBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="428">
-              <caret line="40" column="20" lean-forward="true" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
+            <state relative-caret-position="417">
+              <caret line="35" column="23" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dcomp/es2/locadora/servico/LocacaoService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="13" column="57" selection-start-line="13" selection-start-column="54" selection-end-line="13" selection-end-column="57" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/dcomp/es2/locadora/servico/LocacaoServiceTest_V2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1840">
+              <caret line="92" column="78" lean-forward="true" selection-start-line="92" selection-start-column="78" selection-end-line="95" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -121,19 +99,19 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/AssertivasTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/LocacaoServiceTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/FilmeBuilder.java" />
         <option value="$PROJECT_DIR$/src/test/java/dcomp/es2/locadora/LocacaoServiceTest-v2.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/cenarios-de-teste-01-11-2019.txt" />
-        <option value="$PROJECT_DIR$/src/test/java/dcomp/es2/locadora/servico/LocacaoServiceTest_V2.java" />
-        <option value="$PROJECT_DIR$/src/test/java/dcomp/es2/locadora/servico/LocacaoServiceTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/dcomp/es2/locadora/modelo/Locacao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dcomp/es2/locadora/servico/LocacaoService.java" />
         <option value="$PROJECT_DIR$/src/main/java/dcomp/es2/locadora/modelo/Filme.java" />
         <option value="$PROJECT_DIR$/src/test/java/dcomp/es2/locadora/builder/FilmeBuilder.java" />
+        <option value="$PROJECT_DIR$/src/test/java/AssertivasTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dcomp/es2/locadora/servico/LocacaoService.java" />
         <option value="$PROJECT_DIR$/src/test/java/dcomp/es2/locadora/modelo/FilmeTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/dcomp/es2/locadora/servico/LocacaoServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/dcomp/es2/locadora/servico/LocacaoServiceTest_V2.java" />
       </list>
     </option>
   </component>
@@ -155,9 +133,9 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="950" />
-    <option name="width" value="980" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-9" />
+    <option name="width" value="1702" />
     <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -167,7 +145,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -184,36 +161,6 @@
               <item name="02-minicurso_junit" type="b2602c69:ProjectViewProjectNode" />
               <item name="02-minicurso_junit" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="02-minicurso_junit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="02-minicurso_junit" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="02-minicurso_junit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="02-minicurso_junit" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="locadora" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="02-minicurso_junit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="02-minicurso_junit" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="locadora" type="462c0819:PsiDirectoryNode" />
-              <item name="modelo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="02-minicurso_junit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="02-minicurso_junit" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -229,21 +176,21 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="locadora" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="02-minicurso_junit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="02-minicurso_junit" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="locadora" type="462c0819:PsiDirectoryNode" />
               <item name="builder" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="02-minicurso_junit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="02-minicurso_junit" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="servico" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -260,6 +207,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
@@ -291,17 +239,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FilmeTest">
-    <configuration name="All in 02-minicurso_junit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="02-minicurso_junit" />
+  <component name="RunManager" selected="JUnit.All in 02-minicurso-junit">
+    <configuration name="All in 02-minicurso-junit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="02-minicurso-junit" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FilmeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="02-minicurso_junit" />
+    <configuration name="FilmeTest.naoDeveTerPrecoLocacaoIgualAZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="02-minicurso-junit" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="dcomp.es2.locadora.modelo.*" />
@@ -310,54 +258,54 @@
       </extension>
       <option name="PACKAGE_NAME" value="dcomp.es2.locadora.modelo" />
       <option name="MAIN_CLASS_NAME" value="dcomp.es2.locadora.modelo.FilmeTest" />
+      <option name="METHOD_NAME" value="naoDeveTerPrecoLocacaoIgualAZero" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LocacaoServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="02-minicurso-junit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dcomp.es2.locadora.servico.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dcomp.es2.locadora.servico" />
+      <option name="MAIN_CLASS_NAME" value="dcomp.es2.locadora.servico.LocacaoServiceTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FilmeTest.deveTerPrecoLocacaoPositivo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="02-minicurso_junit" />
+    <configuration name="LocacaoServiceTest_V2.deveAplicarDesconto30PctNoTerceiroFilme" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="02-minicurso-junit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dcomp.es2.locadora.modelo.*" />
+          <option name="PATTERN" value="dcomp.es2.locadora.servico.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="dcomp.es2.locadora.modelo" />
-      <option name="MAIN_CLASS_NAME" value="dcomp.es2.locadora.modelo.FilmeTest" />
-      <option name="METHOD_NAME" value="deveTerPrecoLocacaoPositivo" />
+      <option name="PACKAGE_NAME" value="dcomp.es2.locadora.servico" />
+      <option name="MAIN_CLASS_NAME" value="dcomp.es2.locadora.servico.LocacaoServiceTest_V2" />
+      <option name="METHOD_NAME" value="deveAplicarDesconto30PctNoTerceiroFilme" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FilmeTest.naoDeveTerPrecoLocacaoNegativo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="02-minicurso_junit" />
+    <configuration name="LocacaoServiceTest.naoDeveAlugarFilmeSemEstoque" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="02-minicurso-junit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dcomp.es2.locadora.modelo.*" />
+          <option name="PATTERN" value="dcomp.es2.locadora.servico.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="dcomp.es2.locadora.modelo" />
-      <option name="MAIN_CLASS_NAME" value="dcomp.es2.locadora.modelo.FilmeTest" />
-      <option name="METHOD_NAME" value="naoDeveTerPrecoLocacaoNegativo" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FilmeTest.precoLocacaoMaiorQueZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="02-minicurso_junit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dcomp.es2.locadora.modelo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="dcomp.es2.locadora.modelo" />
-      <option name="MAIN_CLASS_NAME" value="dcomp.es2.locadora.modelo.FilmeTest" />
-      <option name="METHOD_NAME" value="precoLocacaoMaiorQueZero" />
+      <option name="PACKAGE_NAME" value="dcomp.es2.locadora.servico" />
+      <option name="MAIN_CLASS_NAME" value="dcomp.es2.locadora.servico.LocacaoServiceTest" />
+      <option name="METHOD_NAME" value="naoDeveAlugarFilmeSemEstoque" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -365,11 +313,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FilmeTest" />
-        <item itemvalue="JUnit.All in 02-minicurso_junit" />
-        <item itemvalue="JUnit.FilmeTest.deveTerPrecoLocacaoPositivo" />
-        <item itemvalue="JUnit.FilmeTest.naoDeveTerPrecoLocacaoNegativo" />
-        <item itemvalue="JUnit.FilmeTest.precoLocacaoMaiorQueZero" />
+        <item itemvalue="JUnit.All in 02-minicurso-junit" />
+        <item itemvalue="JUnit.LocacaoServiceTest_V2.deveAplicarDesconto30PctNoTerceiroFilme" />
+        <item itemvalue="JUnit.LocacaoServiceTest.naoDeveAlugarFilmeSemEstoque" />
+        <item itemvalue="JUnit.LocacaoServiceTest" />
+        <item itemvalue="JUnit.FilmeTest.naoDeveTerPrecoLocacaoIgualAZero" />
       </list>
     </recent_temporary>
   </component>
@@ -387,43 +335,46 @@
       <workItem from="1572630206116" duration="1671000" />
       <workItem from="1572637541699" duration="13538000" />
       <workItem from="1572985091336" duration="3795000" />
+      <workItem from="1601949574786" duration="5430000" />
+      <workItem from="1602278829223" duration="3498000" />
+      <workItem from="1602610921145" duration="4163000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LocacaoServiceTest_V2 - 2019.11.05 at 14h 42m 22s.xml">
-      <configuration name="LocacaoServiceTest_V2" configurationId="JUnit" />
+    <history-entry file="AssertivasTest_testaAssertivas - 2020.10.06 at 17h 58m 07s.xml">
+      <configuration name="AssertivasTest.testaAssertivas" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LocacaoServiceTest_V2 - 2019.11.05 at 15h 11m 01s.xml">
-      <configuration name="LocacaoServiceTest_V2" configurationId="JUnit" />
+    <history-entry file="AssertivasTest_testaAssertivas - 2020.10.06 at 17h 59m 39s.xml">
+      <configuration name="AssertivasTest.testaAssertivas" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LocacaoServiceTest_V2 - 2019.11.05 at 17h 36m 18s.xml">
-      <configuration name="LocacaoServiceTest_V2" configurationId="JUnit" />
+    <history-entry file="FilmeTest_deveTerPrecoLocacaoPositivo_(1) - 2020.10.09 at 18h 46m 27s.xml">
+      <configuration name="FilmeTest.deveTerPrecoLocacaoPositivo (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LocacaoServiceTest_V2 - 2019.11.05 at 17h 37m 46s.xml">
-      <configuration name="LocacaoServiceTest_V2" configurationId="JUnit" />
+    <history-entry file="FilmeTest_naoDeveTerPrecoLocacaoIgualAZero - 2020.10.09 at 18h 59m 15s.xml">
+      <configuration name="FilmeTest.naoDeveTerPrecoLocacaoIgualAZero" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FilmeTest_precoLocacaoMaiorQueZero - 2019.11.05 at 17h 53m 53s.xml">
-      <configuration name="FilmeTest.precoLocacaoMaiorQueZero" configurationId="JUnit" />
+    <history-entry file="LocacaoServiceTest - 2020.10.09 at 19h 14m 04s.xml">
+      <configuration name="LocacaoServiceTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FilmeTest_precoLocacaoMaiorQueZero - 2019.11.05 at 17h 56m 56s.xml">
-      <configuration name="FilmeTest.precoLocacaoMaiorQueZero" configurationId="JUnit" />
+    <history-entry file="LocacaoServiceTest_naoDeveAlugarFilmeSemEstoque - 2020.10.09 at 19h 17m 27s.xml">
+      <configuration name="LocacaoServiceTest.naoDeveAlugarFilmeSemEstoque" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FilmeTest_naoDeveTerPrecoLocacaoNegativo - 2019.11.05 at 18h 00m 18s.xml">
-      <configuration name="FilmeTest.naoDeveTerPrecoLocacaoNegativo" configurationId="JUnit" />
+    <history-entry file="LocacaoServiceTest_naoDeveAlugarFilmeSemEstoque - 2020.10.09 at 19h 18m 14s.xml">
+      <configuration name="LocacaoServiceTest.naoDeveAlugarFilmeSemEstoque" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FilmeTest_deveTerPrecoLocacaoPositivo - 2019.11.05 at 18h 05m 45s.xml">
-      <configuration name="FilmeTest.deveTerPrecoLocacaoPositivo" configurationId="JUnit" />
+    <history-entry file="LocacaoServiceTest_naoDeveAlugarFilmeSemEstoque - 2020.10.09 at 19h 20m 51s.xml">
+      <configuration name="LocacaoServiceTest.naoDeveAlugarFilmeSemEstoque" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_02-minicurso_junit - 2019.11.05 at 18h 06m 02s.xml">
-      <configuration name="All in 02-minicurso_junit" configurationId="JUnit" />
+    <history-entry file="LocacaoServiceTest_V2_deveAplicarDesconto30PctNoTerceiroFilme - 2020.10.13 at 17h 30m 15s.xml">
+      <configuration name="LocacaoServiceTest_V2.deveAplicarDesconto30PctNoTerceiroFilme" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FilmeTest - 2019.11.05 at 18h 12m 19s.xml">
-      <configuration name="FilmeTest" configurationId="JUnit" />
+    <history-entry file="All_in_02-minicurso-junit - 2020.10.13 at 17h 30m 53s.xml">
+      <configuration name="All in 02-minicurso-junit" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23931000" />
+    <option name="totallyTimeSpent" value="37022000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -435,11 +386,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
-    <editor active="true" />
+    <frame x="-7" y="0" width="1361" height="832" extended-state="0" />
     <layout>
       <window_info anchor="top" id="Maven" order="0" weight="0.043923866" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21006711" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15449654" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Project Explorer" order="2" />
       <window_info id="Designer" order="3" />
@@ -448,7 +398,38 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329429" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24011713" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2658789" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.329429" />
+      <window_info anchor="bottom" id="Console" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.21713442" />
+      <window_info anchor="bottom" id="Inspection Results" order="14" weight="0.3557833" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+    </layout>
+    <layout-to-restore>
+      <window_info anchor="top" id="Maven" order="0" weight="0.043923866" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28157157" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Project Explorer" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Job Explorer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.329429" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3072378" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -460,28 +441,19 @@
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.21815519" />
+      <window_info anchor="bottom" id="Inspection Results" order="14" weight="0.3557833" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/AssertivasTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-api/5.1.0/junit-jupiter-api-5.1.0-sources.jar!/org/junit/jupiter/api/function/Executable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="498">
@@ -500,13 +472,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/cenarios-de-teste-01-11-2019.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -514,30 +479,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/dcomp/es2/locadora/servico/LocacaoServiceTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/AssertivasTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4">
-          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/dcomp/es2/locadora/servico/LocacaoServiceTest_V2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="975">
-          <caret line="64" column="45" selection-start-line="64" selection-start-column="45" selection-end-line="64" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dcomp/es2/locadora/servico/LocacaoService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="28" column="21" selection-start-line="24" selection-start-column="8" selection-end-line="28" selection-end-column="21" />
+        <state relative-caret-position="176">
+          <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -546,12 +491,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dcomp/es2/locadora/modelo/Locacao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
+        <state relative-caret-position="700">
           <caret line="51" column="51" selection-start-line="51" selection-start-column="51" selection-end-line="51" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#947#948#0" expanded="true" />
-            <element signature="e#996#997#0" expanded="true" />
+            <element signature="e#997#998#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -567,24 +512,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dcomp/es2/locadora/modelo/Filme.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="415">
+          <caret line="30" column="21" lean-forward="true" selection-start-line="25" selection-start-column="8" selection-end-line="30" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/dcomp/es2/locadora/builder/FilmeBuilder.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dcomp/es2/locadora/modelo/Filme.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="40" column="20" lean-forward="true" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
+        <state relative-caret-position="409">
+          <caret line="34" column="94" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="94" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/dcomp/es2/locadora/modelo/FilmeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        <state relative-caret-position="-11">
+          <caret line="18" selection-start-line="17" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/dcomp/es2/locadora/builder/FilmeBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="35" column="23" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/dcomp/es2/locadora/servico/LocacaoServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="38" column="20" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dcomp/es2/locadora/servico/LocacaoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="13" column="57" selection-start-line="13" selection-start-column="54" selection-end-line="13" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/dcomp/es2/locadora/servico/LocacaoServiceTest_V2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1840">
+          <caret line="92" column="78" lean-forward="true" selection-start-line="92" selection-start-column="78" selection-end-line="95" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

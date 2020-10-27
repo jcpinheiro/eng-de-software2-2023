@@ -1,11 +1,9 @@
 package dcomp.es2.locadora.servico;
 
-import dcomp.es2.locadora.builder.LocacaoBuilder;
 import dcomp.es2.locadora.modelo.Filme;
 import dcomp.es2.locadora.modelo.Locacao;
 import dcomp.es2.locadora.modelo.Usuario;
 import dcomp.es2.locadora.repositorio.LocacaoRepository;
-import org.hamcrest.MatcherAssert;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -205,9 +203,11 @@ public class LocacaoServiceTestJUnit5v2 {
 	@Test
 	public void deveRenovarUmaLocacao() {
 
+		// cenário
 		final int dias = 3;
 		final Locacao locacao = umaLocacao().constroi();
 
+		// ação
 		locacaoService.renovaLocacao(locacao, dias);
 
 		// verificaçao
@@ -224,11 +224,6 @@ public class LocacaoServiceTestJUnit5v2 {
 		assertThat(locacaoCapturada.getValor(), is(12.0) );
 		assertThat(locacaoCapturada.getDataLocacao(), is(LocalDate.now()));
 		assertThat(locacaoCapturada.getDataPrevista(), is(LocalDate.now().plusDays(dias)) );
-
-
-
-
-
 
 	}
 		

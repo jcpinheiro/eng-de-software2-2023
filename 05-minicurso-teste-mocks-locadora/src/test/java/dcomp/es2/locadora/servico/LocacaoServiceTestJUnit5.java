@@ -1,21 +1,15 @@
 package dcomp.es2.locadora.servico;
 
-import dcomp.es2.locadora.builder.FilmeBuilder;
 import dcomp.es2.locadora.builder.LocacaoBuilder;
-import dcomp.es2.locadora.builder.UsuarioBuilder;
 import dcomp.es2.locadora.modelo.Filme;
 import dcomp.es2.locadora.modelo.Locacao;
 import dcomp.es2.locadora.modelo.Usuario;
 import dcomp.es2.locadora.repositorio.LocacaoRepository;
-import dcomp.es2.locadora.utils.DataUtils;
-
-import org.hamcrest.MatcherAssert;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
 
-import java.time.DayOfWeek;
 import java.time.LocalDate;
 import java.util.Arrays;
 import java.util.List;
@@ -42,16 +36,16 @@ public class LocacaoServiceTestJUnit5 {
 		locacaoService = new LocacaoService();
 		usuario = umUsuario().constroi();
 		
-		locacaoRepository = mock(LocacaoRepository.class);
-		spcService = mock(SPCService.class);
-		emailService = mock(EmailService.class );
+		locacaoRepository = Mockito.mock(LocacaoRepository.class);
+		spcService = Mockito.mock(SPCService.class);
+		emailService = Mockito.mock(EmailService.class );
 
 		// Injeção
-	/*	locacaoService.setLocacaoRepository(locacaoRepository );
+		locacaoService.setLocacaoRepository(locacaoRepository );
 
 		locacaoService.setSpcService(spcService );
 
-		locacaoService.setEmailService(emailService );*/
+		locacaoService.setEmailService(emailService );
 	}
 
 	@Test
@@ -69,7 +63,9 @@ public class LocacaoServiceTestJUnit5 {
 		assertThat(locacao.getDataLocacao(), is(LocalDate.now()) );
 		assertThat( locacao.getDataPrevista(), is(LocalDate.now().plusDays(1)) );
 		
-		verify(locacaoRepository, times(1)).salva(locacao);
+		Mockito.verify(locacaoRepository).salva(locacao);
+		//verify(locacaoRepository, times(1)).salva(locacao);
+
 
 	}
 
@@ -87,9 +83,6 @@ public class LocacaoServiceTestJUnit5 {
 				                        "Deveria lançar a exceção RuntimeException");
 
 		Assertions.assertTrue(exception.getMessage().contains("sem estoque."));
-
-		
-		;
 	}
 
 	
@@ -151,7 +144,7 @@ public class LocacaoServiceTestJUnit5 {
 				
 		Filme filme = umFilme().constroi();
 	
-		when(spcService.estaNegativado(this.usuario)).thenReturn(true );
+		Mockito.when(spcService.estaNegativado(this.usuario)).thenReturn(true );
 
 
 		IllegalStateException exception = Assertions.assertThrows(IllegalStateException.class,
@@ -160,7 +153,7 @@ public class LocacaoServiceTestJUnit5 {
 
 		Assertions.assertTrue(exception.getMessage().contains("pendências no SPC"));
 
-		verify(spcService).estaNegativado(usuario);
+		Mockito.verify(spcService).estaNegativado(usuario);
 	}
 
 
@@ -178,15 +171,17 @@ public class LocacaoServiceTestJUnit5 {
 				LocacaoBuilder.umaLocacao().paraUsuario(usuario2).emAtraso().constroi(),
 				LocacaoBuilder.umaLocacao().paraUsuario(usuario3).emAtraso().constroi() );
 		
-		when(locacaoRepository.emAtraso()).thenReturn(locacoesEmAtraso );
+		Mockito.when(locacaoRepository.emAtraso()).thenReturn(locacoesEmAtraso );
 		
 		locacaoService.notificaUsuariosEmAtraso();
 		
-		verify(emailService, times(1)).notifica(usuario1);
-		verify(emailService, times(1)).notifica(usuario2);
-		verify(emailService, times(1)).notifica(usuario3);
+		Mockito.verify(emailService, times(1)).notifica(usuario1);
+		Mockito.verify(emailService, times(1)).notifica(usuario2);
+		Mockito.verify(emailService, times(1)).notifica(usuario3);
 		
-		verify(emailService, never() ).notifica(usuario4);
+		Mockito.verify(emailService, Mockito.never() ).notifica(usuario4);
+
+		//Mockito.verify(emailService, times(3)).notifica(Mockito.any() );
 
 		verifyNoMoreInteractions(emailService );
 
@@ -195,18 +190,17 @@ public class LocacaoServiceTestJUnit5 {
 
 	@Test
 	public void deveTratarErroNoSPC() {
+
 		List<Filme> filmes = Arrays.asList(umFilme().constroi());
 
-		when(spcService.estaNegativado(this.usuario))
+		Mockito.when(spcService.estaNegativado(this.usuario))
 				.thenThrow(new RuntimeException("SPC fora do ar") );
 
-		final RuntimeException exception = Assertions.assertThrows(RuntimeException.class,
-				() -> locacaoService.alugarFilmes(usuario, filmes),
-				"Deveria lançar um RuntimeException");
-
+		final RuntimeException exception =
+				Assertions.assertThrows(RuntimeException.class,
+				                        () -> locacaoService.alugarFilmes(usuario, filmes),
+	                        			"Deveria lançar um RuntimeException");
 
 	}
-		
-	
 
 }

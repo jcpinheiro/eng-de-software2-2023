@@ -3,6 +3,8 @@ package dcomp.es2.locadora.servico;
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.CoreMatchers.not;
+import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.junit.jupiter.api.Assumptions.assumingThat;
 
 import java.time.DayOfWeek;
 import java.time.LocalDate;
@@ -17,6 +19,7 @@ import org.junit.Before;
 import org.junit.Ignore;
 import org.junit.Rule;
 import org.junit.Test;
+import org.junit.jupiter.api.Assumptions;
 import org.junit.rules.ErrorCollector;
 import org.junit.rules.ExpectedException;
 import org.mockito.Mockito;
@@ -145,22 +148,20 @@ public class LocacaoServiceTest {
 	@Test
 	//@Ignore
 	public void naoDeveDevolverUmFilmeNoDomingo() {
-		
-		Assume.assumeTrue( LocalDate.now().getDayOfWeek() ==  DayOfWeek.SATURDAY );
-		
-		// cenário
-		Filme filme = new Filme("Batman o Retorno", 2, 5.0);
 
-		// ação
-		Locacao locacao = locacaoService.alugarFilme(usuario, filme);
-		
-		// verificação
-		LocalDate dataRetorno = locacao.getDataPrevista();
-		
-		System.out.println(dataRetorno.getDayOfWeek() );
+		assumingThat(LocalDate.now().getDayOfWeek().equals( .SATURDAY),
+				() -> {
+					// cenário
+					Filme filme = new Filme("Batman o Retorno", 2, 5.0);
 
-		Assert.assertTrue(dataRetorno.getDayOfWeek() == DayOfWeek.MONDAY );
-				
+					// ação
+					Locacao locacao = locacaoService.alugarFilme(usuario, filme);
+
+					// verificação
+					LocalDate dataRetorno = locacao.getDataPrevista();
+
+					assertTrue(dataRetorno.getDayOfWeek().equals(DayOfWeek.MONDAY) );
+				} );
 	}
 	
 	

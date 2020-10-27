@@ -10,6 +10,9 @@ public class CalculadoraDePrecos {
         double frete = correios.para(produto.getCidade());
 
         return produto.getValor() * (1-desconto) + frete;
+
+
+        // se tivermos outra tabela de preço ??
     }
 }
 

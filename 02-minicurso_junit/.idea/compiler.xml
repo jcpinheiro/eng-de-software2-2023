@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="02-minicurso_junit" />
+        <module name="02-minicurso-junit" />
       </profile>
     </annotationProcessing>
   </component>

@@ -10,15 +10,6 @@ import dcomp.es2.locadora.modelo.Usuario;
 
 public class LocacaoService {
 
-	// TODO Preciso remover este código
-    /*	public Locacao alugarFilme(Usuario usuario, Filme filme) {
-
-		if (filme.getEstoque() <= 0 ) {
-			throw new IllegalArgumentException("Filme sem Estoque ");
-		}
-		
-		return alugarFilmes(usuario, Arrays.asList(filme) );
-	}*/
 
 	public Locacao alugarFilmes(Usuario usuario, Filme... filmes) {
 

@@ -4,11 +4,19 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+
 public class AssertivasTest {
 
 
     @Test
     public void testaAssertivas() {
+
+        // cenário
+
+        // ação
+
+        // verificação
+
 
         // Assertions.fail("Código falhou" );
         int soma = 2 + 3;
@@ -18,7 +26,7 @@ public class AssertivasTest {
         double pi = 3.14;
         assertEquals(3.14, pi, "");
 
-        assertEquals(3.14159, Math.PI, 0.00001);
+        assertEquals(3.14159, Math.PI, 0.00001 );
 
 
         assertTrue(true );

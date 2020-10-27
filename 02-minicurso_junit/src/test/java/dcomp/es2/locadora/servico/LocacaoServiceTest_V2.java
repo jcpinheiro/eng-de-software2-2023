@@ -47,10 +47,10 @@ public class LocacaoServiceTest_V2 {
 		assertThat(locacao.getDataRetorno().equals(LocalDate.now().plusDays(1)), is(true) );
 
 		// Junit 4
-		//Assert.assertThat(DataUtils.isMesmaData(locacao.getDataRetorno(), DataUtils.amanha()), is(true) );
+		//Assert.assertThat
 
 		//Junit 5
-		//MatcherAssert.assertThat(DataUtils.isMesmaData(locacao.getDataRetorno(), DataUtils.amanha()), is(true) );
+		//MatcherAssert.assertThat
 	}
 
 
@@ -62,7 +62,8 @@ public class LocacaoServiceTest_V2 {
 		                .semEstoque()
 		                .constroi();
 
-		IllegalArgumentException exception = assertThrows(IllegalArgumentException.class,
+		IllegalArgumentException exception =
+				assertThrows(IllegalArgumentException.class,
 				() -> locacaoService.alugarFilmes(usuario, filme),
 				"Deveria ter lançado um IllegalArgumentException");
 

@@ -8,7 +8,6 @@ import javax.persistence.*;
 
 
 import dcomp.es2.locadora.modelo.Usuario;
-import org.hamcrest.MatcherAssert;
 import org.junit.jupiter.api.*;
 
 public class UsuarioRepositoryTest {
@@ -47,7 +46,7 @@ public class UsuarioRepositoryTest {
 				                () -> usuarios.buscaPorNome("João da Silva"),
 				                "Deveria lançar a exceção NoResultException");
 
-		usuarios.salva(new Usuario("João da Silva"));
+		usuarios.salva(new Usuario("João da Silva") );
 		manager.flush();
 		manager.clear();
 
@@ -62,7 +61,6 @@ public class UsuarioRepositoryTest {
 		Assertions.assertThrows(NoResultException.class,
 				() -> usuarios.buscaPorNome("Pedro Jose"),
 				"Deveria ter lançado a exceção NoResultException");
-
 	}
 
 

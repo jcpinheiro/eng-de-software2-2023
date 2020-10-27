@@ -1,19 +1,19 @@
 package dcomp.es2.locadora.repositorio;
 
-import java.time.LocalDate;
-import java.util.List;
+import dcomp.es2.locadora.builder.LocacaoBuilder;
+import dcomp.es2.locadora.modelo.Locacao;
+import dcomp.es2.locadora.modelo.Usuario;
+import org.junit.jupiter.api.*;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
+import java.time.LocalDate;
+import java.util.List;
 
-import dcomp.es2.locadora.builder.LocacaoBuilder;
-import dcomp.es2.locadora.modelo.Locacao;
-import dcomp.es2.locadora.modelo.Usuario;
-
-import org.hamcrest.CoreMatchers;
-import org.hamcrest.MatcherAssert;
-import org.junit.jupiter.api.*;
+import static org.hamcrest.CoreMatchers.is;
+import static org.hamcrest.MatcherAssert.assertThat;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class LocacaoRepositoryTest {
 	
@@ -74,8 +74,8 @@ public class LocacaoRepositoryTest {
 		
         List<Locacao> atrasadas = locacoes.emAtraso();
 
-        Assertions.assertEquals(1, atrasadas.size());
-        Assertions.assertEquals("Jose da Silva", atrasadas.get(0).getUsuario().getNome() );
+        assertEquals(1, atrasadas.size());
+        assertEquals("Jose da Silva", atrasadas.get(0).getUsuario().getNome() );
     }
 	
 	
@@ -91,10 +91,14 @@ public class LocacaoRepositoryTest {
 
         // criando as locações, cada um com uma data
         Locacao locacaoMuitoAntiga   = LocacaoBuilder.umaLocacao().paraUsuario(joao).comValor(3.0)
-				                                                  .comDataLocacao(dataInicio.minusDays(5)).constroi();
-		Locacao locacaoNoInicioDoPeriodo  = LocacaoBuilder.umaLocacao().paraUsuario(joao).comValor(4.0).comDataLocacao(dataInicio).constroi();
-		Locacao locacaoNoFimDoPeriodo = LocacaoBuilder.umaLocacao().paraUsuario(joao).comValor(5.0).comDataLocacao(dataFim).constroi();
-		Locacao locacaoNoPeriodo = LocacaoBuilder.umaLocacao().paraUsuario(joao).comValor(6.0).comDataLocacao(dataInicio.plusDays(5)).constroi();
+				                                                  .comDataLocacao(dataInicio.minusDays(5))
+				                                                  .constroi();
+		Locacao locacaoNoInicioDoPeriodo  = LocacaoBuilder.umaLocacao().paraUsuario(joao).comValor(4.0)
+				.comDataLocacao(dataInicio).constroi();
+		Locacao locacaoNoFimDoPeriodo = LocacaoBuilder.umaLocacao().paraUsuario(joao).comValor(5.0)
+				.comDataLocacao(dataFim).constroi();
+		Locacao locacaoNoPeriodo = LocacaoBuilder.umaLocacao().paraUsuario(joao).comValor(6.0)
+				.comDataLocacao(dataInicio.plusDays(5)).constroi();
 		
 		Locacao locacaoNoPeriodoEmAberto = LocacaoBuilder.umaLocacao().paraUsuario(joao).comValor(7.0).constroi();
        
@@ -111,12 +115,12 @@ public class LocacaoRepositoryTest {
         List<Locacao> listaLocacoes = locacoes.encerradasPorPeriodo(dataInicio, dataFim);
 
         // garantindo que a query funcionou
-        Assertions.assertEquals(3, listaLocacoes.size() );
+        assertEquals(3, listaLocacoes.size() );
        
         
-        MatcherAssert.assertThat(4.0, CoreMatchers.is(listaLocacoes.get(0).getValor()) );
-		MatcherAssert.assertThat(5.0, CoreMatchers.is(listaLocacoes.get(1).getValor()) );
-		MatcherAssert.assertThat(6.0, CoreMatchers.is(listaLocacoes.get(2).getValor()) );
+        assertThat(4.0, is(listaLocacoes.get(0).getValor()) );
+		assertThat(5.0, is(listaLocacoes.get(1).getValor()) );
+		assertThat(6.0, is(listaLocacoes.get(2).getValor()) );
 
         
     }
