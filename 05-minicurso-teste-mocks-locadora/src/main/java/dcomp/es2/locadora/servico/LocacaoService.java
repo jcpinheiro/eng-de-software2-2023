@@ -71,6 +71,7 @@ public class LocacaoService {
 	public void renovaLocacao(Locacao locacao, Integer dias ) {
 
 		final Locacao novaLocacao = new Locacao();
+
 		novaLocacao.setUsuario(locacao.getUsuario() );
 		novaLocacao.setFilmes(locacao.getFilmes() );
 		novaLocacao.setDataLocacao(LocalDate.now() );
@@ -110,6 +111,8 @@ public class LocacaoService {
 		locacoesAtrasadas.forEach(locacao -> 
 		              emailService.notifica(locacao.getUsuario()
 		));
+
+		// não dever ter mais nenhuma notificação
 	}
 	
 

@@ -36,7 +36,7 @@ public class LocacaoServiceTestJUnit5 {
 		locacaoService = new LocacaoService();
 		usuario = umUsuario().constroi();
 		
-		locacaoRepository = Mockito.mock(LocacaoRepository.class);
+		locacaoRepository =  Mockito.mock(LocacaoRepository.class);
 		spcService = Mockito.mock(SPCService.class);
 		emailService = Mockito.mock(EmailService.class );
 
@@ -64,7 +64,7 @@ public class LocacaoServiceTestJUnit5 {
 		assertThat( locacao.getDataPrevista(), is(LocalDate.now().plusDays(1)) );
 		
 		Mockito.verify(locacaoRepository).salva(locacao);
-		//verify(locacaoRepository, times(1)).salva(locacao);
+		// Mockito.verify(locacaoRepository, times(1)).salva(locacao);
 
 
 	}
@@ -144,7 +144,7 @@ public class LocacaoServiceTestJUnit5 {
 				
 		Filme filme = umFilme().constroi();
 	
-		Mockito.when(spcService.estaNegativado(this.usuario)).thenReturn(true );
+		Mockito.when(spcService.estaNegativado(usuario)).thenReturn(true );
 
 
 		IllegalStateException exception = Assertions.assertThrows(IllegalStateException.class,
@@ -172,7 +172,8 @@ public class LocacaoServiceTestJUnit5 {
 				LocacaoBuilder.umaLocacao().paraUsuario(usuario3).emAtraso().constroi() );
 		
 		Mockito.when(locacaoRepository.emAtraso()).thenReturn(locacoesEmAtraso );
-		
+
+		// ação
 		locacaoService.notificaUsuariosEmAtraso();
 		
 		Mockito.verify(emailService, times(1)).notifica(usuario1);
@@ -184,6 +185,7 @@ public class LocacaoServiceTestJUnit5 {
 		//Mockito.verify(emailService, times(3)).notifica(Mockito.any() );
 
 		verifyNoMoreInteractions(emailService );
+
 
 	}
 
