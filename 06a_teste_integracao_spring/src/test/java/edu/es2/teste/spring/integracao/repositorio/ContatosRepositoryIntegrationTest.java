@@ -14,9 +14,10 @@ import org.springframework.boot.jdbc.EmbeddedDatabaseConnection;
 import org.springframework.boot.test.autoconfigure.jdbc.AutoConfigureTestDatabase;
 import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
 
+import static org.junit.jupiter.api.Assertions.assertThrows;
+
 
 /*
-É usado em combinação com @RunWith (SpringRunner.class).
 A anotação desativa a configuração automática completa
 e aplica apenas faz a configuração relevante aos testes JPA.
 Por padrão, os testes anotados com @DataJpaTest
@@ -35,13 +36,13 @@ public class ContatosRepositoryIntegrationTest {
 
 	@BeforeEach
 	public void start() {
-
 		contato = new Contato("Chefe", "98", "123456789");
 	}
 
 	@Test
 	public void saveComDddNuloDeveLancarException() throws Exception {
-		ConstraintViolationException exception = Assertions.assertThrows(ConstraintViolationException.class,
+
+		ConstraintViolationException exception = assertThrows(ConstraintViolationException.class,
 				() -> {  contato.setDdd(null);
 			       	     contatoRepository.save(contato);
 					  },
@@ -52,7 +53,8 @@ public class ContatosRepositoryIntegrationTest {
 
 	@Test
 	public void saveComTelefoneNuloDeveLancarException() throws Exception {
-		ConstraintViolationException exception = Assertions.assertThrows(ConstraintViolationException.class,
+
+		ConstraintViolationException exception = assertThrows(ConstraintViolationException.class,
 				() -> {  contato.setTelefone(null);
 					contatoRepository.save(contato);
 				},
@@ -65,7 +67,7 @@ public class ContatosRepositoryIntegrationTest {
 	@Test
 	public void saveComNomeNuloDeveLancarException() throws Exception {
 
-		ConstraintViolationException exception = Assertions.assertThrows(ConstraintViolationException.class,
+		ConstraintViolationException exception = assertThrows(ConstraintViolationException.class,
 				() -> {  contato.setNome(null);
 					contatoRepository.save(contato);
 				},

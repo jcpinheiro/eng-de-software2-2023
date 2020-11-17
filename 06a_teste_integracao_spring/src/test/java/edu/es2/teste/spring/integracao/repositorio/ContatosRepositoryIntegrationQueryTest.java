@@ -13,8 +13,9 @@ import org.springframework.data.domain.Sort;
 import java.util.Arrays;
 import java.util.List;
 
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
-//@RunWith(SpringRunner.class)
+
 @DataJpaTest
 public class ContatosRepositoryIntegrationQueryTest {
 
@@ -41,8 +42,8 @@ public class ContatosRepositoryIntegrationQueryTest {
 
 	@Test
 	public void deveBuscarContatoPeloNome() {
-		Contato contato= contatoRepository.findFirstByNome("Chefe");
-		Assertions.assertTrue(contato.getNome().equals("Chefe"));
+		Contato contato= contatoRepository.findFirstByNome("Amigo");
+		assertTrue(contato.getNome().equals("Amigo"));
 	}
 
 	@Test
@@ -53,10 +54,10 @@ public class ContatosRepositoryIntegrationQueryTest {
 		contatos = contatoRepository
 				.todos( Sort.by("nome").ascending() );
 
-		Assertions.assertTrue(contatos.get(0).getNome().equals("Amigo"));
-		Assertions.assertTrue(contatos.get(1).getNome().equals("Chefe"));
-		Assertions.assertTrue(contatos.get(2).getNome().equals("Chefe Mais Antigo"));
-		Assertions.assertTrue(contatos.get(3).getNome().equals("Novo Chefe"));
+		assertTrue(contatos.get(0).getNome().equals("Amigo"));
+		assertTrue(contatos.get(1).getNome().equals("Chefe"));
+		assertTrue(contatos.get(2).getNome().equals("Chefe Mais Antigo"));
+		assertTrue(contatos.get(3).getNome().equals("Novo Chefe"));
 
 
 	}

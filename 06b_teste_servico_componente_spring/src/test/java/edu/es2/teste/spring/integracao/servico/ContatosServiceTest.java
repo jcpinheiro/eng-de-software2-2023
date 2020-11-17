@@ -9,11 +9,12 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
-import javax.validation.ConstraintViolationException;
 import java.util.List;
 
+import static org.junit.jupiter.api.Assertions.assertThrows;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
-//@RunWith(SpringRunner.class)
+
 @SpringBootTest
 public class ContatosServiceTest {
 
@@ -27,47 +28,48 @@ public class ContatosServiceTest {
 
 	@BeforeEach
 	public void before() {
-	   contato = new Contato("Chefe", "098", "998877665");
+
+		contato = new Contato("Chefe", "098", "998877665");
 	}
 
 	@Test
 	public void insereComDDDNuloDeveLancarException()  {
 
-		ContatoException exception = Assertions.assertThrows(ContatoException.class,
+		ContatoException exception = assertThrows(ContatoException.class,
 				() -> {  contato.setDdd(null);
 					    contatoService.adiciona(contato );
 				},
 				"Deveria lançar um ContatoException");
 
-		Assertions.assertTrue(exception.getMessage().contains("O DDD deve ser preenchido"));
+		assertTrue(exception.getMessage().contains("O DDD deve ser preenchido"));
 
 	}
 
 	@Test
 	public void inserirComTelefoneNuloDeveLancarException() throws Exception {
 
-		ContatoException exception = Assertions.assertThrows(ContatoException.class,
+		ContatoException exception = assertThrows(ContatoException.class,
 				() -> {
 			        contato.setTelefone(null);
 					contatoService.adiciona(contato);
 				},
 				"Deveria lançar um ContatoException");
 
-		Assertions.assertTrue(exception.getMessage().contains("O Telefone deve ser preenchido"));
+		assertTrue(exception.getMessage().contains("O Telefone deve ser preenchido"));
 
 	}
 
 	@Test
 	public void inserirComNomeNuloDeveLancarException()  {
 
-		ContatoException exception = Assertions.assertThrows(ContatoException.class,
+		ContatoException exception = assertThrows(ContatoException.class,
 				() -> {
 					contato.setNome(null);
 					contatoService.adiciona(contato );
 				},
 				"Deveria lançar um ContatoException");
 
-		Assertions.assertTrue(exception.getMessage().contains("O Nome deve ser preenchido"));
+		assertTrue(exception.getMessage().contains("O Nome deve ser preenchido"));
 
 	}
 
@@ -76,6 +78,7 @@ public class ContatosServiceTest {
 
 		contatoService.adiciona(contato );
 		List<Contato> contatos = contatoRepository.findAll();
+
 		Assertions.assertEquals(1, contatos.size());
 		contatoRepository.deleteAll();
 	}
