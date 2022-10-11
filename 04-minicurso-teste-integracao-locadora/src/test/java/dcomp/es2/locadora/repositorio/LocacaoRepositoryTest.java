@@ -16,8 +16,7 @@ import static org.hamcrest.MatcherAssert.assertThat;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class LocacaoRepositoryTest {
-	
-	
+
 	private EntityManager manager;
 	private static EntityManagerFactory emf;
 	private LocacaoRepository locacoes;
@@ -59,8 +58,7 @@ public class LocacaoRepositoryTest {
 
     	Usuario joao = new Usuario("Joao da Silva");
     	Usuario jose = new Usuario("Jose da Silva");
-    	
-		  	
+
 		Locacao atrasada   = LocacaoBuilder.umaLocacao().paraUsuario(jose). emAtraso().constroi();
 		Locacao emDia      = LocacaoBuilder.umaLocacao().paraUsuario(joao).constroi();
 		Locacao finalizada = LocacaoBuilder.umaLocacao().paraUsuario(joao).jaFinalizada().constroi();
@@ -90,13 +88,17 @@ public class LocacaoRepositoryTest {
         Usuario joao = new Usuario("Joao da Silva");
 
         // criando as locações, cada um com uma data
-        Locacao locacaoMuitoAntiga   = LocacaoBuilder.umaLocacao().paraUsuario(joao).comValor(3.0)
-				                                                  .comDataLocacao(dataInicio.minusDays(5))
-				                                                  .constroi();
-		Locacao locacaoNoInicioDoPeriodo  = LocacaoBuilder.umaLocacao().paraUsuario(joao).comValor(4.0)
-				.comDataLocacao(dataInicio).constroi();
+        Locacao locacaoMuitoAntiga   = LocacaoBuilder
+				                     .umaLocacao().paraUsuario(joao).comValor(3.0)
+				                     .comDataLocacao(dataInicio.minusDays(5))
+				                     .constroi();
+		Locacao locacaoNoInicioDoPeriodo  =
+				   LocacaoBuilder.umaLocacao().paraUsuario(joao).comValor(4.0)
+				                 .comDataLocacao(dataInicio).constroi();
+
 		Locacao locacaoNoFimDoPeriodo = LocacaoBuilder.umaLocacao().paraUsuario(joao).comValor(5.0)
 				.comDataLocacao(dataFim).constroi();
+
 		Locacao locacaoNoPeriodo = LocacaoBuilder.umaLocacao().paraUsuario(joao).comValor(6.0)
 				.comDataLocacao(dataInicio.plusDays(5)).constroi();
 		
@@ -116,13 +118,9 @@ public class LocacaoRepositoryTest {
 
         // garantindo que a query funcionou
         assertEquals(3, listaLocacoes.size() );
-       
-        
-        assertThat(4.0, is(listaLocacoes.get(0).getValor()) );
-		assertThat(5.0, is(listaLocacoes.get(1).getValor()) );
-		assertThat(6.0, is(listaLocacoes.get(2).getValor()) );
 
-        
+        assertThat(listaLocacoes.get(0).getValor(), is(4.0) );
+		assertThat(listaLocacoes.get(1).getValor(), is(5.0) );
+		assertThat(listaLocacoes.get(2).getValor(), is(6.0) );
     }
-
 }

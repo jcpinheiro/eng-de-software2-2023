@@ -1,10 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e790ed8-5204-4199-a185-e360a39f20b6" name="Default Changelist" comment="" />
-    <ignored path="$PROJECT_DIR$/classes/" />
-    <ignored path="$PROJECT_DIR$/target/classes/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="9e790ed8-5204-4199-a185-e360a39f20b6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02-minicurso_junit/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02-minicurso_junit/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../02-minicurso_junit/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02-minicurso_junit/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02-minicurso_junit/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../02-minicurso_junit/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02-minicurso_junit/src/test/java/dcomp/es2/locadora/modelo/FilmeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../02-minicurso_junit/src/test/java/dcomp/es2/locadora/modelo/FilmeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02-minicurso_junit/src/test/java/dcomp/es2/locadora/servico/LocacaoServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../02-minicurso_junit/src/test/java/dcomp/es2/locadora/servico/LocacaoServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02-minicurso_junit/src/test/java/dcomp/es2/locadora/servico/LocacaoServiceTest_V2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../02-minicurso_junit/src/test/java/dcomp/es2/locadora/servico/LocacaoServiceTest_V2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02-minicurso_junit/target/classes/dcomp/es2/locadora/modelo/Filme.class" beforeDir="false" afterPath="$PROJECT_DIR$/../02-minicurso_junit/target/classes/dcomp/es2/locadora/modelo/Filme.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02-minicurso_junit/target/classes/dcomp/es2/locadora/modelo/Locacao.class" beforeDir="false" afterPath="$PROJECT_DIR$/../02-minicurso_junit/target/classes/dcomp/es2/locadora/modelo/Locacao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02-minicurso_junit/target/classes/dcomp/es2/locadora/modelo/Usuario.class" beforeDir="false" afterPath="$PROJECT_DIR$/../02-minicurso_junit/target/classes/dcomp/es2/locadora/modelo/Usuario.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02-minicurso_junit/target/classes/dcomp/es2/locadora/servico/LocacaoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../02-minicurso_junit/target/classes/dcomp/es2/locadora/servico/LocacaoService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02-minicurso_junit/target/classes/dcomp/es2/locadora/utils/DataUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/../02-minicurso_junit/target/classes/dcomp/es2/locadora/utils/DataUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02-minicurso_junit/target/test-classes/AssertivasTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../02-minicurso_junit/target/test-classes/AssertivasTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02-minicurso_junit/target/test-classes/dcomp/es2/locadora/builder/FilmeBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../02-minicurso_junit/target/test-classes/dcomp/es2/locadora/builder/FilmeBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02-minicurso_junit/target/test-classes/dcomp/es2/locadora/modelo/FilmeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../02-minicurso_junit/target/test-classes/dcomp/es2/locadora/modelo/FilmeTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02-minicurso_junit/target/test-classes/dcomp/es2/locadora/servico/LocacaoServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../02-minicurso_junit/target/test-classes/dcomp/es2/locadora/servico/LocacaoServiceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02-minicurso_junit/target/test-classes/dcomp/es2/locadora/servico/LocacaoServiceTest_V2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../02-minicurso_junit/target/test-classes/dcomp/es2/locadora/servico/LocacaoServiceTest_V2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/argentum.iml" beforeDir="false" afterPath="$PROJECT_DIR$/argentum.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/argentum/modelo/Candlestick.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/argentum/modelo/Candlestick.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/argentum/modelo/CandlestickFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/argentum/modelo/CandlestickFactoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/argentum/modelo/CandlestickTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/argentum/modelo/CandlestickTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/argentum/modelo/NegociacaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/argentum/modelo/NegociacaoTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,48 +54,8 @@
     <option name="testRunner" value="GRADLE" />
     <option name="delegatedBuild" value="true" />
   </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
-              <caret line="25" column="11" selection-start-line="17" selection-start-column="42" selection-end-line="25" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/argentum/modelo/NegociacaoTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/argentum/modelo/CandlestickFactoryTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/argentum/modelo/CandlestickTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -64,11 +64,23 @@
       </list>
     </option>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="950" />
     <option name="width" value="980" />
     <option name="height" value="1040" />
   </component>
+  <component name="ProjectId" id="2FcnHacvAM0PUWO7yduYflD3Qke" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -115,29 +127,28 @@
       </pane>
     </panes>
   </component>
-  <component name="PropertiesComponent">
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": ""
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.argentum.modelo" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.All in argentum (1)">
+  <component name="RunManager" selected="JUnit.CandlestickFactoryTest.negociacaoDeTresDiasDiferentesGeraTresCandlesDiferentes">
     <configuration name="All in argentum (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="argentum" />
       <option name="PACKAGE_NAME" value="" />
@@ -154,7 +165,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.argentum.modelo in argentum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CandlestickFactoryTest.negociacaoDeTresDiasDiferentesGeraTresCandlesDiferentes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="argentum" />
       <extension name="coverage">
         <pattern>
@@ -163,19 +174,55 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.argentum.modelo" />
-      <option name="TEST_OBJECT" value="package" />
+      <option name="MAIN_CLASS_NAME" value="com.argentum.modelo.CandlestickFactoryTest" />
+      <option name="METHOD_NAME" value="negociacaoDeTresDiasDiferentesGeraTresCandlesDiferentes" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NegociacaoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="argentum" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.argentum.modelo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.argentum.modelo" />
+      <option name="MAIN_CLASS_NAME" value="com.argentum.modelo.NegociacaoTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NegociacaoTest.naoDeveCriarNegociacaoComPrecoNegativo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="argentum" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.argentum.modelo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.argentum.modelo" />
+      <option name="MAIN_CLASS_NAME" value="com.argentum.modelo.NegociacaoTest" />
+      <option name="METHOD_NAME" value="naoDeveCriarNegociacaoComPrecoNegativo" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.All in argentum (1)" />
+        <item itemvalue="JUnit.CandlestickFactoryTest.negociacaoDeTresDiasDiferentesGeraTresCandlesDiferentes" />
+        <item itemvalue="JUnit.NegociacaoTest" />
+        <item itemvalue="JUnit.NegociacaoTest.naoDeveCriarNegociacaoComPrecoNegativo" />
         <item itemvalue="JUnit.All in argentum" />
-        <item itemvalue="JUnit.com.argentum.modelo in argentum" />
+        <item itemvalue="JUnit.All in argentum (1)" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -240,6 +287,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">

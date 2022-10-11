@@ -2,6 +2,7 @@ package dcomp.es2.locadora.builder;
 
 import java.time.LocalDate;
 import java.util.Arrays;
+import java.util.List;
 
 import dcomp.es2.locadora.modelo.Filme;
 import dcomp.es2.locadora.modelo.Locacao;
@@ -21,7 +22,7 @@ public class LocacaoBuilder {
 		
 		builder.locacao.setUsuario(UsuarioBuilder.umUsuario().constroi() );
 		
-		builder.locacao.setFilmes(Arrays.asList(FilmeBuilder.umFilme().constroi() ) );
+		builder.locacao.setFilmes(List.of(FilmeBuilder.umFilme().constroi() ) );
 		
 		builder.locacao.setDataLocacao(LocalDate.now() );
 		builder.locacao.setDataPrevista(LocalDate.now().plusDays(1) );
@@ -38,7 +39,7 @@ public class LocacaoBuilder {
 	}
 
 	public LocacaoBuilder comListaFilmes(Filme... filme) {
-		locacao.setFilmes(Arrays.asList(filme) );
+		locacao.setFilmes(List.of(filme) );
 		return this;
 	}
 
@@ -72,12 +73,8 @@ public class LocacaoBuilder {
 
 		return this;
 	}
-
-
 	public Locacao constroi() {
 		return locacao;
 	}
-
-
 
 }

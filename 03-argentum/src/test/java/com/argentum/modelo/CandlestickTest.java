@@ -1,24 +1,24 @@
 package com.argentum.modelo;
 
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
+
 import java.time.LocalDateTime;
 
-import org.junit.Assert;
-import org.junit.Test;
-
 public class CandlestickTest {
-	
-	
-	@Test(expected=IllegalArgumentException.class)
+
+	@Test
 	public void maximoNaoDeveSerMenorDoQueMinimo(){
 		
 		LocalDateTime hoje = LocalDateTime.now();
 		
 		CandleBuilder builder = new CandleBuilder();
-		
-		Candlestick candle = builder.comAbertura(10.0).comFechamento(30.0)
+
+		Assertions.assertThrows(IllegalArgumentException.class,
+				() ->  builder.comAbertura(10.0).comFechamento(30.0)
 									.comMinimo(25.0).comMaximo(15.0)
 									.comVolume(200.0).comData(hoje)
-									.geraCandle();	
+									.geraCandle() );
 	}
 	
 	@Test
@@ -33,7 +33,7 @@ public class CandlestickTest {
 									.comVolume(200.0).comData(hoje)
 									.geraCandle();	
 		
-		Assert.assertTrue(candle.isAlta());
+		Assertions.assertTrue(candle.isAlta());
 		
 	}
 

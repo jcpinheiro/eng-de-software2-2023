@@ -19,7 +19,6 @@ public class Locacao {
 	@Id @GeneratedValue(strategy=GenerationType.IDENTITY)
 	private Integer id;
 	
-	
 	@ManyToOne(cascade= {CascadeType.MERGE, CascadeType.PERSIST})
 	private Usuario usuario;
 	

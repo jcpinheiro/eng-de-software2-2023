@@ -16,7 +16,6 @@ public class LocacaoServiceTest {
     private LocacaoService locacaoService;
     private Usuario joao;
 
-
     @BeforeEach
     public void inicio() {
         locacaoService = new LocacaoService();
@@ -26,43 +25,35 @@ public class LocacaoServiceTest {
 
     @Test
     public void deveAlugarFilme() {
-
         // cenário
-
         Filme filme = new Filme("Batman o Retorno", 3, 4.0);
-
         // ação
         Locacao locacao = locacaoService.alugarFilmes(joao, filme);
-
         // verificação
+
+        LocalDate hoje = LocalDate.now();
+        LocalDate amanha = LocalDate.now().plusDays(1);
+
         assertEquals(locacao.getValor(),4.0, 0.00001 );
-        assertEquals(locacao.getDataLocacao(), LocalDate.now() );
-        assertTrue(locacao.getDataRetorno().equals(LocalDate.now().plusDays(1)) );
+        assertEquals(locacao.getDataLocacao(), hoje );
+        assertTrue(locacao.getDataRetorno().equals(amanha) );
 
     }
 
     @Test
     public void naoDeveAlugarFilmeSemEstoque() {
-
         // cenário
-
         Filme filme = FilmeBuilder.umFilme()
                             .semEstoque()
                             .comPrecoDe(6.50 )
                             .constroi();
 
-        Filme filme1 = FilmeBuilder.umFilme().constroi();
-
-
         IllegalArgumentException exception =
-
                 assertThrows(IllegalArgumentException.class,
                              () -> locacaoService.alugarFilmes(joao, filme),
                              "Deveria ter lançado um IllegalArgumentException");
 
         assertTrue(exception.getMessage().contains("Filme sem Estoque"));
-
-
     }
 
 

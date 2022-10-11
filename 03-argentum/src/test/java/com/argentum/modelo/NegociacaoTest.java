@@ -1,25 +1,39 @@
 package com.argentum.modelo;
 
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
+
 import java.time.LocalDateTime;
 
-import org.junit.Assert;
-import org.junit.Test;
+import static org.junit.jupiter.api.Assertions.assertThrows;
+
 
 public class NegociacaoTest {
 
-	@Test(expected=IllegalArgumentException.class)
-	public void naoDeveCriarNegociacaoComPrecoNegativo(){
-		new Negociacao(-20.0, 2, LocalDateTime.now());
+	@Test
+	public void naoDeveCriarNegociacaoComPrecoNegativo() {
+		IllegalArgumentException exception =
+				assertThrows(IllegalArgumentException.class,
+				() -> new Negociacao(-0.01, 2, LocalDateTime.now()));
+
+		Assertions.assertTrue(exception
+				              .getMessage()
+				               .contains("O preco nao pode ser negativo"));
+
+
 	}
 	
-	@Test(expected=IllegalArgumentException.class)
-	public void naoDeveCriarNegociacaoComDataNula(){
-		new Negociacao(10.0, 2, null);
+	@Test
+	public void naoDeveCriarNegociacaoComDataNula() {
+		assertThrows(IllegalArgumentException.class,
+						      () -> new Negociacao(10.0, 2, null) );
+
 	}
-	
-	@Test(expected=IllegalArgumentException.class)
-	public void naoDeveCriarNegociacaoComQuantidadeNegativa(){
-		new Negociacao(10.0, -2, LocalDateTime.now());
+
+	@Test
+	public void naoDeveCriarNegociacaoComQuantidadeNegativa() {
+		assertThrows(IllegalArgumentException.class,
+				                () -> new Negociacao(10.0, -1, LocalDateTime.now()) );
 	}
 	
 	@Test
@@ -29,45 +43,42 @@ public class NegociacaoTest {
 		
 		Negociacao negociacao = new Negociacao(100.0, 20, hoje);
 		
-		Assert.assertTrue(negociacao.isMesmoDia(agora) );
+		Assertions.assertTrue(negociacao.isMesmoDia(agora) );
 		
 	}
 	
 	@Test
 	public void horariosDiferentesEhMesmoDia(){
-		LocalDateTime hoje = LocalDateTime.of(2016, 04, 04, 12, 00);
-		
-		LocalDateTime agora = LocalDateTime.of(2016, 04, 04, 13, 00);
-		
+
+		LocalDateTime hoje  = LocalDateTime.of(2022, 04, 04, 12, 00);
+		LocalDateTime agora = LocalDateTime.of(2022, 04, 04, 13, 00);
+
 		Negociacao negociacao = new Negociacao(100.0, 20, hoje);
 		
-		Assert.assertTrue(negociacao.isMesmoDia(agora));
+		Assertions.assertTrue(negociacao.isMesmoDia(agora));
 		
 	}
 	
 	@Test
 	public void mesesDiferentesNaoEhMesmoDia(){
-		LocalDateTime hoje = LocalDateTime.of(2016, 04, 04, 12, 00);
-		
-		LocalDateTime agora = LocalDateTime.of(2016, 03, 04, 13, 00);
+		LocalDateTime hoje  = LocalDateTime.of(2022, 04, 04, 12, 00);
+		LocalDateTime agora = LocalDateTime.of(2022, 03, 04, 13, 00);
 		
 		Negociacao negociacao = new Negociacao(100.0, 20, hoje);
 		
-		Assert.assertFalse(negociacao.isMesmoDia(agora));
+		Assertions.assertFalse(negociacao.isMesmoDia(agora));
 		
 	}
 	
 	@Test
 	public void anosDiferentesNaoEhMesmoDia(){
-		LocalDateTime hoje = LocalDateTime.of(2016, 04, 04, 12, 00);
-		
-		LocalDateTime agora = LocalDateTime.of(2017, 04, 04, 13, 00);
+
+		LocalDateTime hoje  = LocalDateTime.of(2021, 04, 04, 12, 00);
+		LocalDateTime agora = LocalDateTime.of(2022, 04, 04, 13, 00);
 		
 		Negociacao negociacao = new Negociacao(100.0, 20, hoje);
 		
-		Assert.assertFalse(negociacao.isMesmoDia(agora));
-		
+		Assertions.assertFalse(negociacao.isMesmoDia(agora));
 	}
-	 
-	
+
 }

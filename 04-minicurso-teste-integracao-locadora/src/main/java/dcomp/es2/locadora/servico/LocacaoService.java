@@ -20,34 +20,28 @@ public class LocacaoService {
 	private EmailService emailService;
 	
 	public Locacao alugarFilme(Usuario usuario, Filme filme) {
-
 		return this.alugarFilmes(usuario, Arrays.asList(filme ));
 	}
 	
 	
 	public Locacao alugarFilmes(Usuario usuario, List<Filme> filmes) {
-		
 		if (usuario == null) {
 			throw new IllegalArgumentException("Usuário não pode ser nulo");
 		}
-		
-		
+
 		filmes.forEach(filme -> { 
 			if (filme.getEstoque() == 0) 
 				 throw new IllegalStateException("O filme " + filme.getNome() + "sem estoque.");
 		});
 		
-		if (spcService.estaNegativado(usuario) ) {
+	/*	if (spcService.estaNegativado(usuario) ) {
 			throw new IllegalStateException("Não pode alugar filme para usuario com pendências no SPC");
-			
-		}
+		}*/
 		
-			
 	   Locacao locacao = new Locacao();
 	   locacao.setFilmes(filmes );
 	   locacao.setUsuario(usuario);
 	   locacao.setDataLocacao(LocalDate.now() );
-	   
 	   
 	   LocalDate dataRetorno = LocalDate.now().plusDays(1);
 	   
@@ -63,7 +57,6 @@ public class LocacaoService {
 		
 		
 		//Salvando a locacao...	
-		//TODO adicionar método para salvar
         locacaoRepository.salva(locacao);
 		
 		return locacao;
@@ -75,7 +68,6 @@ public class LocacaoService {
 		   
 		   for(int i=1; i <= filmes.size(); i++) {
 			   double valorFilme = filmes.get(i-1).getPrecoLocacao();
-			   
 			   
 			   switch(i) {
 			   

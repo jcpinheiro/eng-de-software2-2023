@@ -63,8 +63,6 @@ public class UsuarioRepositoryTest {
 				"Deveria ter lançado a exceção NoResultException");
 	}
 
-
-
 	@Test
 	public void deveExcluirUmUsuario() {
 		Usuario usuario = new Usuario("João Carlos");

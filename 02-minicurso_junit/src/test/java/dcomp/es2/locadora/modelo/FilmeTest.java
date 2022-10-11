@@ -4,6 +4,8 @@ import dcomp.es2.locadora.builder.FilmeBuilder;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
+import static org.junit.jupiter.api.Assertions.*;
+
 class FilmeTest {
 
     @Test
@@ -14,7 +16,8 @@ class FilmeTest {
                 .comPrecoDe(0.01d)
                 .constroi();
 
-        Assertions.assertEquals(0.01d, filme.getPrecoLocacao().doubleValue(), 0.00001 );
+        assertEquals(0.01d,
+                filme.getPrecoLocacao().doubleValue(), 0.00001 );
 
     }
 
@@ -24,10 +27,13 @@ class FilmeTest {
 
         Filme filme = FilmeBuilder.umFilme().constroi();
 
-        Assertions.assertThrows(
+
+        IllegalArgumentException exception = assertThrows(
                 IllegalArgumentException.class,
-                () -> filme.setPrecoLocacao(0d) ,
-                "O preço da locaçao deve ser maior do que Zero" );
+                () -> filme.setPrecoLocacao(0d),
+                "O preço da locaçao deve ser maior do que Zero");
+
+        assertTrue(exception.getMessage().contains("O preço da locaçao deve ser maior do que Zero"));
 
     }
 
@@ -37,7 +43,7 @@ class FilmeTest {
         Filme filme = FilmeBuilder.umFilme().constroi();
 
 
-        Assertions.assertThrows( IllegalArgumentException.class,
+        assertThrows( IllegalArgumentException.class,
                 () -> filme.setPrecoLocacao(-0.01d),
                 "O preço da locaçao deve ser maior do que Zero" );
     }

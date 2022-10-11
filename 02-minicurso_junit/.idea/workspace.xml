@@ -1,14 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="cfb31954-998c-4ac5-a80a-19ad28124824" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../01-minicurso_solid/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../01-minicurso_solid/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../01-minicurso_solid/src/solid/p01/coesao_SRP/cenario2/parte2/CalculadoraDeSalario.java" beforeDir="false" afterPath="$PROJECT_DIR$/../01-minicurso_solid/src/solid/p01/coesao_SRP/cenario2/parte2/CalculadoraDeSalario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../01-minicurso_solid/src/solid/p03/ocp_dip/parte1/CalculadoraDePrecos.java" beforeDir="false" afterPath="$PROJECT_DIR$/../01-minicurso_solid/src/solid/p03/ocp_dip/parte1/CalculadoraDePrecos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-argentum/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-argentum/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-argentum/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-argentum/.idea/libraries/Maven__org_hamcrest_hamcrest_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-argentum/.idea/libraries/Maven__org_hamcrest_hamcrest_core_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-argentum/.idea/libraries/Maven__org_hamcrest_hamcrest_library_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-argentum/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-argentum/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-argentum/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-argentum/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-argentum/.idea/libraries/Maven__org_opentest4j_opentest4j_1_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-argentum/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dcomp/es2/locadora/servico/LocacaoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dcomp/es2/locadora/servico/LocacaoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AssertivasTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AssertivasTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/dcomp/es2/locadora/modelo/FilmeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dcomp/es2/locadora/modelo/FilmeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/dcomp/es2/locadora/servico/LocacaoServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dcomp/es2/locadora/servico/LocacaoServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/dcomp/es2/locadora/servico/LocacaoServiceTest_V2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dcomp/es2/locadora/servico/LocacaoServiceTest_V2.java" afterDir="false" />
@@ -22,12 +34,17 @@
       <change beforePath="$PROJECT_DIR$/target/test-classes/dcomp/es2/locadora/modelo/FilmeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/dcomp/es2/locadora/modelo/FilmeTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/dcomp/es2/locadora/servico/LocacaoServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/dcomp/es2/locadora/servico/LocacaoServiceTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/dcomp/es2/locadora/servico/LocacaoServiceTest_V2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/dcomp/es2/locadora/servico/LocacaoServiceTest_V2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04-minicurso-teste-integracao-locadora/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../04-minicurso-teste-integracao-locadora/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04-minicurso-teste-integracao-locadora/src/test/java/dcomp/es2/locadora/repositorio/UsuarioRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../04-minicurso-teste-integracao-locadora/src/test/java/dcomp/es2/locadora/repositorio/UsuarioRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-argentum/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-argentum/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../03-argentum/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-argentum/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../03-argentum/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-argentum/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-argentum/argentum.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../03-argentum/argentum.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-argentum/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../03-argentum/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-argentum/src/main/java/com/argentum/modelo/Candlestick.java" beforeDir="false" afterPath="$PROJECT_DIR$/../03-argentum/src/main/java/com/argentum/modelo/Candlestick.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-argentum/src/test/java/com/argentum/modelo/CandlestickFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../03-argentum/src/test/java/com/argentum/modelo/CandlestickFactoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-argentum/src/test/java/com/argentum/modelo/CandlestickTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../03-argentum/src/test/java/com/argentum/modelo/CandlestickTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-argentum/src/test/java/com/argentum/modelo/NegociacaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../03-argentum/src/test/java/com/argentum/modelo/NegociacaoTest.java" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,55 +52,6 @@
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/dcomp/es2/locadora/servico/LocacaoServiceTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="365">
-              <caret line="38" column="20" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/dcomp/es2/locadora/builder/FilmeBuilder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="417">
-              <caret line="35" column="23" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dcomp/es2/locadora/servico/LocacaoService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="13" column="57" selection-start-line="13" selection-start-column="54" selection-end-line="13" selection-end-column="57" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/dcomp/es2/locadora/servico/LocacaoServiceTest_V2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1840">
-              <caret line="92" column="78" lean-forward="true" selection-start-line="92" selection-start-column="78" selection-end-line="95" selection-end-column="8" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -115,12 +83,8 @@
       </list>
     </option>
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
@@ -138,6 +102,7 @@
     <option name="width" value="1702" />
     <option name="height" value="1040" />
   </component>
+  <component name="ProjectId" id="2FOuu33OZLmaEgty0W88CD3p8oB" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -193,23 +158,19 @@
       <pane id="Scope" />
     </panes>
   </component>
-  <component name="PropertiesComponent">
-    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java/dcomp/es2/locadora" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/dcomp/es2/locadora" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/disciplinas/padroes-de-projeto/padroes-vespertino&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  }
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
       <recent name="dcomp.es2.locadora.modelo" />
@@ -227,29 +188,33 @@
       <recent name="C:\Users\joaoc\Documents\disciplinas\Engenharia de Software II\codigos\02-minicurso_junit\src\main\java" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="JUnit.All in 02-minicurso-junit">
-    <configuration name="All in 02-minicurso-junit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="02-minicurso-junit" />
+  <component name="RunManager" selected="JUnit.LocacaoServiceTest_V2.deveAplicarDesconto10PctNoSegundoFilme">
+    <configuration name="All in 02-minicurso_junit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="02-minicurso_junit" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FilmeTest.deveTerPrecoLocacaoPositivo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="02-minicurso_junit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dcomp.es2.locadora.modelo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dcomp.es2.locadora.modelo" />
+      <option name="MAIN_CLASS_NAME" value="dcomp.es2.locadora.modelo.FilmeTest" />
+      <option name="METHOD_NAME" value="deveTerPrecoLocacaoPositivo" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FilmeTest.naoDeveTerPrecoLocacaoIgualAZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="02-minicurso-junit" />
+      <module name="02-minicurso_junit" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="dcomp.es2.locadora.modelo.*" />
@@ -264,23 +229,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LocacaoServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="02-minicurso-junit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dcomp.es2.locadora.servico.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="dcomp.es2.locadora.servico" />
-      <option name="MAIN_CLASS_NAME" value="dcomp.es2.locadora.servico.LocacaoServiceTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LocacaoServiceTest_V2.deveAplicarDesconto30PctNoTerceiroFilme" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="02-minicurso-junit" />
+    <configuration name="LocacaoServiceTest_V2.deveAplicarDesconto10PctNoSegundoFilme" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="02-minicurso_junit" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="dcomp.es2.locadora.servico.*" />
@@ -289,14 +239,14 @@
       </extension>
       <option name="PACKAGE_NAME" value="dcomp.es2.locadora.servico" />
       <option name="MAIN_CLASS_NAME" value="dcomp.es2.locadora.servico.LocacaoServiceTest_V2" />
-      <option name="METHOD_NAME" value="deveAplicarDesconto30PctNoTerceiroFilme" />
+      <option name="METHOD_NAME" value="deveAplicarDesconto10PctNoSegundoFilme" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LocacaoServiceTest.naoDeveAlugarFilmeSemEstoque" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="02-minicurso-junit" />
+    <configuration name="LocacaoServiceTest_V2.naoDeveDevolverUmFilmeNoDomingo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="02-minicurso_junit" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="dcomp.es2.locadora.servico.*" />
@@ -304,8 +254,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="dcomp.es2.locadora.servico" />
-      <option name="MAIN_CLASS_NAME" value="dcomp.es2.locadora.servico.LocacaoServiceTest" />
-      <option name="METHOD_NAME" value="naoDeveAlugarFilmeSemEstoque" />
+      <option name="MAIN_CLASS_NAME" value="dcomp.es2.locadora.servico.LocacaoServiceTest_V2" />
+      <option name="METHOD_NAME" value="naoDeveDevolverUmFilmeNoDomingo" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -313,14 +263,15 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.All in 02-minicurso-junit" />
-        <item itemvalue="JUnit.LocacaoServiceTest_V2.deveAplicarDesconto30PctNoTerceiroFilme" />
-        <item itemvalue="JUnit.LocacaoServiceTest.naoDeveAlugarFilmeSemEstoque" />
-        <item itemvalue="JUnit.LocacaoServiceTest" />
+        <item itemvalue="JUnit.LocacaoServiceTest_V2.deveAplicarDesconto10PctNoSegundoFilme" />
+        <item itemvalue="JUnit.All in 02-minicurso_junit" />
         <item itemvalue="JUnit.FilmeTest.naoDeveTerPrecoLocacaoIgualAZero" />
+        <item itemvalue="JUnit.FilmeTest.deveTerPrecoLocacaoPositivo" />
+        <item itemvalue="JUnit.LocacaoServiceTest_V2.naoDeveDevolverUmFilmeNoDomingo" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -338,6 +289,8 @@
       <workItem from="1601949574786" duration="5430000" />
       <workItem from="1602278829223" duration="3498000" />
       <workItem from="1602610921145" duration="4163000" />
+      <workItem from="1664375678941" duration="683000" />
+      <workItem from="1664558989279" duration="82000" />
     </task>
     <servers />
   </component>
@@ -451,7 +404,22 @@
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-api/5.1.0/junit-jupiter-api-5.1.0-sources.jar!/org/junit/jupiter/api/function/Executable.java">
