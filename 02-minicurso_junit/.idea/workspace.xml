@@ -5,45 +5,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfb31954-998c-4ac5-a80a-19ad28124824" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../03-argentum/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../03-argentum/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../03-argentum/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../03-argentum/.idea/libraries/Maven__org_hamcrest_hamcrest_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../03-argentum/.idea/libraries/Maven__org_hamcrest_hamcrest_core_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../03-argentum/.idea/libraries/Maven__org_hamcrest_hamcrest_library_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../03-argentum/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../03-argentum/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../03-argentum/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../03-argentum/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../03-argentum/.idea/libraries/Maven__org_opentest4j_opentest4j_1_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../03-argentum/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05-minicurso-teste-mocks-locadora/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05-minicurso-teste-mocks-locadora/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05-minicurso-teste-mocks-locadora/.idea/libraries/Maven__org_hamcrest_hamcrest_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05-minicurso-teste-mocks-locadora/src/test/java/dcomp/es2/locadora/modelo/FilmeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/dcomp/es2/locadora/modelo/FilmeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dcomp/es2/locadora/modelo/FilmeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/dcomp/es2/locadora/servico/LocacaoServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dcomp/es2/locadora/servico/LocacaoServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/dcomp/es2/locadora/servico/LocacaoServiceTest_V2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dcomp/es2/locadora/servico/LocacaoServiceTest_V2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dcomp/es2/locadora/modelo/Filme.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dcomp/es2/locadora/modelo/Filme.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dcomp/es2/locadora/modelo/Locacao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dcomp/es2/locadora/modelo/Locacao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dcomp/es2/locadora/modelo/Usuario.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dcomp/es2/locadora/modelo/Usuario.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dcomp/es2/locadora/servico/LocacaoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dcomp/es2/locadora/servico/LocacaoService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dcomp/es2/locadora/utils/DataUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dcomp/es2/locadora/utils/DataUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/AssertivasTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/AssertivasTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/dcomp/es2/locadora/builder/FilmeBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/dcomp/es2/locadora/builder/FilmeBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/dcomp/es2/locadora/modelo/FilmeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/dcomp/es2/locadora/modelo/FilmeTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/dcomp/es2/locadora/servico/LocacaoServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/dcomp/es2/locadora/servico/LocacaoServiceTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/dcomp/es2/locadora/servico/LocacaoServiceTest_V2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/dcomp/es2/locadora/servico/LocacaoServiceTest_V2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03-argentum/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03-argentum/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../03-argentum/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03-argentum/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../03-argentum/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03-argentum/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03-argentum/argentum.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../03-argentum/argentum.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03-argentum/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../03-argentum/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03-argentum/src/main/java/com/argentum/modelo/Candlestick.java" beforeDir="false" afterPath="$PROJECT_DIR$/../03-argentum/src/main/java/com/argentum/modelo/Candlestick.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03-argentum/src/test/java/com/argentum/modelo/CandlestickFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../03-argentum/src/test/java/com/argentum/modelo/CandlestickFactoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03-argentum/src/test/java/com/argentum/modelo/CandlestickTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../03-argentum/src/test/java/com/argentum/modelo/CandlestickTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03-argentum/src/test/java/com/argentum/modelo/NegociacaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../03-argentum/src/test/java/com/argentum/modelo/NegociacaoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-minicurso-teste-integracao-locadora/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../04-minicurso-teste-integracao-locadora/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-minicurso-teste-integracao-locadora/src/main/java/dcomp/es2/locadora/repositorio/LocacaoRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../04-minicurso-teste-integracao-locadora/src/main/java/dcomp/es2/locadora/repositorio/LocacaoRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-minicurso-teste-integracao-locadora/src/test/java/dcomp/es2/locadora/repositorio/LocacaoRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../04-minicurso-teste-integracao-locadora/src/test/java/dcomp/es2/locadora/repositorio/LocacaoRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-minicurso-teste-integracao-locadora/src/test/java/dcomp/es2/locadora/repositorio/UsuarioRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../04-minicurso-teste-integracao-locadora/src/test/java/dcomp/es2/locadora/repositorio/UsuarioRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-minicurso-teste-mocks-locadora/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05-minicurso-teste-mocks-locadora/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-minicurso-teste-mocks-locadora/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-minicurso-teste-mocks-locadora/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_0_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05-minicurso-teste-mocks-locadora/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-minicurso-teste-mocks-locadora/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05-minicurso-teste-mocks-locadora/.idea/libraries/Maven__org_hamcrest_hamcrest_core_2_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-minicurso-teste-mocks-locadora/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05-minicurso-teste-mocks-locadora/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_9_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-minicurso-teste-mocks-locadora/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-minicurso-teste-mocks-locadora/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05-minicurso-teste-mocks-locadora/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_9_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-minicurso-teste-mocks-locadora/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-minicurso-teste-mocks-locadora/.idea/libraries/Maven__org_mockito_mockito_all_1_10_19.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-minicurso-teste-mocks-locadora/.idea/libraries/Maven__org_opentest4j_opentest4j_1_0_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05-minicurso-teste-mocks-locadora/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-minicurso-teste-mocks-locadora/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05-minicurso-teste-mocks-locadora/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-minicurso-teste-mocks-locadora/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05-minicurso-teste-mocks-locadora/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-minicurso-teste-mocks-locadora/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05-minicurso-teste-mocks-locadora/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-minicurso-teste-mocks-locadora/src/main/java/dcomp/es2/locadora/modelo/Filme.java" beforeDir="false" afterPath="$PROJECT_DIR$/../05-minicurso-teste-mocks-locadora/src/main/java/dcomp/es2/locadora/modelo/Filme.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-minicurso-teste-mocks-locadora/src/main/java/dcomp/es2/locadora/repositorio/UsuarioRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../05-minicurso-teste-mocks-locadora/src/main/java/dcomp/es2/locadora/repositorio/UsuarioRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-minicurso-teste-mocks-locadora/src/main/java/dcomp/es2/locadora/servico/LocacaoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../05-minicurso-teste-mocks-locadora/src/main/java/dcomp/es2/locadora/servico/LocacaoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-minicurso-teste-mocks-locadora/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05-minicurso-teste-mocks-locadora/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-minicurso-teste-mocks-locadora/src/test/java/AssertivasTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../05-minicurso-teste-mocks-locadora/src/test/java/AssertivasTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-minicurso-teste-mocks-locadora/src/test/java/dcomp/es2/locadora/builder/FilmeBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../05-minicurso-teste-mocks-locadora/src/test/java/dcomp/es2/locadora/builder/FilmeBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-minicurso-teste-mocks-locadora/src/test/java/dcomp/es2/locadora/repositorio/LocacaoRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../05-minicurso-teste-mocks-locadora/src/test/java/dcomp/es2/locadora/repositorio/LocacaoRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-minicurso-teste-mocks-locadora/src/test/java/dcomp/es2/locadora/servico/LocacaoServiceTestJUnit5.java" beforeDir="false" afterPath="$PROJECT_DIR$/../05-minicurso-teste-mocks-locadora/src/test/java/dcomp/es2/locadora/servico/LocacaoServiceTestJUnit5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-minicurso-teste-mocks-locadora/testes.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../05-minicurso-teste-mocks-locadora/testes.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -291,6 +284,7 @@
       <workItem from="1602610921145" duration="4163000" />
       <workItem from="1664375678941" duration="683000" />
       <workItem from="1664558989279" duration="82000" />
+      <workItem from="1666182128870" duration="624000" />
     </task>
     <servers />
   </component>
