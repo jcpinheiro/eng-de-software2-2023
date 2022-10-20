@@ -1,7 +1,6 @@
 package dcomp.es2.locadora.repositorio;
 
 import javax.persistence.EntityManager;
-import javax.transaction.Transactional;
 
 import dcomp.es2.locadora.modelo.Usuario;
 
@@ -15,7 +14,6 @@ public class UsuarioRepositoryImpl implements UsuarioRepository {
 
 	@Override
 	public Usuario buscaPorNome(String nome) {
-
 		return manager.createQuery("SELECT u FROM Usuario u WHERE u.nome = :pNome", Usuario.class)
 				.setParameter("pNome", nome)
 				.getSingleResult();

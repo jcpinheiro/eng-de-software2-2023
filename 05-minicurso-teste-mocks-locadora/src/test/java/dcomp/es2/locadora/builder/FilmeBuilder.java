@@ -36,4 +36,8 @@ public class FilmeBuilder {
 	}
 
 
+	public FilmeBuilder comPrecoDe(double valor ) {
+		this.filme.setPrecoLocacao(valor);
+		return this;
+	}
 }

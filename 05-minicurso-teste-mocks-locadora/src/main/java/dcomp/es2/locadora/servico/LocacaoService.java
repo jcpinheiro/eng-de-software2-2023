@@ -5,8 +5,6 @@ import java.time.LocalDate;
 import java.util.Arrays;
 import java.util.List;
 
-import javax.transaction.Transactional;
-
 import dcomp.es2.locadora.modelo.Filme;
 import dcomp.es2.locadora.modelo.Locacao;
 import dcomp.es2.locadora.modelo.Usuario;

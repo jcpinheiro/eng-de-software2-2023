@@ -28,7 +28,8 @@ public class Filme {
 		this.estoque = estoque;
 		this.precoLocacao = precoLocacao;
 	}
-	
+
+
 	public String getNome() {
 		return nome;
 	}
@@ -44,7 +45,14 @@ public class Filme {
 	public Double getPrecoLocacao() {
 		return precoLocacao;
 	}
+
 	public void setPrecoLocacao(Double precoLocacao) {
+		if (precoLocacao < 0) {
+			throw new IllegalArgumentException("Preço da locação não pode ser negativo");
+		}
+		if (precoLocacao == 0) {
+			throw new IllegalArgumentException("O preço da locaçao deve ser maior do que Zero");
+		}
 		this.precoLocacao = precoLocacao;
 	}
 }

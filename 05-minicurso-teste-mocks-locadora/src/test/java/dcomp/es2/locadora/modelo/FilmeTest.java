@@ -1,7 +1,6 @@
 package dcomp.es2.locadora.modelo;
 
 import dcomp.es2.locadora.builder.FilmeBuilder;
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

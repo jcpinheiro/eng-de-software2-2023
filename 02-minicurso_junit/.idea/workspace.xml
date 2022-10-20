@@ -5,26 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfb31954-998c-4ac5-a80a-19ad28124824" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../05-minicurso-teste-mocks-locadora/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../05-minicurso-teste-mocks-locadora/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../05-minicurso-teste-mocks-locadora/.idea/libraries/Maven__org_hamcrest_hamcrest_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../05-minicurso-teste-mocks-locadora/src/test/java/dcomp/es2/locadora/modelo/FilmeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../04-minicurso-teste-integracao-locadora/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../04-minicurso-teste-integracao-locadora/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../04-minicurso-teste-integracao-locadora/src/main/java/dcomp/es2/locadora/repositorio/LocacaoRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../04-minicurso-teste-integracao-locadora/src/main/java/dcomp/es2/locadora/repositorio/LocacaoRepositoryImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../04-minicurso-teste-integracao-locadora/src/test/java/dcomp/es2/locadora/repositorio/LocacaoRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../04-minicurso-teste-integracao-locadora/src/test/java/dcomp/es2/locadora/repositorio/LocacaoRepositoryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../04-minicurso-teste-integracao-locadora/src/test/java/dcomp/es2/locadora/repositorio/UsuarioRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../04-minicurso-teste-integracao-locadora/src/test/java/dcomp/es2/locadora/repositorio/UsuarioRepositoryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../05-minicurso-teste-mocks-locadora/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05-minicurso-teste-mocks-locadora/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05-minicurso-teste-mocks-locadora/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05-minicurso-teste-mocks-locadora/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_0_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05-minicurso-teste-mocks-locadora/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05-minicurso-teste-mocks-locadora/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05-minicurso-teste-mocks-locadora/.idea/libraries/Maven__org_hamcrest_hamcrest_core_2_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05-minicurso-teste-mocks-locadora/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05-minicurso-teste-mocks-locadora/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_9_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05-minicurso-teste-mocks-locadora/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05-minicurso-teste-mocks-locadora/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05-minicurso-teste-mocks-locadora/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_9_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05-minicurso-teste-mocks-locadora/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05-minicurso-teste-mocks-locadora/.idea/libraries/Maven__org_mockito_mockito_all_1_10_19.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05-minicurso-teste-mocks-locadora/.idea/libraries/Maven__org_opentest4j_opentest4j_1_0_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05-minicurso-teste-mocks-locadora/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../05-minicurso-teste-mocks-locadora/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05-minicurso-teste-mocks-locadora/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../05-minicurso-teste-mocks-locadora/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05-minicurso-teste-mocks-locadora/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../05-minicurso-teste-mocks-locadora/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05-minicurso-teste-mocks-locadora/pom.xml" afterDir="false" />
@@ -34,6 +19,7 @@
       <change beforePath="$PROJECT_DIR$/../05-minicurso-teste-mocks-locadora/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05-minicurso-teste-mocks-locadora/src/main/resources/META-INF/persistence.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../05-minicurso-teste-mocks-locadora/src/test/java/AssertivasTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../05-minicurso-teste-mocks-locadora/src/test/java/AssertivasTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../05-minicurso-teste-mocks-locadora/src/test/java/dcomp/es2/locadora/builder/FilmeBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../05-minicurso-teste-mocks-locadora/src/test/java/dcomp/es2/locadora/builder/FilmeBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-minicurso-teste-mocks-locadora/src/test/java/dcomp/es2/locadora/modelo/FilmeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../05-minicurso-teste-mocks-locadora/src/test/java/dcomp/es2/locadora/modelo/FilmeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../05-minicurso-teste-mocks-locadora/src/test/java/dcomp/es2/locadora/repositorio/LocacaoRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../05-minicurso-teste-mocks-locadora/src/test/java/dcomp/es2/locadora/repositorio/LocacaoRepositoryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../05-minicurso-teste-mocks-locadora/src/test/java/dcomp/es2/locadora/servico/LocacaoServiceTestJUnit5.java" beforeDir="false" afterPath="$PROJECT_DIR$/../05-minicurso-teste-mocks-locadora/src/test/java/dcomp/es2/locadora/servico/LocacaoServiceTestJUnit5.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../05-minicurso-teste-mocks-locadora/testes.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../05-minicurso-teste-mocks-locadora/testes.iml" afterDir="false" />
@@ -155,15 +141,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/disciplinas/padroes-de-projeto/padroes-vespertino&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/disciplinas/padroes-de-projeto/padroes-vespertino",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
       <recent name="dcomp.es2.locadora.modelo" />
@@ -285,6 +272,7 @@
       <workItem from="1664375678941" duration="683000" />
       <workItem from="1664558989279" duration="82000" />
       <workItem from="1666182128870" duration="624000" />
+      <workItem from="1666289337569" duration="697000" />
     </task>
     <servers />
   </component>

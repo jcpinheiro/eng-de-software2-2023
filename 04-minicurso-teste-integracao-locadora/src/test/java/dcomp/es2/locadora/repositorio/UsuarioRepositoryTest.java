@@ -3,6 +3,7 @@ package dcomp.es2.locadora.repositorio;
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.MatcherAssert.assertThat;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 
 import javax.persistence.*;
 
@@ -42,7 +43,7 @@ public class UsuarioRepositoryTest {
 	@Test
 	public void deveEncontrarUsuarioPeloNome() {
 
-		Assertions.assertThrows(NoResultException.class,
+		assertThrows(NoResultException.class,
 				                () -> usuarios.buscaPorNome("João da Silva"),
 				                "Deveria lançar a exceção NoResultException");
 
@@ -58,7 +59,7 @@ public class UsuarioRepositoryTest {
 	@Test
 	public void naoDeveEncontrarUsuarioPeloNome() {
 
-		Assertions.assertThrows(NoResultException.class,
+		assertThrows(NoResultException.class,
 				() -> usuarios.buscaPorNome("Pedro Jose"),
 				"Deveria ter lançado a exceção NoResultException");
 	}
@@ -68,13 +69,13 @@ public class UsuarioRepositoryTest {
 		Usuario usuario = new Usuario("João Carlos");
 
 		usuarios.salva(usuario);
-		usuarios.exclui(usuario);
+	    usuarios.exclui(usuario);
 
 
 		manager.flush();
 		manager.clear();
 
-		Assertions.assertThrows(NoResultException.class,
+		assertThrows(NoResultException.class,
 				() -> usuarios.buscaPorNome("João Carlos"),
 				"Deveria ter lançado a exceção NoResultException");
 
@@ -95,7 +96,7 @@ public class UsuarioRepositoryTest {
 		Usuario novoUsuario = usuarios.buscaPorNome("João da Silva" );
 		Assertions.assertNotNull(novoUsuario);
 		
-		Assertions.assertThrows(NoResultException.class,
+		assertThrows(NoResultException.class,
 				() -> usuarios.buscaPorNome("João Carlos"),
 				"Deveria ter lançado a exceção NoResultException");
 	}

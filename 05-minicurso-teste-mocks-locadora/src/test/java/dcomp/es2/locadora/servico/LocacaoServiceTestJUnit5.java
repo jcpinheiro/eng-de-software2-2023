@@ -58,7 +58,6 @@ public class LocacaoServiceTestJUnit5 {
 		Locacao locacao = locacaoService.alugarFilme(usuario, filme);
 
 		// verificação
-
 		assertThat(locacao.getValor(), is(equalTo(4.0)));
 		assertThat(locacao.getDataLocacao(), is(LocalDate.now()) );
 		assertThat( locacao.getDataPrevista(), is(LocalDate.now().plusDays(1)) );

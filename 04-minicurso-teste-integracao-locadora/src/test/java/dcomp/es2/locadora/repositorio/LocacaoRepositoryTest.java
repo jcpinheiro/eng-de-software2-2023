@@ -54,14 +54,17 @@ public class LocacaoRepositoryTest {
 
 	@Test
     public void deveTrazerSomenteLocacoesAtrasadas() {
-
-
     	Usuario joao = new Usuario("Joao da Silva");
     	Usuario jose = new Usuario("Jose da Silva");
 
-		Locacao atrasada   = LocacaoBuilder.umaLocacao().paraUsuario(jose). emAtraso().constroi();
-		Locacao emDia      = LocacaoBuilder.umaLocacao().paraUsuario(joao).constroi();
-		Locacao finalizada = LocacaoBuilder.umaLocacao().paraUsuario(joao).jaFinalizada().constroi();
+		Locacao atrasada = LocacaoBuilder.umaLocacao()
+				.paraUsuario(jose). emAtraso().constroi();
+
+		Locacao emDia = LocacaoBuilder.umaLocacao()
+				.paraUsuario(joao).constroi();
+
+		Locacao finalizada = LocacaoBuilder.umaLocacao()
+				.paraUsuario(joao).jaFinalizada().constroi();
 		
 		locacoes.salva(atrasada );
 		locacoes.salva(emDia );
@@ -81,7 +84,6 @@ public class LocacaoRepositoryTest {
     public void deveTrazerLocacoesEncerradosPorPeriodo() {
 
         // criando as datas
-        
     	LocalDate dataInicio = LocalDate.now().minusDays(30);
     	LocalDate dataFim = LocalDate.now();
         
@@ -96,13 +98,15 @@ public class LocacaoRepositoryTest {
 				   LocacaoBuilder.umaLocacao().paraUsuario(joao).comValor(4.0)
 				                 .comDataLocacao(dataInicio).constroi();
 
-		Locacao locacaoNoFimDoPeriodo = LocacaoBuilder.umaLocacao().paraUsuario(joao).comValor(5.0)
+		Locacao locacaoNoFimDoPeriodo = LocacaoBuilder.umaLocacao().paraUsuario(joao)
+				 .comValor(5.0)
 				.comDataLocacao(dataFim).constroi();
 
 		Locacao locacaoNoPeriodo = LocacaoBuilder.umaLocacao().paraUsuario(joao).comValor(6.0)
 				.comDataLocacao(dataInicio.plusDays(5)).constroi();
 		
-		Locacao locacaoNoPeriodoEmAberto = LocacaoBuilder.umaLocacao().paraUsuario(joao).comValor(7.0).constroi();
+		Locacao locacaoNoPeriodoEmAberto = LocacaoBuilder.umaLocacao()
+				       .paraUsuario(joao).comValor(7.0).constroi();
        
 
         // persistindo os objetos no banco
