@@ -27,24 +27,19 @@ public class LocacaoServiceTestJUnit5v2 {
 	private LocacaoService locacaoService;
 
 	private Usuario usuario;
-
 	@Mock
 	private LocacaoRepository locacaoRepository;
-
 	@Mock
 	private SPCService spcService;
-
 	@Mock
 	private EmailService emailService;
 
-	
 	@BeforeEach
 	public void setup() {
 		locacaoService = new LocacaoService();
 		usuario = umUsuario().constroi();
 
 		MockitoAnnotations.initMocks(this);
-
 	}
 
 	@Test
@@ -69,7 +64,6 @@ public class LocacaoServiceTestJUnit5v2 {
 	
 	@Test
 	public void naoDeveAlugarFilmeSemEstoque() {
-
 		Filme filme = umFilme()
 				.semEstoque()
 				.constroi();
@@ -80,18 +74,14 @@ public class LocacaoServiceTestJUnit5v2 {
 				                        "Deveria lançar a exceção RuntimeException");
 
 		Assertions.assertTrue(exception.getMessage().contains("sem estoque."));
-
-		
-		;
 	}
 
 	
 	@Test
 	public void deveAplicarDesconto10PctNoSegundoFilme() {
 		// cenário
-		List<Filme> filmes = Arrays.asList( umFilme().constroi(),
+		List<Filme> filmes = List.of( umFilme().constroi(),
 				                            umFilme().constroi());
-		
 		//ação
 		Locacao locacao = locacaoService.alugarFilmes(usuario, filmes);
 		
@@ -113,7 +103,6 @@ public class LocacaoServiceTestJUnit5v2 {
 		// verificação
 		// 4 + 4*90% + 4 * 0.70 = 4 + 3.60 + 2.80 = 10.40d
 		Assertions.assertEquals(10.40d, locacao.getValor(), 0.00001);
-		
 	}
 	
 	@Test
@@ -124,11 +113,9 @@ public class LocacaoServiceTestJUnit5v2 {
                                             umFilme().constroi(),
                                             umFilme().constroi(),
 											umFilme().constroi() );
-		
 		//ação
 		Locacao locacao = locacaoService.alugarFilmes(usuario, filmes);
-		
-		
+
 		// verificação
 		// 4 + 4*90% + 4 * 0.70 = 4 + 3.60 + 2.80 + 2.0 = 12.40
 		Assertions.assertEquals(12.40d, locacao.getValor(), 0.00001);
@@ -144,7 +131,7 @@ public class LocacaoServiceTestJUnit5v2 {
 				
 		Filme filme = umFilme().constroi();
 	
-		when(spcService.estaNegativado(this.usuario)).thenReturn(true );
+		Mockito.when(spcService.estaNegativado(this.usuario)).thenReturn(true );
 
 
 		IllegalStateException exception = Assertions.assertThrows(IllegalStateException.class,
@@ -155,7 +142,6 @@ public class LocacaoServiceTestJUnit5v2 {
 
 		verify(spcService).estaNegativado(usuario);
 	}
-
 
 
 	@Test
@@ -196,8 +182,6 @@ public class LocacaoServiceTestJUnit5v2 {
 		final RuntimeException exception = Assertions.assertThrows(RuntimeException.class,
 				() -> locacaoService.alugarFilmes(usuario, filmes),
 				"Deveria lançar um RuntimeException");
-
-
 	}
 
 	@Test
@@ -216,7 +200,8 @@ public class LocacaoServiceTestJUnit5v2 {
 
 		ArgumentCaptor<Locacao> argumentCaptor =ArgumentCaptor.forClass(Locacao.class );
 
-		Mockito.verify(locacaoRepository).salva(argumentCaptor.capture() );
+		//Mockito.verify(locacaoRepository).salva(locacao );
+		verify(locacaoRepository).salva(argumentCaptor.capture() );
 
 		Locacao locacaoCapturada = argumentCaptor.getValue();
 

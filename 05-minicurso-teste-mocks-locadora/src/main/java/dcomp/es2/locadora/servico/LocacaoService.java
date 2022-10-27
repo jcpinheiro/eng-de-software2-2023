@@ -9,6 +9,7 @@ import dcomp.es2.locadora.modelo.Filme;
 import dcomp.es2.locadora.modelo.Locacao;
 import dcomp.es2.locadora.modelo.Usuario;
 import dcomp.es2.locadora.repositorio.LocacaoRepository;
+import lombok.NonNull;
 
 
 public class LocacaoService {
@@ -37,10 +38,8 @@ public class LocacaoService {
 		
 		if (spcService.estaNegativado(usuario) ) {
 			throw new IllegalStateException("Não pode alugar filme para usuario com pendências no SPC");
-			
 		}
-		
-			
+
 	   Locacao locacao = new Locacao();
 	   locacao.setFilmes(filmes );
 	   locacao.setUsuario(usuario);

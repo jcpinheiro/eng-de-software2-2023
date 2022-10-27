@@ -5,37 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="07b793c1-28eb-4824-83ce-c14b64f062ff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/dcomp/es2/locadora/modelo/FilmeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../02-minicurso_junit/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../02-minicurso_junit/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../02-minicurso_junit/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../02-minicurso_junit/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04-minicurso-teste-integracao-locadora/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../04-minicurso-teste-integracao-locadora/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04-minicurso-teste-integracao-locadora/src/main/java/dcomp/es2/locadora/repositorio/LocacaoRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../04-minicurso-teste-integracao-locadora/src/main/java/dcomp/es2/locadora/repositorio/LocacaoRepositoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04-minicurso-teste-integracao-locadora/src/test/java/dcomp/es2/locadora/repositorio/LocacaoRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../04-minicurso-teste-integracao-locadora/src/test/java/dcomp/es2/locadora/repositorio/LocacaoRepositoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04-minicurso-teste-integracao-locadora/src/test/java/dcomp/es2/locadora/repositorio/UsuarioRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../04-minicurso-teste-integracao-locadora/src/test/java/dcomp/es2/locadora/repositorio/UsuarioRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/CalculadoraMockTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_0_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_2_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_9_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_9_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_all_1_10_19.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_0_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dcomp/es2/locadora/modelo/Filme.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dcomp/es2/locadora/modelo/Filme.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dcomp/es2/locadora/repositorio/UsuarioRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dcomp/es2/locadora/repositorio/UsuarioRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dcomp/es2/locadora/modelo/Locacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dcomp/es2/locadora/modelo/Locacao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dcomp/es2/locadora/modelo/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dcomp/es2/locadora/modelo/Usuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dcomp/es2/locadora/servico/EmailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dcomp/es2/locadora/servico/EmailService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dcomp/es2/locadora/servico/LocacaoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dcomp/es2/locadora/servico/LocacaoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AssertivasTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AssertivasTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/dcomp/es2/locadora/builder/FilmeBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dcomp/es2/locadora/builder/FilmeBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/dcomp/es2/locadora/repositorio/LocacaoRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dcomp/es2/locadora/repositorio/LocacaoRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dcomp/es2/locadora/servico/SPCService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dcomp/es2/locadora/servico/SPCService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CalculadoraMock_SpyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CalculadoraMock_SpyTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/dcomp/es2/locadora/servico/LocacaoServiceTestJUnit5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dcomp/es2/locadora/servico/LocacaoServiceTestJUnit5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/dcomp/es2/locadora/servico/LocacaoServiceTestJUnit5v2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dcomp/es2/locadora/servico/LocacaoServiceTestJUnit5v2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testes.iml" beforeDir="false" afterPath="$PROJECT_DIR$/testes.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -168,13 +150,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/disciplinas/engenharia-de-software2/eng-de-software2-2022/05-minicurso-teste-mocks-locadora&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/disciplinas/padroes-de-projeto/padroes-vespertino",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
@@ -184,8 +168,8 @@
       <recent name="dcomp.es2.locadora.servico" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.All in testes (1)">
-    <configuration name="All in testes (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.LocacaoServiceTestJUnit5.deveEnviarEmailParaUsuariosAtrasados">
+    <configuration name="All in testes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="testes" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
@@ -193,22 +177,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LocacaoRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CalculadoraMock_SpyTest.devoMostrarDiferencaEntreMockSpy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="testes" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dcomp.es2.locadora.repositorio.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="dcomp.es2.locadora.repositorio" />
-      <option name="MAIN_CLASS_NAME" value="dcomp.es2.locadora.repositorio.LocacaoRepositoryTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CalculadoraMock_SpyTest" />
+      <option name="METHOD_NAME" value="devoMostrarDiferencaEntreMockSpy" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LocacaoServiceTestJUnit5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LocacaoServiceTestJUnit5.deveEnviarEmailParaUsuariosAtrasados" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="testes" />
       <extension name="coverage">
         <pattern>
@@ -218,7 +197,24 @@
       </extension>
       <option name="PACKAGE_NAME" value="dcomp.es2.locadora.servico" />
       <option name="MAIN_CLASS_NAME" value="dcomp.es2.locadora.servico.LocacaoServiceTestJUnit5" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="deveEnviarEmailParaUsuariosAtrasados" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LocacaoServiceTestJUnit5.naoDeveAlugarFilmeParaUsuarioNegativado" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dcomp.es2.locadora.servico.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dcomp.es2.locadora.servico" />
+      <option name="MAIN_CLASS_NAME" value="dcomp.es2.locadora.servico.LocacaoServiceTestJUnit5" />
+      <option name="METHOD_NAME" value="naoDeveAlugarFilmeParaUsuarioNegativado" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -239,28 +235,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LocacaoServiceTestJUnit5v2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="testes" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dcomp.es2.locadora.servico.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="dcomp.es2.locadora.servico" />
-      <option name="MAIN_CLASS_NAME" value="dcomp.es2.locadora.servico.LocacaoServiceTestJUnit5v2" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.All in testes (1)" />
-        <item itemvalue="JUnit.LocacaoRepositoryTest" />
-        <item itemvalue="JUnit.LocacaoServiceTestJUnit5v2" />
-        <item itemvalue="JUnit.LocacaoServiceTestJUnit5" />
+        <item itemvalue="JUnit.LocacaoServiceTestJUnit5.deveEnviarEmailParaUsuariosAtrasados" />
+        <item itemvalue="JUnit.LocacaoServiceTestJUnit5.naoDeveAlugarFilmeParaUsuarioNegativado" />
         <item itemvalue="JUnit.LocacaoServiceTestJUnit5.testaUmaLocacao" />
+        <item itemvalue="JUnit.All in testes" />
+        <item itemvalue="JUnit.CalculadoraMock_SpyTest.devoMostrarDiferencaEntreMockSpy" />
       </list>
     </recent_temporary>
   </component>
@@ -292,6 +273,12 @@
       <workItem from="1666127869090" duration="3063000" />
       <workItem from="1666143176186" duration="353000" />
       <workItem from="1666179999816" duration="4612000" />
+      <workItem from="1666290380750" duration="1974000" />
+      <workItem from="1666374849515" duration="70000" />
+      <workItem from="1666615841732" duration="3597000" />
+      <workItem from="1666699520850" duration="9322000" />
+      <workItem from="1666871042255" duration="6170000" />
+      <workItem from="1666901268833" duration="4538000" />
     </task>
     <servers />
   </component>
@@ -417,8 +404,15 @@
       </map>
     </option>
   </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/testes$All_in_testes__1_.ic" NAME="All in testes (1) Coverage Results" MODIFIED="1666182737356" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/testes$LocacaoServiceTestJUnit5.ic" NAME="LocacaoServiceTestJUnit5 Coverage Results" MODIFIED="1666701316984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>dcomp.es2.locadora.servico.*</FILTER>
+    </SUITE>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/resources/cenarios-de-teste-30-11-2017.txt" />
