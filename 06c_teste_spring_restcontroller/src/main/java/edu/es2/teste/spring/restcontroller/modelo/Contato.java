@@ -10,7 +10,7 @@ import javax.validation.constraints.NotEmpty;
 
 
 @Entity
-public class Contato implements Serializable{
+public class Contato implements Serializable {
 
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)

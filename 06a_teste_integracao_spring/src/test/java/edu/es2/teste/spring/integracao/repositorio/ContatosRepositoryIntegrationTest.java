@@ -18,14 +18,14 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 
 
 /*
-A anotação desativa a configuração automática completa
-e aplica apenas faz a configuração relevante aos testes JPA.
+A anotação @DataJpaTest aplica apenas faz
+a configuração relevante aos testes JPA.
 Por padrão, os testes anotados com @DataJpaTest
 usam um banco de dados em memória. */
 
 //@RunWith(SpringRunner.class)
 @DataJpaTest
-@AutoConfigureTestDatabase(connection = EmbeddedDatabaseConnection.H2)
+//@AutoConfigureTestDatabase(connection = EmbeddedDatabaseConnection.)
 public class ContatosRepositoryIntegrationTest {
 
 	@Autowired
@@ -42,7 +42,8 @@ public class ContatosRepositoryIntegrationTest {
 	@Test
 	public void saveComDddNuloDeveLancarException() throws Exception {
 
-		ConstraintViolationException exception = assertThrows(ConstraintViolationException.class,
+		ConstraintViolationException exception =
+				assertThrows(ConstraintViolationException.class,
 				() -> {  contato.setDdd(null);
 			       	     contatoRepository.save(contato);
 					  },

@@ -17,7 +17,6 @@ import java.util.Optional;
 import static org.junit.jupiter.api.Assertions.*;
 
 @SpringBootTest (webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
-
 public class AgendaControllerTest {
 
 	// serve para consumir os métodos HTTP
@@ -48,7 +47,8 @@ public class AgendaControllerTest {
 	@Test
 	public void deveMostrarTodosContatos() {
 		ResponseEntity<String> resposta =
-				testRestTemplate.exchange("/agenda/",HttpMethod.GET, null, String.class);
+				testRestTemplate.exchange("/agenda/",HttpMethod.GET,
+						                   null, String.class);
 
 		System.out.println("######## " + resposta.getBody() );
 		assertEquals(HttpStatus.OK, resposta.getStatusCode());
@@ -71,10 +71,13 @@ public class AgendaControllerTest {
 
 	@Test
 	public void deveMostrarTodosContatosUsandoList() {
-		ParameterizedTypeReference<List<Contato>> tipoRetorno =	new ParameterizedTypeReference<List<Contato>>() {};
+		ParameterizedTypeReference<List<Contato>> tipoRetorno =
+				new ParameterizedTypeReference<List<Contato>>() {};
 
 		ResponseEntity<List<Contato>> resposta =
-				testRestTemplate.exchange("/agenda/",HttpMethod.GET,null, tipoRetorno);
+				testRestTemplate.exchange("/agenda/",
+						                   HttpMethod.GET,null,
+						                   tipoRetorno);
 
 		assertEquals(HttpStatus.OK, resposta.getStatusCode());
 		assertEquals(resposta.getHeaders().getContentType(),
@@ -86,7 +89,9 @@ public class AgendaControllerTest {
 	@Test
 	public void deveMostrarUmContato() {
 		ResponseEntity<Contato> resposta =
-				testRestTemplate.exchange("/agenda/contato/{id}",HttpMethod.GET,null, Contato.class,contato.getId() );
+				testRestTemplate.exchange("/agenda/contato/{id}",
+						                   HttpMethod.GET,null,
+						                   Contato.class, contato.getId() );
 
 		assertEquals(HttpStatus.OK, resposta.getStatusCode());
 		assertEquals(resposta.getHeaders().getContentType(),
@@ -108,7 +113,8 @@ public class AgendaControllerTest {
 	@Test
 	public void deveMostrarUmContatoComGetForEntity() {
 		ResponseEntity<Contato> resposta =
-				testRestTemplate.getForEntity("/agenda/contato/{id}", Contato.class,contato.getId());
+				testRestTemplate.getForEntity("/agenda/contato/{id}",
+						                       Contato.class,contato.getId());
 
 		assertEquals(HttpStatus.OK, resposta.getStatusCode());
 
@@ -121,14 +127,16 @@ public class AgendaControllerTest {
 	@Test
 	public void deveMostrarUmContatoComGetForObject() {
 		Contato resposta =
-				testRestTemplate.getForObject("/agenda/contato/{id}", Contato.class,contato.getId());
+				testRestTemplate.getForObject("/agenda/contato/{id}",
+						                      Contato.class,contato.getId());
 		assertEquals(contato, resposta);
 	}
 
 	@Test
 	public void deveRetornarContatoNaoEncontradoComGetForEntity() {
-		ResponseEntity<Contato> resposta =
-				testRestTemplate.getForEntity("/agenda/contato/{id}", Contato.class,100);
+		ResponseEntity<Contato> resposta;
+		resposta = testRestTemplate.getForEntity("/agenda/contato/{id}",
+				                                 Contato.class,100);
 
 		assertEquals(HttpStatus.NOT_FOUND, resposta.getStatusCode());
 		assertNull(resposta.getBody());
@@ -136,7 +144,8 @@ public class AgendaControllerTest {
 
 	@Test
 	public void naoDeveEncontrarContatoInexistente() {
-		Contato resposta = testRestTemplate.getForObject("/agenda/contato/{id}", Contato.class,100);
+		Contato resposta = testRestTemplate.getForObject("/agenda/contato/{id}",
+				                                          Contato.class,100);
 		assertNull(resposta);
 	}
 
@@ -173,7 +182,7 @@ public class AgendaControllerTest {
 		assertEquals(contato.getNome(), resultado.getNome());
 		assertEquals(contato.getDdd(), resultado.getDdd());
 		assertEquals(contato.getTelefone(), resultado.getTelefone());
-		contatoRepository.deleteAll();
+		//contatoRepository.deleteAll();
 	}
 
 	@Test
@@ -181,7 +190,8 @@ public class AgendaControllerTest {
 		Contato contato = new Contato(nome, ddd, telefone);
 		HttpEntity<Contato> httpEntity = new HttpEntity<>(contato);
 		ResponseEntity<Contato> resposta =
-				testRestTemplate.postForEntity("/agenda/inserir",httpEntity, Contato.class);
+				testRestTemplate.postForEntity("/agenda/inserir",
+						                       httpEntity, Contato.class);
 
 		assertEquals(HttpStatus.CREATED,resposta.getStatusCode());
 
@@ -217,7 +227,9 @@ public class AgendaControllerTest {
 		HttpEntity<Contato> httpEntity = new HttpEntity<>(contato);
 		ResponseEntity<List<String>> resposta =
 				testRestTemplate.exchange("/agenda/alterar/{id}",HttpMethod.PUT
-						,httpEntity, new ParameterizedTypeReference<List<String>>() {},contato.getId());
+						,httpEntity,
+						new ParameterizedTypeReference<List<String>>() {},
+						contato.getId());
 
 		assertEquals(HttpStatus.BAD_REQUEST,resposta.getStatusCode());
 		assertTrue(resposta.getBody().contains("O DDD deve ser preenchido"));
@@ -230,7 +242,8 @@ public class AgendaControllerTest {
 		HttpEntity<Contato> httpEntity = new HttpEntity<>(contato);
 
 		ResponseEntity<Contato> resposta =
-				testRestTemplate.exchange("/agenda/alterar/{id}",HttpMethod.PUT,httpEntity
+				testRestTemplate.exchange("/agenda/alterar/{id}",HttpMethod.PUT,
+						  httpEntity
 						, Contato.class,contato.getId());
 
 		assertEquals(HttpStatus.CREATED,resposta.getStatusCode());
@@ -255,7 +268,8 @@ public class AgendaControllerTest {
 	@Test
 	public void deveExcluirContato() {
 		ResponseEntity<Contato> resposta =
-				testRestTemplate.exchange("/agenda/remover/{id}",HttpMethod.DELETE,null
+				testRestTemplate.exchange("/agenda/remover/{id}",
+						    HttpMethod.DELETE,null
 						, Contato.class,contato.getId());
 
 		assertEquals(HttpStatus.NO_CONTENT,resposta.getStatusCode());

@@ -5,20 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="07b793c1-28eb-4824-83ce-c14b64f062ff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/CalculadoraMockTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06c_teste_spring_restcontroller/src/test/java/edu/es2/teste/spring/restcontroller/controle/MockMvcIntegrationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02-minicurso_junit/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../02-minicurso_junit/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dcomp/es2/locadora/modelo/Filme.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dcomp/es2/locadora/modelo/Filme.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dcomp/es2/locadora/modelo/Locacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dcomp/es2/locadora/modelo/Locacao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dcomp/es2/locadora/modelo/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dcomp/es2/locadora/modelo/Usuario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dcomp/es2/locadora/servico/EmailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dcomp/es2/locadora/servico/EmailService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dcomp/es2/locadora/servico/LocacaoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dcomp/es2/locadora/servico/LocacaoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dcomp/es2/locadora/servico/SPCService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dcomp/es2/locadora/servico/SPCService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/CalculadoraMock_SpyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CalculadoraMock_SpyTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/dcomp/es2/locadora/servico/LocacaoServiceTestJUnit5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dcomp/es2/locadora/servico/LocacaoServiceTestJUnit5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/dcomp/es2/locadora/servico/LocacaoServiceTestJUnit5v2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dcomp/es2/locadora/servico/LocacaoServiceTestJUnit5v2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testes.iml" beforeDir="false" afterPath="$PROJECT_DIR$/testes.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06a_teste_integracao_spring/src/test/java/edu/es2/teste/spring/integracao/repositorio/ContatosRepositoryIntegrationQueryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../06a_teste_integracao_spring/src/test/java/edu/es2/teste/spring/integracao/repositorio/ContatosRepositoryIntegrationQueryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06a_teste_integracao_spring/src/test/java/edu/es2/teste/spring/integracao/repositorio/ContatosRepositoryIntegrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../06a_teste_integracao_spring/src/test/java/edu/es2/teste/spring/integracao/repositorio/ContatosRepositoryIntegrationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06b_teste_servico_componente_spring/src/main/java/edu/es2/teste/spring/integracao/repositorio/ContatoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../06b_teste_servico_componente_spring/src/main/java/edu/es2/teste/spring/integracao/repositorio/ContatoRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06b_teste_servico_componente_spring/src/main/java/edu/es2/teste/spring/integracao/servico/ContatoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../06b_teste_servico_componente_spring/src/main/java/edu/es2/teste/spring/integracao/servico/ContatoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06b_teste_servico_componente_spring/src/test/java/edu/es2/teste/spring/integracao/controle/AgendaControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../06b_teste_servico_componente_spring/src/test/java/edu/es2/teste/spring/integracao/controle/AgendaControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06b_teste_servico_componente_spring/src/test/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../06b_teste_servico_componente_spring/src/test/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06c_teste_spring_restcontroller/src/main/java/edu/es2/teste/spring/restcontroller/modelo/Contato.java" beforeDir="false" afterPath="$PROJECT_DIR$/../06c_teste_spring_restcontroller/src/main/java/edu/es2/teste/spring/restcontroller/modelo/Contato.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06c_teste_spring_restcontroller/src/test/java/edu/es2/teste/spring/restcontroller/controle/AgendaControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../06c_teste_spring_restcontroller/src/test/java/edu/es2/teste/spring/restcontroller/controle/AgendaControllerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,7 +152,7 @@
   "keyToString": {
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/disciplinas/padroes-de-projeto/padroes-vespertino",
+    "last_opened_file_path": "C:/disciplinas/engenharia-de-software2/eng-de-software2-2022/05-minicurso-teste-mocks-locadora",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
@@ -168,7 +166,7 @@
       <recent name="dcomp.es2.locadora.servico" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.LocacaoServiceTestJUnit5.deveEnviarEmailParaUsuariosAtrasados">
+  <component name="RunManager" selected="JUnit.CalculadoraMock_SpyTest.devoMostrarDiferencaEntreMockSpy">
     <configuration name="All in testes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="testes" />
       <option name="PACKAGE_NAME" value="" />
@@ -237,11 +235,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CalculadoraMock_SpyTest.devoMostrarDiferencaEntreMockSpy" />
         <item itemvalue="JUnit.LocacaoServiceTestJUnit5.deveEnviarEmailParaUsuariosAtrasados" />
         <item itemvalue="JUnit.LocacaoServiceTestJUnit5.naoDeveAlugarFilmeParaUsuarioNegativado" />
         <item itemvalue="JUnit.LocacaoServiceTestJUnit5.testaUmaLocacao" />
         <item itemvalue="JUnit.All in testes" />
-        <item itemvalue="JUnit.CalculadoraMock_SpyTest.devoMostrarDiferencaEntreMockSpy" />
       </list>
     </recent_temporary>
   </component>
@@ -278,7 +276,9 @@
       <workItem from="1666615841732" duration="3597000" />
       <workItem from="1666699520850" duration="9322000" />
       <workItem from="1666871042255" duration="6170000" />
-      <workItem from="1666901268833" duration="4538000" />
+      <workItem from="1666901268833" duration="4873000" />
+      <workItem from="1667919297467" duration="84000" />
+      <workItem from="1668715189960" duration="690000" />
     </task>
     <servers />
   </component>

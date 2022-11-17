@@ -8,10 +8,8 @@ import org.mockito.Spy;
 
 
 public class CalculadoraMock_SpyTest {
-	
 	@Mock
 	private Calculadora calcMock;
-	
 	@Spy
 	private Calculadora calcSpy;
 	
@@ -25,23 +23,25 @@ public class CalculadoraMock_SpyTest {
 	public void devoMostrarDiferencaEntreMockSpy() {
 
 		Mockito.when(calcMock.soma(1, 2)).thenReturn(5);
-		System.out.println("Mock:" + calcMock.soma(1, 2));
+		System.out.println("Mock:" + calcMock.soma(1, 3));
 
 
 		Mockito.when(calcSpy.soma(1, 2)).thenReturn(5);
+		System.out.println("Spy: " + calcSpy.soma(1, 3));
 		//Mockito.doReturn(5).when(calcSpy).soma(1, 2);
 
-		System.out.println("Spy:" + calcSpy.soma(2, 2));
+
 
 
 		System.out.println(" ---- Metodos void ---- ");
-
+        Mockito.when(calcMock).thenCallRealMethod();
 		System.out.println("---- Mock -----");
 		calcMock.imprime();
 
 		//Mockito.doNothing().when(calcSpy).imprime();
 		System.out.println("--- Spy ---");
 		calcSpy.imprime();
+
 
 	}
 	

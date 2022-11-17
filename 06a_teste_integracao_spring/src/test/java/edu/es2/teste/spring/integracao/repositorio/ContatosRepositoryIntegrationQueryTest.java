@@ -47,9 +47,7 @@ public class ContatosRepositoryIntegrationQueryTest {
 	}
 
 	@Test
-	public void deveRetornarTodosOsContatosOrdenadosEmOrdemCrescente()  {
-
-
+	public void deveRetornarTodosOsContatosEmOrdemCrescente()  {
 		List<Contato> contatos;
 		contatos = contatoRepository
 				.todos( Sort.by("nome").ascending() );
@@ -61,6 +59,5 @@ public class ContatosRepositoryIntegrationQueryTest {
 
 
 	}
-
 
 }
