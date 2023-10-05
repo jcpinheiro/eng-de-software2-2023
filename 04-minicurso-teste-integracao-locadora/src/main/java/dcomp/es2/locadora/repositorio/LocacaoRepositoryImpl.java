@@ -21,7 +21,6 @@ public class LocacaoRepositoryImpl implements LocacaoRepository {
 	@Override
 	public void salva(Locacao locacao) {
 		manager.merge(locacao );
-
 	}
 
 	@Override

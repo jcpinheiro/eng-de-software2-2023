@@ -13,6 +13,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
 
+import static org.mockito.Mockito.when;
+
 
 @SpringBootTest
 public class AgendaControllerTest {
@@ -33,10 +35,8 @@ public class AgendaControllerTest {
 	public void inserirRegistroComDddNuloDeveLancarException() throws ContatoException {
 
 
-		Mockito.when(contatoRepository.save( Mockito.any()))
+		when(contatoRepository.save( Mockito.any()))
 		.thenThrow(new ConstraintViolationException("O DDD deve ser preenchido",null));
-
-
 
 		ContatoException exception =
 				Assertions.assertThrows(ContatoException.class,
@@ -49,7 +49,7 @@ public class AgendaControllerTest {
 	@Test
 	public void inserirRegistroComTelefoneNuloDeveLancarException() throws ContatoException {
 
-		Mockito.when(contatoRepository.save(Mockito.any()) )
+		when(contatoRepository.save(Mockito.any()) )
 	           .thenThrow(new ConstraintViolationException("O Telefone deve ser preenchido",null));
 
 		ContatoException exception =
@@ -64,7 +64,7 @@ public class AgendaControllerTest {
 	@Test
 	public void inserirRegistroComNomeNuloDeveLancarException() throws ContatoException {
 
-		Mockito.when(contatoRepository.save((Contato)Mockito.any()))
+		when(contatoRepository.save((Contato)Mockito.any()))
 		.thenThrow(new ConstraintViolationException("O Nome deve ser preenchido",null));
 
 		ContatoException exception =
@@ -81,7 +81,7 @@ public class AgendaControllerTest {
 	public void deveSalvarUmNovoContato() throws ContatoException {
 		agendaController.inseriRegistro(nome, ddd, telefone);
 
-		Mockito.verify(contatoRepository, Mockito.times(1))
+		Mockito.verify(contatoRepository, Mockito.times(1) )
 						.save(new Contato(nome, ddd, telefone));
 	}
 

@@ -69,6 +69,7 @@ public class UsuarioRepositoryTest {
 		Usuario usuario = new Usuario("João Carlos");
 
 		usuarios.salva(usuario);
+
 	    usuarios.exclui(usuario);
 
 

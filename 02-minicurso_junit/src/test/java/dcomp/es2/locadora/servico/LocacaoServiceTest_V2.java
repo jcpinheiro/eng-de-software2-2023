@@ -4,10 +4,7 @@ import dcomp.es2.locadora.builder.FilmeBuilder;
 import dcomp.es2.locadora.modelo.Filme;
 import dcomp.es2.locadora.modelo.Locacao;
 import dcomp.es2.locadora.modelo.Usuario;
-import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.Assumptions;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.*;
 
 import java.time.DayOfWeek;
 import java.time.LocalDate;
@@ -70,7 +67,7 @@ public class LocacaoServiceTest_V2 {
 				               FilmeBuilder.umFilme().constroi(),
 				               FilmeBuilder.umFilme().constroi());
 		// verificação
-		// 4 + 4*90% = 4 + 3.60 = 7.60
+		// 4 +  4 * 90% = 4 + 3.60 = 7.60
 		assertThat(locacao.getValor(), is(7.60d) );
 		
 	}
@@ -92,10 +89,11 @@ public class LocacaoServiceTest_V2 {
 	}
 	
 	@Test
+	//@Disabled
 	public void deveAplicarDesconto50PctNoQuartoFilme() {
 		
 		// cenário
-		List<Filme> filmes = Arrays.asList( FilmeBuilder.umFilme().constroi(),
+		List<Filme> filmes = List.of( FilmeBuilder.umFilme().constroi(),
                                             FilmeBuilder.umFilme().constroi(),
                                             FilmeBuilder.umFilme().constroi(),                
 											FilmeBuilder.umFilme().constroi() );                

@@ -15,4 +15,5 @@ public interface ContatoService {
 
 	void remover(Long id);
 
+	boolean naoExisteContatoCom(Long id);
 }

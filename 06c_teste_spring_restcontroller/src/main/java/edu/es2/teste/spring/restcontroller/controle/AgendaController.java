@@ -1,7 +1,9 @@
 package edu.es2.teste.spring.restcontroller.controle;
 
+import java.net.URI;
 import java.net.URISyntaxException;
 import java.util.List;
+import java.util.Optional;
 
 import javax.validation.Valid;
 
@@ -18,6 +20,7 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.util.UriComponentsBuilder;
 
 
 @RestController
@@ -33,29 +36,57 @@ public class AgendaController {
 		return ResponseEntity.ok(contatos);
 	}
 
-	@GetMapping("/contato/{id}")
+	@GetMapping("/{id}")
 	public ResponseEntity<Contato> contato(@PathVariable Long id){
 		return contatoService.buscarContato(id)
 				.map(ResponseEntity::ok)
 				.orElse(ResponseEntity.notFound().build());
 	}
 
-	@PostMapping("/inserir")
+/*
+	@PostMapping
 	public ResponseEntity<Contato> inserir(@RequestBody @Valid Contato contato) throws URISyntaxException {
 		contato = contatoService.inserirOuAlterar(contato);
-		return new ResponseEntity<>(contato, HttpStatus.CREATED);
+		return new ResponseEntity(contato, HttpStatus.CREATED);
+	}
+*/
+
+	@PostMapping
+	public ResponseEntity<Contato> cadastro(@Valid @RequestBody Contato cliente,
+											UriComponentsBuilder builder) {
+
+		final Contato contatoSalvo = contatoService.inserirOuAlterar(cliente);
+		final URI uri = builder
+				.path("/agenda/{id}")
+				.buildAndExpand(contatoSalvo.getId()).toUri();
+
+		return ResponseEntity.created(uri).body(contatoSalvo );
 	}
 
-	@PutMapping("/alterar/{id}")
+	@PutMapping ("/{id}")
 	public ResponseEntity<Contato> alterar(@PathVariable Long id, @RequestBody @Valid Contato contato) throws URISyntaxException {
-		contato = contatoService.inserirOuAlterar(contato);
-		return new ResponseEntity<>(contato, HttpStatus.CREATED);
+
+		if (contatoService.naoExisteContatoCom(id ) ) {
+			return ResponseEntity.notFound().build();
+
+		} else {
+			contato.setId(id);
+			Contato clienteAtualizado = contatoService.inserirOuAlterar(contato);
+			return ResponseEntity.ok(clienteAtualizado );
+		}
 	}
 
-	@DeleteMapping("/remover/{id}")
+	@DeleteMapping ("/{id}")
 	public ResponseEntity<Contato> remover(@PathVariable Long id) {
-		contatoService.remover(id);
-		return ResponseEntity.noContent().build();
+
+		Optional<Contato> optional = contatoService.buscarContato(id );
+
+		if (optional.isPresent()) {
+			contatoService.remover(id );
+			return ResponseEntity.noContent().build();
+		}
+		return ResponseEntity.notFound().build();
 	}
+
 
 }

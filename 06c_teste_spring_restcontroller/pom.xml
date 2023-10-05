@@ -5,19 +5,21 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.3.5.RELEASE</version>
+        <version>2.7.1</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>edu.es2.teste.spring.integracao</groupId>
     <artifactId>06b_teste_servico_componente_spring</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>06a_teste_integracao_spring</name>
+    <name>06c_teste_integracao_spring</name>
     <description>Testes de Servico e Componente com Spring Boot</description>
 
     <properties>
-        <java.version>1.8</java.version>
+        <java.version>18</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <maven.compiler.source>19</maven.compiler.source>
+        <maven.compiler.target>19</maven.compiler.target>
     </properties>
 
     <dependencies>

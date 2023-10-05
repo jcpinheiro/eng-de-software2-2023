@@ -68,13 +68,21 @@ public class ContatosRepositoryIntegrationTest {
 	@Test
 	public void saveComNomeNuloDeveLancarException() throws Exception {
 
-		ConstraintViolationException exception = assertThrows(ConstraintViolationException.class,
+		/*ConstraintViolationException exception = assertThrows(ConstraintViolationException.class,
 				() -> {  contato.setNome(null);
 					contatoRepository.save(contato);
 				},
 				"Deveria lançar um ConstraintViolationException");
 
-		Assertions.assertTrue(exception.getMessage().contains("O Nome deve ser preenchido"));
+		Assertions.assertTrue(exception.getMessage().contains("O Nome deve ser preenchido"));*/
+
+		org.assertj.core.api.Assertions.assertThatThrownBy(
+				()->{
+					contato.setNome(null);
+					contatoRepository.save(contato);
+
+				}).isInstanceOf(ConstraintViolationException.class)
+				.hasMessageContaining("O Nome deve ser preenchido");
 	}
 
 	@Test

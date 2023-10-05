@@ -28,7 +28,6 @@ public class ContatosServiceTest {
 
 	@BeforeEach
 	public void before() {
-
 		contato = new Contato("Chefe", "098", "998877665");
 	}
 

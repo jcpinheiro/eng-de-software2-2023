@@ -109,6 +109,7 @@ public class LocacaoService {
 		              emailService.notifica(locacao.getUsuario()
 		));
 
+
 		// não dever ter mais nenhuma notificação
 	}
 	

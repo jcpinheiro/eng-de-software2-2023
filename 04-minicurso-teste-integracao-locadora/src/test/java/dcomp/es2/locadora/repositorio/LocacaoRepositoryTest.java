@@ -54,11 +54,14 @@ public class LocacaoRepositoryTest {
 
 	@Test
     public void deveTrazerSomenteLocacoesAtrasadas() {
+		//cenário
     	Usuario joao = new Usuario("Joao da Silva");
     	Usuario jose = new Usuario("Jose da Silva");
 
 		Locacao atrasada = LocacaoBuilder.umaLocacao()
-				.paraUsuario(jose). emAtraso().constroi();
+				.paraUsuario(jose)
+				.emAtraso()
+				.constroi();
 
 		Locacao emDia = LocacaoBuilder.umaLocacao()
 				.paraUsuario(joao).constroi();
@@ -72,9 +75,11 @@ public class LocacaoRepositoryTest {
 
 		manager.flush();
 		manager.clear();
-		
+
+		// ação
         List<Locacao> atrasadas = locacoes.emAtraso();
 
+		// verificação
         assertEquals(1, atrasadas.size());
         assertEquals("Jose da Silva", atrasadas.get(0).getUsuario().getNome() );
     }

@@ -2,22 +2,29 @@ package dcomp.es2.locadora.modelo;
 
 import dcomp.es2.locadora.builder.FilmeBuilder;
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+
 class FilmeTest {
+    private Filme filme;
+
+    @BeforeEach
+    public void setup() {
+        filme = FilmeBuilder.umFilme().constroi();
+    }
 
     @Test
     void deveTerPrecoLocacaoPositivo() {
 
-        Filme filme = FilmeBuilder
-                .umFilme()
-                .comPrecoDe(0.01d)
+        Filme filme =  FilmeBuilder.umFilme()
+                .comPrecoDe(0.01)
                 .constroi();
 
-        assertEquals(0.01d,
-                filme.getPrecoLocacao().doubleValue(), 0.00001 );
+
+        assertEquals(0.01d, filme.getPrecoLocacao().doubleValue(), 0.00001 );
 
     }
 
@@ -25,13 +32,10 @@ class FilmeTest {
     @Test
     void naoDeveTerPrecoLocacaoIgualAZero() {
 
-        Filme filme = FilmeBuilder.umFilme().constroi();
-
-
-        IllegalArgumentException exception = assertThrows(
-                IllegalArgumentException.class,
+        IllegalArgumentException exception =
+                assertThrows(IllegalArgumentException.class,
                 () -> filme.setPrecoLocacao(0d),
-                "O preço da locaçao deve ser maior do que Zero");
+                "Para esse teste o preço da locação deve ser menor ou igual a zero");
 
         assertTrue(exception.getMessage().contains("O preço da locaçao deve ser maior do que Zero"));
 
@@ -39,9 +43,6 @@ class FilmeTest {
 
     @Test
     void naoDeveTerPrecoLocacaoNegativo() {
-
-        Filme filme = FilmeBuilder.umFilme().constroi();
-
 
         assertThrows( IllegalArgumentException.class,
                 () -> filme.setPrecoLocacao(-0.01d),

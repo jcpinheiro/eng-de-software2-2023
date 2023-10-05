@@ -11,7 +11,7 @@ import java.util.List;
 @Repository
 public interface ContatoRepository extends JpaRepository<Contato, Long> {
 
-    Contato findFirstByNome(String chefe);
+    Contato findFirstByNome(String nome );
 
     @Query(value = "From Contato")
     List<Contato> todos(Sort sort);

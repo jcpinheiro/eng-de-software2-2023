@@ -5,45 +5,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e790ed8-5204-4199-a185-e360a39f20b6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../02-minicurso_junit/.classpath" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../02-minicurso_junit/src/test/java/dcomp/es2/locadora/servico/LocacaoServiceTeste.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sistema_bancario/sistema_bancario/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sistema_bancario/sistema_bancario/src/main/java/org/example/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sistema_bancario/sistema_bancario/src/main/java/org/example/ContaCorrente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sistema_bancario/sistema_bancario/src/main/java/org/example/GerenciadoraClientes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sistema_bancario/sistema_bancario/src/main/java/org/example/GerenciadoraContas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sistema_bancario/sistema_bancario/src/main/java/org/example/IdadeNaoPermitidaException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sistema_bancario/sistema_bancario/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sistema_bancario/sistema_bancario/src/test/java/org/example/GerenciadoraClientesTest_Ex1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sistema_bancario/sistema_bancario/src/test/java/org/example/GerenciadoraClientesTest_Ex10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sistema_bancario/sistema_bancario/src/test/java/org/example/GerenciadoraClientesTest_Ex2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sistema_bancario/sistema_bancario/src/test/java/org/example/GerenciadoraClientesTest_Ex3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sistema_bancario/sistema_bancario/src/test/java/org/example/GerenciadoraClientesTest_Ex4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sistema_bancario/sistema_bancario/src/test/java/org/example/GerenciadoraClientesTest_Ex5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sistema_bancario/sistema_bancario/src/test/java/org/example/GerenciadoraClientesTest_Ex7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sistema_bancario/sistema_bancario/src/test/java/org/example/GerenciadoraClientesTest_Ex8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sistema_bancario/sistema_bancario/src/test/java/org/example/GerenciadoraContasTest_Ex11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sistema_bancario/sistema_bancario/src/test/java/org/example/GerenciadoraContasTest_Ex3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sistema_bancario/sistema_bancario/src/test/java/org/example/GerenciadoraContasTest_Ex4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sistema_bancario/sistema_bancario/src/test/java/org/example/GerenciadoraContasTest_Ex6.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../02-minicurso_junit/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../02-minicurso_junit/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../02-minicurso_junit/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../02-minicurso_junit/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../02-minicurso_junit/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02-minicurso_junit/src/main/java/dcomp/es2/locadora/modelo/Locacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../02-minicurso_junit/src/main/java/dcomp/es2/locadora/modelo/Locacao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02-minicurso_junit/src/main/java/dcomp/es2/locadora/servico/LocacaoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../02-minicurso_junit/src/main/java/dcomp/es2/locadora/servico/LocacaoService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../02-minicurso_junit/src/test/java/dcomp/es2/locadora/modelo/FilmeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../02-minicurso_junit/src/test/java/dcomp/es2/locadora/modelo/FilmeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../02-minicurso_junit/src/test/java/dcomp/es2/locadora/servico/LocacaoServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../02-minicurso_junit/src/test/java/dcomp/es2/locadora/servico/LocacaoServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../02-minicurso_junit/src/test/java/dcomp/es2/locadora/servico/LocacaoServiceTest_V2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../02-minicurso_junit/src/test/java/dcomp/es2/locadora/servico/LocacaoServiceTest_V2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../02-minicurso_junit/target/classes/dcomp/es2/locadora/modelo/Filme.class" beforeDir="false" afterPath="$PROJECT_DIR$/../02-minicurso_junit/target/classes/dcomp/es2/locadora/modelo/Filme.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../02-minicurso_junit/target/classes/dcomp/es2/locadora/modelo/Locacao.class" beforeDir="false" afterPath="$PROJECT_DIR$/../02-minicurso_junit/target/classes/dcomp/es2/locadora/modelo/Locacao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../02-minicurso_junit/target/classes/dcomp/es2/locadora/modelo/Usuario.class" beforeDir="false" afterPath="$PROJECT_DIR$/../02-minicurso_junit/target/classes/dcomp/es2/locadora/modelo/Usuario.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../02-minicurso_junit/target/classes/dcomp/es2/locadora/servico/LocacaoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../02-minicurso_junit/target/classes/dcomp/es2/locadora/servico/LocacaoService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../02-minicurso_junit/target/classes/dcomp/es2/locadora/utils/DataUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/../02-minicurso_junit/target/classes/dcomp/es2/locadora/utils/DataUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../02-minicurso_junit/target/test-classes/AssertivasTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../02-minicurso_junit/target/test-classes/AssertivasTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../02-minicurso_junit/target/test-classes/dcomp/es2/locadora/builder/FilmeBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../02-minicurso_junit/target/test-classes/dcomp/es2/locadora/builder/FilmeBuilder.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../02-minicurso_junit/target/test-classes/dcomp/es2/locadora/modelo/FilmeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../02-minicurso_junit/target/test-classes/dcomp/es2/locadora/modelo/FilmeTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../02-minicurso_junit/target/test-classes/dcomp/es2/locadora/servico/LocacaoServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../02-minicurso_junit/target/test-classes/dcomp/es2/locadora/servico/LocacaoServiceTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../02-minicurso_junit/target/test-classes/dcomp/es2/locadora/servico/LocacaoServiceTest_V2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../02-minicurso_junit/target/test-classes/dcomp/es2/locadora/servico/LocacaoServiceTest_V2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/argentum.iml" beforeDir="false" afterPath="$PROJECT_DIR$/argentum.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/argentum/modelo/Candlestick.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/argentum/modelo/Candlestick.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/argentum/modelo/Negociacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/argentum/modelo/Negociacao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/argentum/modelo/CandlestickFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/argentum/modelo/CandlestickFactoryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/argentum/modelo/CandlestickTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/argentum/modelo/CandlestickTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/argentum/modelo/NegociacaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/argentum/modelo/NegociacaoTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,8 +131,10 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": ""
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "last_opened_file_path": "C:/disciplinas/Engenharia de Software II/eng-de-software2-2023/02-minicurso_junit"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -148,15 +145,7 @@
       <recent name="com.argentum.modelo" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CandlestickFactoryTest.negociacaoDeTresDiasDiferentesGeraTresCandlesDiferentes">
-    <configuration name="All in argentum (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="argentum" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.CandlestickFactoryTest.sequenciaDeNegociacoesSimples">
     <configuration name="All in argentum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="argentum" />
       <option name="PACKAGE_NAME" value="" />
@@ -165,7 +154,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CandlestickFactoryTest.negociacaoDeTresDiasDiferentesGeraTresCandlesDiferentes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CandlestickFactoryTest.sequenciaDeNegociacoesSimples" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="argentum" />
       <extension name="coverage">
         <pattern>
@@ -175,13 +164,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.argentum.modelo" />
       <option name="MAIN_CLASS_NAME" value="com.argentum.modelo.CandlestickFactoryTest" />
-      <option name="METHOD_NAME" value="negociacaoDeTresDiasDiferentesGeraTresCandlesDiferentes" />
+      <option name="METHOD_NAME" value="sequenciaDeNegociacoesSimples" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NegociacaoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CandlestickTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="argentum" />
       <extension name="coverage">
         <pattern>
@@ -190,13 +179,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.argentum.modelo" />
-      <option name="MAIN_CLASS_NAME" value="com.argentum.modelo.NegociacaoTest" />
+      <option name="MAIN_CLASS_NAME" value="com.argentum.modelo.CandlestickTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NegociacaoTest.naoDeveCriarNegociacaoComPrecoNegativo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CandlestickTest.ehAltaSeFechamentoForIgualAbetura" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="argentum" />
       <extension name="coverage">
         <pattern>
@@ -205,8 +194,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.argentum.modelo" />
-      <option name="MAIN_CLASS_NAME" value="com.argentum.modelo.NegociacaoTest" />
-      <option name="METHOD_NAME" value="naoDeveCriarNegociacaoComPrecoNegativo" />
+      <option name="MAIN_CLASS_NAME" value="com.argentum.modelo.CandlestickTest" />
+      <option name="METHOD_NAME" value="ehAltaSeFechamentoForIgualAbetura" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CandlestickTest.ehBaixaSeFechamentoForMenorDoQueAbetura" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="argentum" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.argentum.modelo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.argentum.modelo" />
+      <option name="MAIN_CLASS_NAME" value="com.argentum.modelo.CandlestickTest" />
+      <option name="METHOD_NAME" value="ehBaixaSeFechamentoForMenorDoQueAbetura" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -214,11 +219,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CandlestickFactoryTest.negociacaoDeTresDiasDiferentesGeraTresCandlesDiferentes" />
-        <item itemvalue="JUnit.NegociacaoTest" />
-        <item itemvalue="JUnit.NegociacaoTest.naoDeveCriarNegociacaoComPrecoNegativo" />
+        <item itemvalue="JUnit.CandlestickFactoryTest.sequenciaDeNegociacoesSimples" />
         <item itemvalue="JUnit.All in argentum" />
-        <item itemvalue="JUnit.All in argentum (1)" />
+        <item itemvalue="JUnit.CandlestickTest" />
+        <item itemvalue="JUnit.CandlestickTest.ehBaixaSeFechamentoForMenorDoQueAbetura" />
+        <item itemvalue="JUnit.CandlestickTest.ehAltaSeFechamentoForIgualAbetura" />
       </list>
     </recent_temporary>
   </component>
@@ -234,6 +239,7 @@
       <option name="presentableId" value="Default" />
       <updated>1572978025692</updated>
       <workItem from="1572978032874" duration="1011000" />
+      <workItem from="1694555891033" duration="3199000" />
     </task>
     <servers />
   </component>
@@ -286,7 +292,7 @@
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

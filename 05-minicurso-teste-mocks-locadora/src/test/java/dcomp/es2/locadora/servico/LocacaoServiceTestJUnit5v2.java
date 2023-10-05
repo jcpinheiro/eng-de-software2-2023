@@ -161,7 +161,7 @@ public class LocacaoServiceTestJUnit5v2 {
 		
 		locacaoService.notificaUsuariosEmAtraso();
 		
-		verify(emailService, times(1)).notifica(usuario1);
+		verify(emailService).notifica(usuario1);
 		verify(emailService, times(1)).notifica(usuario2);
 		verify(emailService, times(1)).notifica(usuario3);
 		
@@ -195,15 +195,15 @@ public class LocacaoServiceTestJUnit5v2 {
 		locacaoService.renovaLocacao(locacao, dias);
 
 		// verificaçao
-		//Mockito.verify(locacaoRepository).salva(locacao );
-		//Mockito.verify(locacaoRepository).salva(Mockito.any(Locacao.class));
+//		Mockito.verify(locacaoRepository).salva(locacao );
+//		Mockito.verify(locacaoRepository).salva(Mockito.any(Locacao.class));
 
 		ArgumentCaptor<Locacao> argumentCaptor =ArgumentCaptor.forClass(Locacao.class );
 
-		//Mockito.verify(locacaoRepository).salva(locacao );
 		verify(locacaoRepository).salva(argumentCaptor.capture() );
 
 		Locacao locacaoCapturada = argumentCaptor.getValue();
+
 
 
 		assertThat(locacaoCapturada.getValor(), is(12.0) );

@@ -6,9 +6,11 @@ public class CalculadoraMockTest {
 
 	@Test
 	public void teste(){
-		Calculadora calc = Mockito.mock(Calculadora.class);
-		Mockito.when(calc.soma(Mockito.eq(2), Mockito.anyInt())).thenReturn(5);
+		Calculadora calc = Mockito.spy(Calculadora.class);
 
-		Assertions.assertEquals(5, calc.soma(2, 12));
+		Mockito.when(calc.soma(2, 3)).thenReturn(5);
+		//Mockito.when(calc.soma(Mockito.eq(2), Mockito.anyInt())).thenReturn(5);
+
+		Assertions.assertEquals(5, calc.soma(2, 8));
 	}
 }

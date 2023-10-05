@@ -5,18 +5,51 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="07b793c1-28eb-4824-83ce-c14b64f062ff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../06c_teste_spring_restcontroller/src/test/java/edu/es2/teste/spring/restcontroller/controle/MockMvcIntegrationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../02-minicurso_junit/src/test/java/dcomp/es2/locadora/servico/LocacaoServiceTeste.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/dcomp/es2/locadora/servico/LocacaoServiceFakeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sistema_bancario/sistema_bancario/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sistema_bancario/sistema_bancario/src/main/java/org/example/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sistema_bancario/sistema_bancario/src/main/java/org/example/ContaCorrente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sistema_bancario/sistema_bancario/src/main/java/org/example/GerenciadoraClientes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sistema_bancario/sistema_bancario/src/main/java/org/example/GerenciadoraContas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sistema_bancario/sistema_bancario/src/main/java/org/example/IdadeNaoPermitidaException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sistema_bancario/sistema_bancario/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sistema_bancario/sistema_bancario/src/test/java/org/example/GerenciadoraClientesTest_Ex1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sistema_bancario/sistema_bancario/src/test/java/org/example/GerenciadoraClientesTest_Ex10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sistema_bancario/sistema_bancario/src/test/java/org/example/GerenciadoraClientesTest_Ex2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sistema_bancario/sistema_bancario/src/test/java/org/example/GerenciadoraClientesTest_Ex3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sistema_bancario/sistema_bancario/src/test/java/org/example/GerenciadoraClientesTest_Ex4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sistema_bancario/sistema_bancario/src/test/java/org/example/GerenciadoraClientesTest_Ex5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sistema_bancario/sistema_bancario/src/test/java/org/example/GerenciadoraClientesTest_Ex7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sistema_bancario/sistema_bancario/src/test/java/org/example/GerenciadoraClientesTest_Ex8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sistema_bancario/sistema_bancario/src/test/java/org/example/GerenciadoraContasTest_Ex11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sistema_bancario/sistema_bancario/src/test/java/org/example/GerenciadoraContasTest_Ex3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sistema_bancario/sistema_bancario/src/test/java/org/example/GerenciadoraContasTest_Ex4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sistema_bancario/sistema_bancario/src/test/java/org/example/GerenciadoraContasTest_Ex6.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../02-minicurso_junit/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../02-minicurso_junit/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02-minicurso_junit/src/main/java/dcomp/es2/locadora/modelo/Locacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../02-minicurso_junit/src/main/java/dcomp/es2/locadora/modelo/Locacao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02-minicurso_junit/src/main/java/dcomp/es2/locadora/servico/LocacaoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../02-minicurso_junit/src/main/java/dcomp/es2/locadora/servico/LocacaoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02-minicurso_junit/src/test/java/dcomp/es2/locadora/modelo/FilmeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../02-minicurso_junit/src/test/java/dcomp/es2/locadora/modelo/FilmeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02-minicurso_junit/src/test/java/dcomp/es2/locadora/servico/LocacaoServiceTest_V2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../02-minicurso_junit/src/test/java/dcomp/es2/locadora/servico/LocacaoServiceTest_V2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02-minicurso_junit/target/classes/dcomp/es2/locadora/modelo/Locacao.class" beforeDir="false" afterPath="$PROJECT_DIR$/../02-minicurso_junit/target/classes/dcomp/es2/locadora/modelo/Locacao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02-minicurso_junit/target/classes/dcomp/es2/locadora/servico/LocacaoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../02-minicurso_junit/target/classes/dcomp/es2/locadora/servico/LocacaoService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02-minicurso_junit/target/test-classes/dcomp/es2/locadora/modelo/FilmeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../02-minicurso_junit/target/test-classes/dcomp/es2/locadora/modelo/FilmeTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02-minicurso_junit/target/test-classes/dcomp/es2/locadora/servico/LocacaoServiceTest_V2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../02-minicurso_junit/target/test-classes/dcomp/es2/locadora/servico/LocacaoServiceTest_V2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-argentum/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../03-argentum/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-argentum/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../03-argentum/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-argentum/src/main/java/com/argentum/modelo/Negociacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../03-argentum/src/main/java/com/argentum/modelo/Negociacao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-argentum/src/test/java/com/argentum/modelo/CandlestickFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../03-argentum/src/test/java/com/argentum/modelo/CandlestickFactoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-argentum/src/test/java/com/argentum/modelo/CandlestickTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../03-argentum/src/test/java/com/argentum/modelo/CandlestickTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-minicurso-teste-integracao-locadora/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../04-minicurso-teste-integracao-locadora/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-minicurso-teste-integracao-locadora/src/main/java/dcomp/es2/locadora/repositorio/LocacaoRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../04-minicurso-teste-integracao-locadora/src/main/java/dcomp/es2/locadora/repositorio/LocacaoRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-minicurso-teste-integracao-locadora/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../04-minicurso-teste-integracao-locadora/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-minicurso-teste-integracao-locadora/src/test/java/dcomp/es2/locadora/repositorio/LocacaoRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../04-minicurso-teste-integracao-locadora/src/test/java/dcomp/es2/locadora/repositorio/LocacaoRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-minicurso-teste-integracao-locadora/src/test/java/dcomp/es2/locadora/repositorio/UsuarioRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../04-minicurso-teste-integracao-locadora/src/test/java/dcomp/es2/locadora/repositorio/UsuarioRepositoryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CalculadoraMock_SpyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CalculadoraMock_SpyTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../06a_teste_integracao_spring/src/test/java/edu/es2/teste/spring/integracao/repositorio/ContatosRepositoryIntegrationQueryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../06a_teste_integracao_spring/src/test/java/edu/es2/teste/spring/integracao/repositorio/ContatosRepositoryIntegrationQueryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../06a_teste_integracao_spring/src/test/java/edu/es2/teste/spring/integracao/repositorio/ContatosRepositoryIntegrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../06a_teste_integracao_spring/src/test/java/edu/es2/teste/spring/integracao/repositorio/ContatosRepositoryIntegrationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../06b_teste_servico_componente_spring/src/main/java/edu/es2/teste/spring/integracao/repositorio/ContatoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../06b_teste_servico_componente_spring/src/main/java/edu/es2/teste/spring/integracao/repositorio/ContatoRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../06b_teste_servico_componente_spring/src/main/java/edu/es2/teste/spring/integracao/servico/ContatoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../06b_teste_servico_componente_spring/src/main/java/edu/es2/teste/spring/integracao/servico/ContatoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../06b_teste_servico_componente_spring/src/test/java/edu/es2/teste/spring/integracao/controle/AgendaControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../06b_teste_servico_componente_spring/src/test/java/edu/es2/teste/spring/integracao/controle/AgendaControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../06b_teste_servico_componente_spring/src/test/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../06b_teste_servico_componente_spring/src/test/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../06c_teste_spring_restcontroller/src/main/java/edu/es2/teste/spring/restcontroller/modelo/Contato.java" beforeDir="false" afterPath="$PROJECT_DIR$/../06c_teste_spring_restcontroller/src/main/java/edu/es2/teste/spring/restcontroller/modelo/Contato.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../06c_teste_spring_restcontroller/src/test/java/edu/es2/teste/spring/restcontroller/controle/AgendaControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../06c_teste_spring_restcontroller/src/test/java/edu/es2/teste/spring/restcontroller/controle/AgendaControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dcomp/es2/locadora/servico/LocacaoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dcomp/es2/locadora/servico/LocacaoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CalculadoraMockTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CalculadoraMockTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/dcomp/es2/locadora/servico/LocacaoServiceTestJUnit5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dcomp/es2/locadora/servico/LocacaoServiceTestJUnit5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/dcomp/es2/locadora/servico/LocacaoServiceTestJUnit5v2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dcomp/es2/locadora/servico/LocacaoServiceTestJUnit5v2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +72,13 @@
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -148,29 +188,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/disciplinas/engenharia-de-software2/eng-de-software2-2022/05-minicurso-teste-mocks-locadora",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/disciplinas/Engenharia de Software II/eng-de-software2-2023/05-minicurso-teste-mocks-locadora&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="dcomp.es2.locadora.modelo" />
       <recent name="dcomp.es2.locadora.servico" />
+      <recent name="dcomp.es2.locadora.modelo" />
     </key>
   </component>
   <component name="RunManager" selected="JUnit.CalculadoraMock_SpyTest.devoMostrarDiferencaEntreMockSpy">
-    <configuration name="All in testes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CalculadoraMockTest.teste" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="testes" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
+      <option name="MAIN_CLASS_NAME" value="CalculadoraMockTest" />
+      <option name="METHOD_NAME" value="teste" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -236,10 +278,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.CalculadoraMock_SpyTest.devoMostrarDiferencaEntreMockSpy" />
+        <item itemvalue="JUnit.CalculadoraMockTest.teste" />
         <item itemvalue="JUnit.LocacaoServiceTestJUnit5.deveEnviarEmailParaUsuariosAtrasados" />
         <item itemvalue="JUnit.LocacaoServiceTestJUnit5.naoDeveAlugarFilmeParaUsuarioNegativado" />
         <item itemvalue="JUnit.LocacaoServiceTestJUnit5.testaUmaLocacao" />
-        <item itemvalue="JUnit.All in testes" />
       </list>
     </recent_temporary>
   </component>
@@ -279,6 +321,10 @@
       <workItem from="1666901268833" duration="4873000" />
       <workItem from="1667919297467" duration="84000" />
       <workItem from="1668715189960" duration="690000" />
+      <workItem from="1695322229905" duration="4040000" />
+      <workItem from="1695333110738" duration="4688000" />
+      <workItem from="1695338755912" duration="612000" />
+      <workItem from="1696357821764" duration="79000" />
     </task>
     <servers />
   </component>

@@ -27,7 +27,7 @@ usam um banco de dados em memória. */
 
 //@RunWith(SpringRunner.class)
 @DataJpaTest
-@AutoConfigureTestDatabase(connection = EmbeddedDatabaseConnection.H2)
+//@AutoConfigureTestDatabase(connection = EmbeddedDatabaseConnection.H2)
 public class ContatosRepositoryIntegrationTest {
 
 	@Autowired
@@ -38,7 +38,6 @@ public class ContatosRepositoryIntegrationTest {
 
 	@BeforeEach
 	public void start() {
-
 		contato = new Contato("Chefe", "98", "123456789");
 	}
 

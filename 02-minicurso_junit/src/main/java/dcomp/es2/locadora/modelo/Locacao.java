@@ -9,7 +9,6 @@ import java.util.List;
 public class Locacao {
 
 	private Usuario usuario;
-	
 	private LocalDate dataLocacao;
 	private LocalDate dataRetorno;
 	private double valor;

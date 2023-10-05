@@ -36,4 +36,10 @@ public class ContatoServiceImpl implements ContatoService {
 		contatoRepository.deleteById(id);
 	}
 
+	@Override
+	public boolean naoExisteContatoCom(Long id) {
+		return !contatoRepository.existsById(id );
+	}
 }
+
+

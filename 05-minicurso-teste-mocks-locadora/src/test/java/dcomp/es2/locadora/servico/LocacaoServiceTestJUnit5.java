@@ -68,8 +68,7 @@ public class LocacaoServiceTestJUnit5 {
 		assertThat( locacao.getDataPrevista(), is(LocalDate.now().plusDays(1)) );
 		
 		//Mockito.verify(locacaoRepository).salva(locacao);
-		verify(locacaoRepository, times(1)).salva(locacao);
-
+		Mockito.verify(locacaoRepository, times(1)).salva(locacao);
 
 	}
 
@@ -183,7 +182,7 @@ public class LocacaoServiceTestJUnit5 {
 		verify(emailService).notifica(usuario1);
 		verify(emailService, times(1)).notifica(usuario2);
 		verify(emailService, times(1)).notifica(usuario3);
-		
+
 		verify(emailService, never() ).notifica(usuario4 );
 
 		// se a lista de usuários for muito grande

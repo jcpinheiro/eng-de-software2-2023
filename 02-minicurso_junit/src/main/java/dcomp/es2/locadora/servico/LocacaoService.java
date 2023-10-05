@@ -11,7 +11,7 @@ import dcomp.es2.locadora.modelo.Usuario;
 public class LocacaoService {
 
 
-	public Locacao alugarFilmes(Usuario usuario, Filme... filmes) {
+	Locacao alugarFilmes(Usuario usuario, Filme... filmes) {
 
 		Arrays.stream(filmes).
 				forEach(filme -> {
@@ -57,6 +57,5 @@ public class LocacaoService {
 			}
 			return valorTotal;
 		}
-
 
 }

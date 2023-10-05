@@ -5,16 +5,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfb31954-998c-4ac5-a80a-19ad28124824" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../06c_teste_spring_restcontroller/src/test/java/edu/es2/teste/spring/restcontroller/controle/MockMvcIntegrationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05-minicurso-teste-mocks-locadora/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05-minicurso-teste-mocks-locadora/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../06a_teste_integracao_spring/src/test/java/edu/es2/teste/spring/integracao/repositorio/ContatosRepositoryIntegrationQueryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../06a_teste_integracao_spring/src/test/java/edu/es2/teste/spring/integracao/repositorio/ContatosRepositoryIntegrationQueryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../06a_teste_integracao_spring/src/test/java/edu/es2/teste/spring/integracao/repositorio/ContatosRepositoryIntegrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../06a_teste_integracao_spring/src/test/java/edu/es2/teste/spring/integracao/repositorio/ContatosRepositoryIntegrationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../06b_teste_servico_componente_spring/src/main/java/edu/es2/teste/spring/integracao/repositorio/ContatoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../06b_teste_servico_componente_spring/src/main/java/edu/es2/teste/spring/integracao/repositorio/ContatoRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../06b_teste_servico_componente_spring/src/main/java/edu/es2/teste/spring/integracao/servico/ContatoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../06b_teste_servico_componente_spring/src/main/java/edu/es2/teste/spring/integracao/servico/ContatoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../06b_teste_servico_componente_spring/src/test/java/edu/es2/teste/spring/integracao/controle/AgendaControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../06b_teste_servico_componente_spring/src/test/java/edu/es2/teste/spring/integracao/controle/AgendaControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../06b_teste_servico_componente_spring/src/test/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../06b_teste_servico_componente_spring/src/test/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../06c_teste_spring_restcontroller/src/main/java/edu/es2/teste/spring/restcontroller/modelo/Contato.java" beforeDir="false" afterPath="$PROJECT_DIR$/../06c_teste_spring_restcontroller/src/main/java/edu/es2/teste/spring/restcontroller/modelo/Contato.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../06c_teste_spring_restcontroller/src/test/java/edu/es2/teste/spring/restcontroller/controle/AgendaControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../06c_teste_spring_restcontroller/src/test/java/edu/es2/teste/spring/restcontroller/controle/AgendaControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/dcomp/es2/locadora/servico/LocacaoServiceTeste.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sistema_bancario/sistema_bancario/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sistema_bancario/sistema_bancario/src/main/java/org/example/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sistema_bancario/sistema_bancario/src/main/java/org/example/ContaCorrente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sistema_bancario/sistema_bancario/src/main/java/org/example/GerenciadoraClientes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sistema_bancario/sistema_bancario/src/main/java/org/example/GerenciadoraContas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sistema_bancario/sistema_bancario/src/main/java/org/example/IdadeNaoPermitidaException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sistema_bancario/sistema_bancario/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sistema_bancario/sistema_bancario/src/test/java/org/example/GerenciadoraClientesTest_Ex1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sistema_bancario/sistema_bancario/src/test/java/org/example/GerenciadoraClientesTest_Ex10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sistema_bancario/sistema_bancario/src/test/java/org/example/GerenciadoraClientesTest_Ex2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sistema_bancario/sistema_bancario/src/test/java/org/example/GerenciadoraClientesTest_Ex3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sistema_bancario/sistema_bancario/src/test/java/org/example/GerenciadoraClientesTest_Ex4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sistema_bancario/sistema_bancario/src/test/java/org/example/GerenciadoraClientesTest_Ex5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sistema_bancario/sistema_bancario/src/test/java/org/example/GerenciadoraClientesTest_Ex7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sistema_bancario/sistema_bancario/src/test/java/org/example/GerenciadoraClientesTest_Ex8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sistema_bancario/sistema_bancario/src/test/java/org/example/GerenciadoraContasTest_Ex11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sistema_bancario/sistema_bancario/src/test/java/org/example/GerenciadoraContasTest_Ex3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sistema_bancario/sistema_bancario/src/test/java/org/example/GerenciadoraContasTest_Ex4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sistema_bancario/sistema_bancario/src/test/java/org/example/GerenciadoraContasTest_Ex6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dcomp/es2/locadora/modelo/Locacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dcomp/es2/locadora/modelo/Locacao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dcomp/es2/locadora/servico/LocacaoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dcomp/es2/locadora/servico/LocacaoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/dcomp/es2/locadora/modelo/FilmeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dcomp/es2/locadora/modelo/FilmeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/dcomp/es2/locadora/servico/LocacaoServiceTest_V2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dcomp/es2/locadora/servico/LocacaoServiceTest_V2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dcomp/es2/locadora/modelo/Locacao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dcomp/es2/locadora/modelo/Locacao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dcomp/es2/locadora/servico/LocacaoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dcomp/es2/locadora/servico/LocacaoService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/dcomp/es2/locadora/modelo/FilmeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/dcomp/es2/locadora/modelo/FilmeTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/dcomp/es2/locadora/servico/LocacaoServiceTest_V2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/dcomp/es2/locadora/servico/LocacaoServiceTest_V2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-argentum/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../03-argentum/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-argentum/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../03-argentum/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-argentum/src/main/java/com/argentum/modelo/Negociacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../03-argentum/src/main/java/com/argentum/modelo/Negociacao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-argentum/src/test/java/com/argentum/modelo/CandlestickFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../03-argentum/src/test/java/com/argentum/modelo/CandlestickFactoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-argentum/src/test/java/com/argentum/modelo/CandlestickTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../03-argentum/src/test/java/com/argentum/modelo/CandlestickTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,8 +51,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -133,34 +157,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/disciplinas/engenharia-de-software2/eng-de-software2-2022/05-minicurso-teste-mocks-locadora",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/disciplinas/Engenharia de Software II/eng-de-software2-2023/02-minicurso_junit&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="dcomp.es2.locadora.modelo" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="dcomp.es2.locadora.servico" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\joaoc\Documents\disciplinas\Engenharia de Software II\codigos\02-minicurso_junit\src\test\java\dcomp\es2\locadora" />
       <recent name="C:\Users\joaoc\Documents\disciplinas\Engenharia de Software II\codigos\02-minicurso_junit\src\test\java" />
       <recent name="C:\Users\joaoc\Documents\disciplinas\Engenharia de Software II\codigos\02-minicurso_junit\src\main\resources" />
       <recent name="C:\Users\joaoc\Documents\disciplinas\Engenharia de Software II\codigos\02-minicurso_junit\src\main\java" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="dcomp.es2.locadora.servico" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="dcomp.es2.locadora.modelo" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.LocacaoServiceTest_V2.deveAplicarDesconto10PctNoSegundoFilme">
+  <component name="RunManager" selected="JUnit.LocacaoServiceTest_V2.deveAplicarDesconto50PctNoQuartoFilme">
     <configuration name="All in 02-minicurso_junit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="02-minicurso_junit" />
       <option name="PACKAGE_NAME" value="" />
@@ -169,7 +193,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FilmeTest.deveTerPrecoLocacaoPositivo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FilmeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="02-minicurso_junit" />
       <extension name="coverage">
         <pattern>
@@ -179,29 +203,12 @@
       </extension>
       <option name="PACKAGE_NAME" value="dcomp.es2.locadora.modelo" />
       <option name="MAIN_CLASS_NAME" value="dcomp.es2.locadora.modelo.FilmeTest" />
-      <option name="METHOD_NAME" value="deveTerPrecoLocacaoPositivo" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FilmeTest.naoDeveTerPrecoLocacaoIgualAZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="02-minicurso_junit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dcomp.es2.locadora.modelo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="dcomp.es2.locadora.modelo" />
-      <option name="MAIN_CLASS_NAME" value="dcomp.es2.locadora.modelo.FilmeTest" />
-      <option name="METHOD_NAME" value="naoDeveTerPrecoLocacaoIgualAZero" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LocacaoServiceTest_V2.deveAplicarDesconto10PctNoSegundoFilme" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LocacaoServiceTest_V2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="02-minicurso_junit" />
       <extension name="coverage">
         <pattern>
@@ -211,13 +218,12 @@
       </extension>
       <option name="PACKAGE_NAME" value="dcomp.es2.locadora.servico" />
       <option name="MAIN_CLASS_NAME" value="dcomp.es2.locadora.servico.LocacaoServiceTest_V2" />
-      <option name="METHOD_NAME" value="deveAplicarDesconto10PctNoSegundoFilme" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LocacaoServiceTest_V2.naoDeveDevolverUmFilmeNoDomingo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LocacaoServiceTest_V2.deveAplicarDesconto30PctNoTerceiroFilme" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="02-minicurso_junit" />
       <extension name="coverage">
         <pattern>
@@ -227,7 +233,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="dcomp.es2.locadora.servico" />
       <option name="MAIN_CLASS_NAME" value="dcomp.es2.locadora.servico.LocacaoServiceTest_V2" />
-      <option name="METHOD_NAME" value="naoDeveDevolverUmFilmeNoDomingo" />
+      <option name="METHOD_NAME" value="deveAplicarDesconto30PctNoTerceiroFilme" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LocacaoServiceTest_V2.deveAplicarDesconto50PctNoQuartoFilme" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="02-minicurso_junit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dcomp.es2.locadora.servico.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dcomp.es2.locadora.servico" />
+      <option name="MAIN_CLASS_NAME" value="dcomp.es2.locadora.servico.LocacaoServiceTest_V2" />
+      <option name="METHOD_NAME" value="deveAplicarDesconto50PctNoQuartoFilme" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -235,11 +257,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.LocacaoServiceTest_V2.deveAplicarDesconto10PctNoSegundoFilme" />
+        <item itemvalue="JUnit.LocacaoServiceTest_V2.deveAplicarDesconto50PctNoQuartoFilme" />
+        <item itemvalue="JUnit.LocacaoServiceTest_V2" />
         <item itemvalue="JUnit.All in 02-minicurso_junit" />
-        <item itemvalue="JUnit.FilmeTest.naoDeveTerPrecoLocacaoIgualAZero" />
-        <item itemvalue="JUnit.FilmeTest.deveTerPrecoLocacaoPositivo" />
-        <item itemvalue="JUnit.LocacaoServiceTest_V2.naoDeveDevolverUmFilmeNoDomingo" />
+        <item itemvalue="JUnit.LocacaoServiceTest_V2.deveAplicarDesconto30PctNoTerceiroFilme" />
+        <item itemvalue="JUnit.FilmeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -266,6 +288,7 @@
       <workItem from="1666182128870" duration="624000" />
       <workItem from="1666289337569" duration="697000" />
       <workItem from="1668715048757" duration="138000" />
+      <workItem from="1694555914736" duration="1290000" />
     </task>
     <servers />
   </component>

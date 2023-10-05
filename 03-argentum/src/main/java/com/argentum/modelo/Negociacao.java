@@ -8,7 +8,7 @@ public final class Negociacao {
 	private final int quantidade;
 	private final LocalDateTime data;
 	
-	public Negociacao(double preco, int quantidade, LocalDateTime data) {
+	public Negociacao(double preco, int quantidade, final LocalDateTime data) {
 		
 		if( data == null){
 			throw new IllegalArgumentException("A data nao pode ser nula");

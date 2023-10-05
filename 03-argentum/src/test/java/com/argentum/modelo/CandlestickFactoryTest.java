@@ -1,5 +1,7 @@
 package com.argentum.modelo;
 
+import org.hamcrest.CoreMatchers;
+import org.hamcrest.MatcherAssert;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
@@ -8,6 +10,8 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+import static org.hamcrest.CoreMatchers.is;
+import static org.hamcrest.MatcherAssert.assertThat;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
@@ -27,6 +31,8 @@ public class CandlestickFactoryTest {
 		CandlestickFactory fabrica = new CandlestickFactory();
 
 		Candlestick candle = fabrica.geraCandleParaData(negociacoes, hoje);
+
+		assertThat(candle.getMinimo(), is(20.0));
 
 		assertEquals(20.0, candle.getMinimo(), 0.000001);
 		assertEquals(45.0, candle.getMaximo(), 0.000001);
